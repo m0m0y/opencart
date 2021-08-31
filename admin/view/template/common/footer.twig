@@ -1,0 +1,10 @@
+<footer id="footer">{{ text_footer }}<br />{{ text_version }}</footer></div>
+</body>
+<script> // Show button captions
+    $('.btn[data-toggle=tooltip]').each(function () {
+        var title = $(this).attr('title');
+        if (!title) return;
+        $(this).attr('data-toggle', '').attr('title', '').append('&nbsp; ' + title);
+    });
+</script>
+</html>

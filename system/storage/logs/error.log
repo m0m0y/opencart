@@ -1,0 +1,208 @@
+2021-02-03 16:40:56 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 54
+2021-02-03 16:40:57 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 54
+2021-02-03 16:40:57 - PHP Warning:  rename(C:\xampp\htdocs\opencart-3.0.3.7\system\storage\cache\template\8e\8ed56BE.tmp,C:/xampp/htdocs/opencart-3.0.3.7/system/storage/cache/template/8e/8edb4e13672148a4bfb8122120a41208f54697d1edf35b52dbf811fe4899533b.php): Access is denied (code: 5) in C:\xampp\htdocs\opencart-3.0.3.7\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 65
+2021-02-04 11:06:50 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-02-04 11:07:16 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-02-04 11:07:18 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
+2021-08-23 0:50:36 - PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server.  in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 7
+2021-08-23 0:50:36 - PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server.  in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 7
+2021-08-23 1:08:25 - PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 7
+2021-08-23 1:08:25 - PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 7
+2021-08-23 1:09:06 - PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 7
+2021-08-23 1:09:06 - PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 7
+2021-08-23 2:16:10 - PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: A non-recoverable error occurred during a database lookup.  in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 88
+2021-08-23 2:16:10 - PHP Warning:  fsockopen(): unable to connect to cpascual107@gmail.com:25 (php_network_getaddresses: getaddrinfo failed: A non-recoverable error occurred during a database lookup. ) in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 88
+2021-08-23 2:17:47 - PHP Warning:  fsockopen(): unable to connect to :25 (No connection could be made because the target machine actively refused it.
+) in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 88
+2021-08-23 3:38:19 - PHP Warning:  fsockopen(): unable to connect to :25 (No connection could be made because the target machine actively refused it.
+) in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 88
+2021-08-23 3:39:20 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-23 3:39:54 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-23 4:44:03 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-23 4:44:05 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-24 0:22:54 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-24 0:22:56 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-24 0:22:58 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-24 0:28:57 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-24 0:29:00 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-24 0:29:02 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart\system\library\mail\mail.php on line 77
+2021-08-24 1:29:22 - PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 88
+2021-08-24 1:29:22 - PHP Warning:  fsockopen(): unable to connect to smtp.gmail.com:587 (php_network_getaddresses: getaddrinfo failed: No such host is known. ) in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 88
+2021-08-24 2:20:57 - PHP Warning:  require(PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:21:52 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:22:33 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:28:46 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 2768257261 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 2:28:46 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:28:50 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 2768257261 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 2:28:50 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:30:00 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 2768257261 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 2:30:00 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:30:09 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 2768257261 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 2:30:09 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:31:00 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 2768257261 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 2:31:00 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:32:42 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 2768257261 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 2:32:42 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:33:23 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 914312239 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 2:33:23 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:33:31 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 914312239 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 2:33:31 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:33:37 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 914312239 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 2:33:37 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:35:53 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:36:06 - PHP Notice:  Undefined variable: to in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 37
+2021-08-24 2:41:33 - PHP Warning:  require(..\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:42:37 - PHP Warning:  require(.PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:42:57 - PHP Warning:  require(PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:43:27 - PHP Warning:  require(PHPMailer\src\Exception.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 19
+2021-08-24 2:44:07 - PHP Warning:  require(PHPMailer\src\PHPMailerAutoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 22
+2021-08-24 2:44:15 - PHP Warning:  require(PHPMailer\src\PHPMailerAutoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 22
+2021-08-24 4:39:53 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 505561474 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 4:42:30 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 1813667294 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 4:49:03 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 1813667294 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 4:53:17 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 19445509 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-24 7:02:19 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:02:19 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:02:23 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:02:23 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:02:29 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:02:29 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:02:29 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:02:29 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:02:29 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:02:29 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:11:50 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:11:50 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:11:54 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:11:54 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:12:00 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:12:00 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:12:00 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:12:00 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:12:00 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:12:00 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:13:54 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:13:54 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:13:57 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:13:57 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:14:04 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:14:04 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:14:04 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:14:04 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:14:04 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:14:04 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:04 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:04 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:07 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:07 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:14 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:14 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:14 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:14 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:14 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:16:14 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:12 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:12 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:15 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:15 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:22 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:22 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:22 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:22 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:22 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:17:22 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:37 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:37 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:40 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:40 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:46 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:46 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:46 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:46 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:46 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:18:46 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:41 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:41 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:44 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:44 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:51 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:51 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:51 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:51 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:51 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:22:51 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 160
+2021-08-24 7:37:52 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:37:52 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:37:55 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:37:55 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:01 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:01 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:01 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:01 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:01 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:01 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:54 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:54 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:57 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:38:57 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:39:03 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:39:03 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:39:03 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:39:03 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:39:03 - PHP Notice:  Undefined variable: num_rows in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:39:03 - PHP Notice:  Undefined property: stdClass::$ in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 166
+2021-08-24 7:39:38 - PHP Notice:  Undefined variable: affiliate_query in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:38 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:38 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:41 - PHP Notice:  Undefined variable: affiliate_query in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:41 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:41 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:48 - PHP Notice:  Undefined variable: affiliate_query in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:48 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:48 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:48 - PHP Notice:  Undefined variable: affiliate_query in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:48 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:48 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:48 - PHP Notice:  Undefined variable: affiliate_query in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:48 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-24 7:39:48 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 242
+2021-08-31 1:14:07 - PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 88
+2021-08-31 1:14:07 - PHP Warning:  fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: No such host is known. ) in C:\xampp\htdocs\opencart\system\library\mail\smtp.php on line 88
+2021-08-31 5:36:45 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:36:54 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:37:01 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:37:15 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:37:49 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 2985636312 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:38:01 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:38:09 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:39:42 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 2924826240 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:40:58 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 1633133724 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:45:32 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:51:11 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:51:53 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:51:59 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:52:10 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:53:37 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 5:56:15 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:00:30 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:01:36 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:02:01 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:02:32 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 1147177349 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:05:40 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:05:47 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/checkout/login.twig, CRC 247906019 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:08:06 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2969741346 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:08:17 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2969741346 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:10:12 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 3931378178 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:11:47 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 3931378178 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:17:22 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2969741346 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:22:24 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2969741346 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:25:21 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 503890720 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:26:04 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2285803949 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:28:08 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2285803949 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:28:17 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2969741346 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:34:30 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2969741346 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:39:01 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2285803949 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:39:32 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2285803949 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:39:33 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2285803949 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:43:35 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 363161040 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-08-31 6:43:41 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 363161040 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74

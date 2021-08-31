@@ -1,0 +1,10 @@
+Disallow: /*?tag=
+Disallow: /*&tag=
+Disallow: /*?sort=
+Disallow: /*&sort=
+Disallow: /*?order=
+Disallow: /*&order=
+Disallow: /*?limit=
+Disallow: /*&limit=
+Disallow: /*?filter
+Disallow: /*&filter
