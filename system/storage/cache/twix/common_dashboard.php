@@ -26,7 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save82013 = $breadcrumb        ;
+        @$save72823 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -36,7 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save82013 ?>      </ul>
+$breadcrumb         = $save72823 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid"><?php
@@ -47,18 +47,18 @@ $breadcrumb         = $save82013 ?>      </ul>
     <?php
         }
 ?>    <?php
-        @$save98644 = $row        ;
+        @$save71843 = $row        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$rows);
         foreach ($context['_seq'] as $_key => $row) {
 ?>    <div class="row"><?php
-            @$save55871 = $dashboard_1            ;
+            @$save82148 = $dashboard_1            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$row);
             foreach ($context['_seq'] as $_key => $dashboard_1) {
 ?>      <?php
                 $class = sprintf("col-lg-%s %s", @$dashboard_1["width"], "col-md-3 col-sm-6") ?>      <?php
-                @$save77492 = $dashboard_2                ;
+                @$save14212 = $dashboard_2                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$row);
                 foreach ($context['_seq'] as $_key => $dashboard_2) {
@@ -72,19 +72,19 @@ $breadcrumb         = $save82013 ?>      </ul>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['dashboard_2'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$dashboard_2                 = $save77492 ?>      <div class="<?php echo @$class ?>"><?php echo @$dashboard_1["output"] ?></div>
+$dashboard_2                 = $save14212 ?>      <div class="<?php echo @$class ?>"><?php echo @$dashboard_1["output"] ?></div>
       <?php
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['dashboard_1'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$dashboard_1             = $save55871 ?></div>
+$dashboard_1             = $save82148 ?></div>
     <?php
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['row'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$row         = $save98644 ?></div>
+$row         = $save71843 ?></div>
     <?php echo @$security ?>
   <script type="text/javascript"><!--
 $('#button-developer').on('click', function() {

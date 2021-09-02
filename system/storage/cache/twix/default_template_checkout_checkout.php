@@ -19,7 +19,7 @@ class default_template_checkout_checkout extends Twix_Template
 <div id="checkout-checkout" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save44651 = $breadcrumb        ;
+        @$save78401 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_checkout_checkout extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save44651 ?>  </ul>
+$breadcrumb         = $save78401 ?>  </ul>
   <?php
         if (@$error_warning) {
 ?>  <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> <?php echo @$error_warning ?>
@@ -115,7 +115,7 @@ $breadcrumb         = $save44651 ?>  </ul>
             <h4 class="panel-title"><?php echo @$text_checkout_confirm ?></h4>
           </div>
           <div class="panel-collapse collapse" id="collapse-checkout-confirm">
-            <div class="panel-body"></div>
+          <div class="panel-body"></div>
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ class customer_customer_ip extends Twix_Template
       <?php
         if (@$ips) {
 ?>      <?php
-            @$save25997 = $ip            ;
+            @$save13562 = $ip            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$ips);
             foreach ($context['_seq'] as $_key => $ip) {
@@ -41,7 +41,7 @@ class customer_customer_ip extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['ip'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$ip             = $save25997 ?>      <?php
+$ip             = $save13562 ?>      <?php
         } else {
 ?>      <tr>
         <td class="text-center" colspan="3"><?php echo @$text_no_results ?></td>

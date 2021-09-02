@@ -214,7 +214,7 @@
                                                                     {{ text_price }}
                                                                 </td>
                                                                 <td style="font-weight: bold; padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:right;">
-                                                                    
+                                                                     {{ text_total }}
                                                                 </td>
                                                             </tr>
                                                         </thead>
@@ -223,7 +223,8 @@
                                                             {% for product in products %}
                                                             <tr>
                                                                 <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
-                                                                    {{ product.name }}
+                                                                    {{ product.name }} 
+                                                                    {# <a href="{{ product.href }}" {{ reviews }}>Rate</a>  #}
                                                                     {% for option in product.option %}
                                                                     <br />
                                                                     &nbsp;<small> - {{ option.name }}: {{ option.value }}</small>

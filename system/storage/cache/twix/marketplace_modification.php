@@ -26,7 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save57998 = $breadcrumb        ;
+        @$save80216 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -36,7 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save57998 ?>      </ul>
+$breadcrumb         = $save80216 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid">
@@ -124,7 +124,7 @@ $breadcrumb         = $save57998 ?>      </ul>
                     <?php
         if (@$modifications) {
 ?>                    <?php
-            @$save28992 = $modification            ;
+            @$save29619 = $modification            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$modifications);
             foreach ($context['_seq'] as $_key => $modification) {
@@ -166,7 +166,7 @@ $breadcrumb         = $save57998 ?>      </ul>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['modification'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$modification             = $save28992 ?>                    <?php
+$modification             = $save29619 ?>                    <?php
         } else {
 ?>                    <tr>
                       <td class="text-center" colspan="7"><?php echo @$text_no_results ?></td>

@@ -84,7 +84,6 @@ class ControllerMailOrder extends Controller {
 		$data['text_quantity'] = $language->get('text_quantity');
 		$data['text_price'] = $language->get('text_price');
 		$data['text_total'] = $language->get('text_total');
-		// $data['text_affiliate'] = $language->get('text_affiliate');
 		$data['text_footer'] = $language->get('text_footer');
 
 
@@ -226,7 +225,8 @@ class ControllerMailOrder extends Controller {
 				'option'   => $option_data,
 				'quantity' => $order_product['quantity'],
 				'price'    => $this->currency->format($order_product['price'] + ($this->config->get('config_tax') ? $order_product['tax'] : 0), $order_info['currency_code'], $order_info['currency_value']),
-				'total'    => $this->currency->format($order_product['total'] + ($this->config->get('config_tax') ? ($order_product['tax'] * $order_product['quantity']) : 0), $order_info['currency_code'], $order_info['currency_value'])
+				'total'    => $this->currency->format($order_product['total'] + ($this->config->get('config_tax') ? ($order_product['tax'] * $order_product['quantity']) : 0), $order_info['currency_code'], $order_info['currency_value']),
+				'href'      => $this->url->link('product/product', 'product_id=' . $order_product['product_id'])
 			);
 		}
 

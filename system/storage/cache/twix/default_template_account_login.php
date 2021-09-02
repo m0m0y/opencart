@@ -19,7 +19,7 @@ class default_template_account_login extends Twix_Template
 <div id="account-login" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save79433 = $breadcrumb        ;
+        @$save94536 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_account_login extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save79433 ?>  </ul>
+$breadcrumb         = $save94536 ?>  </ul>
   <?php
         if (@$success) {
 ?>  <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> <?php echo @$success ?></div>
@@ -53,27 +53,26 @@ $breadcrumb         = $save79433 ?>  </ul>
             $class = "col-sm-12" ?>    <?php
         }
 ?>    <div id="content" class="<?php echo @$class ?>"><?php echo @$content_top ?>
-    
-          <div class="well">
-            <h2><?php echo @$text_returning_customer ?></h2>
-            <p><strong><?php echo @$text_i_am_returning_customer ?></strong></p>
-            <form action="<?php echo @$action ?>" method="post" enctype="multipart/form-data">
-              <div class="form-group">
-                <label class="control-label" for="input-email"><?php echo @$entry_email ?></label>
-                <input type="text" name="email" value="<?php echo @$email ?>" placeholder="<?php echo @$entry_email ?>" id="input-email" class="form-control" />
-              </div>
-              <div class="form-group">
-                <label class="control-label" for="input-password"><?php echo @$entry_password ?></label>
-                <input type="password" name="password" value="<?php echo @$password ?>" placeholder="<?php echo @$entry_password ?>" id="input-password" class="form-control" />
-                <a href="<?php echo @$forgotten ?>"><?php echo @$text_forgotten ?></a></div>
-              <input type="submit" value="<?php echo @$button_login ?>" class="btn btn-primary" />
-              <?php
+        <div class="well">
+          <h2><?php echo @$text_returning_customer ?></h2>
+          <p><strong><?php echo @$text_i_am_returning_customer ?></strong></p>
+          <form action="<?php echo @$action ?>" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <label class="control-label" for="input-email"><?php echo @$entry_email ?></label>
+              <input type="text" name="email" value="<?php echo @$email ?>" placeholder="<?php echo @$entry_email ?>" id="input-email" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="input-password"><?php echo @$entry_password ?></label>
+              <input type="password" name="password" value="<?php echo @$password ?>" placeholder="<?php echo @$entry_password ?>" id="input-password" class="form-control" />
+              <a href="<?php echo @$forgotten ?>"><?php echo @$text_forgotten ?></a></div>
+            <input type="submit" value="<?php echo @$button_login ?>" class="btn btn-primary" />
+            <?php
         if (@$redirect) {
-?>              <input type="hidden" name="redirect" value="<?php echo @$redirect ?>" />
-              <?php
+?>            <input type="hidden" name="redirect" value="<?php echo @$redirect ?>" />
+            <?php
         }
-?>            </form>
-          </div>
+?>          </form>
+        </div>
       <?php echo @$content_bottom ?></div>
     <?php echo @$column_right ?></div>
 </div>

@@ -206,3 +206,111 @@
 2021-08-31 6:39:33 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 2285803949 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
 2021-08-31 6:43:35 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 363161040 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
 2021-08-31 6:43:41 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/account/login.twig, CRC 363161040 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-09-01 2:15:12 - PHP Notice:  Undefined variable: product in C:\xampp\htdocs\opencart\catalog\controller\mail\order.php on line 230
+2021-09-01 2:15:12 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\mail\order.php on line 230
+2021-09-01 6:12:13 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 892217512 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-09-01 6:20:01 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 892217512 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-09-01 6:24:07 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:07 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:07 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 892217512 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-09-01 6:24:11 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:11 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:17 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:17 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:17 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:17 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:17 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:17 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:24:23 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:06 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:25:20 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:28:16 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 125
+2021-09-01 6:29:03 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:29:03 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:29:03 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 892217512 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-09-01 6:29:06 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:29:06 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:29:12 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:29:12 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:29:12 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:29:12 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:29:12 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:29:12 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 129
+2021-09-01 6:30:22 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 235
+2021-09-01 6:30:22 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 892217512 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-09-01 6:30:25 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 235
+2021-09-01 6:30:31 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 235
+2021-09-01 6:30:31 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 235
+2021-09-01 6:30:31 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 235
+2021-09-01 6:36:58 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 892217512 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-09-01 6:44:41 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 892217512 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-09-01 6:45:00 - PHP Warning:  filemtime(): stat failed for Event code replacing C:/xampp/htdocs/opencart/catalog/view/theme/default/template/mail/order_add.twig, CRC 892217512 in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 74
+2021-09-01 6:45:38 - PHP Warning:  unlink(C:/xampp/htdocs/opencart/system/storage/cache/twix/common_dashboard.php): No such file or directory in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 44
+2021-09-01 7:15:23 - PHP Notice:  Undefined property: stdClass::$fetch_assoc in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 124
+2021-09-01 7:15:27 - PHP Notice:  Undefined property: stdClass::$fetch_assoc in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 124
+2021-09-01 7:15:34 - PHP Notice:  Undefined property: stdClass::$fetch_assoc in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 124
+2021-09-01 7:15:34 - PHP Notice:  Undefined property: stdClass::$fetch_assoc in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 124
+2021-09-01 7:15:34 - PHP Notice:  Undefined property: stdClass::$fetch_assoc in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 124
+2021-09-01 7:16:59 - PHP Notice:  Undefined index: affiliate_id in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 121
+2021-09-01 7:16:59 - PHP Notice:  Undefined index: affiliate_id in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 121
+2021-09-01 7:16:59 - PHP Notice:  Undefined index: affiliate_id in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 121
+2021-09-01 7:16:59 - PHP Notice:  Undefined index: affiliate_id in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 121
+2021-09-01 7:16:59 - PHP Notice:  Undefined index: affiliate_id in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 121
+2021-09-01 7:16:59 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\opencart\catalog\controller\extension\total\voucher.php on line 54
+2021-09-01 7:25:48 - PHP Notice:  Undefined variable: aff in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-01 7:25:48 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 245
+2021-09-01 7:25:51 - PHP Notice:  Undefined variable: aff in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-01 7:25:51 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 245
+2021-09-01 7:25:58 - PHP Notice:  Undefined variable: aff in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-01 7:25:58 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 245
+2021-09-01 7:25:58 - PHP Notice:  Undefined variable: aff in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-01 7:25:58 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 245
+2021-09-01 7:25:58 - PHP Notice:  Undefined variable: aff in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-01 7:25:58 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 245
+2021-09-01 8:50:00 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\controller\extension\module\account.php on line 24
+2021-09-01 8:50:00 - PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in C:\xampp\htdocs\opencart\catalog\controller\event\language.php on line 4
+2021-09-01 23:49:08 - PHP Notice:  Undefined variable: query in C:\xampp\htdocs\opencart\catalog\model\account\order.php on line 150
+2021-09-01 23:49:08 - PHP Notice:  Trying to get property 'rows' of non-object in C:\xampp\htdocs\opencart\catalog\model\account\order.php on line 150
+2021-09-01 23:49:08 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 318
+2021-09-02 1:30:34 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\admin\controller\marketplace\marketplace.php on line 167
+2021-09-02 1:30:34 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\admin\controller\marketplace\marketplace.php on line 205
+2021-09-02 1:30:34 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\admin\controller\marketplace\marketplace.php on line 222
+2021-09-02 2:27:13 - PHP Notice:  Undefined variable: query in C:\xampp\htdocs\opencart\catalog\model\setting\setting.php on line 8
+2021-09-02 2:27:13 - PHP Notice:  Trying to get property 'rows' of non-object in C:\xampp\htdocs\opencart\catalog\model\setting\setting.php on line 8
+2021-09-02 2:27:13 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\model\setting\setting.php on line 8

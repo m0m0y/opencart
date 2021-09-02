@@ -19,7 +19,7 @@ class default_template_information_contact extends Twix_Template
 <div id="information-contact" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save79220 = $breadcrumb        ;
+        @$save64823 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_information_contact extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save79220 ?>  </ul>
+$breadcrumb         = $save64823 ?>  </ul>
   <div class="row"><?php echo @$column_left ?>
     <?php
         if ((@$column_left && @$column_right)) {
@@ -96,7 +96,7 @@ $breadcrumb         = $save79220 ?>  </ul>
 ?>      <h3><?php echo @$text_store ?></h3>
       <div class="panel-group" id="accordion">
         <?php
-            @$save43888 = $location            ;
+            @$save74361 = $location            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$locations);
             foreach ($context['_seq'] as $_key => $location) {
@@ -156,7 +156,7 @@ $breadcrumb         = $save79220 ?>  </ul>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['location'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$location             = $save43888 ?>      </div>
+$location             = $save74361 ?>      </div>
       <?php
         }
 ?>      <form action="<?php echo @$action ?>" method="post" enctype="multipart/form-data" class="form-horizontal">

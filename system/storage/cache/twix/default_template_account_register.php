@@ -19,7 +19,7 @@ class default_template_account_register extends Twix_Template
 <div id="account-register" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save11591 = $breadcrumb        ;
+        @$save89088 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_account_register extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save11591 ?>  </ul>
+$breadcrumb         = $save89088 ?>  </ul>
   <?php
         if (@$error_warning) {
 ?>  <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> <?php echo @$error_warning ?></div>
@@ -62,7 +62,7 @@ $breadcrumb         = $save11591 ?>  </ul>
 ?>;">
             <label class="col-sm-2 control-label"><?php echo @$entry_customer_group ?></label>
             <div class="col-sm-10"><?php
-        @$save82152 = $customer_group        ;
+        @$save30004 = $customer_group        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$customer_groups);
         foreach ($context['_seq'] as $_key => $customer_group) {
@@ -87,7 +87,7 @@ $breadcrumb         = $save11591 ?>  </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['customer_group'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$customer_group         = $save82152 ?></div>
+$customer_group         = $save30004 ?></div>
           </div>
           <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-firstname"><?php echo @$entry_firstname ?></label>
@@ -134,7 +134,7 @@ $customer_group         = $save82152 ?></div>
 ?> </div>
           </div>
           <?php
-        @$save38305 = $custom_field        ;
+        @$save42238 = $custom_field        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$custom_fields);
         foreach ($context['_seq'] as $_key => $custom_field) {
@@ -151,7 +151,7 @@ $customer_group         = $save82152 ?></div>
                 
                 
                 <?php
-                @$save96838 = $custom_field_value                ;
+                @$save43951 = $custom_field_value                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$custom_field["custom_field_value"]);
                 foreach ($context['_seq'] as $_key => $custom_field_value) {
@@ -187,7 +187,7 @@ $customer_group         = $save82152 ?></div>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['custom_field_value'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$custom_field_value                 = $save96838 ?>              
+$custom_field_value                 = $save43951 ?>              
               
               
               
@@ -208,7 +208,7 @@ $custom_field_value                 = $save96838 ?>
             <label class="col-sm-2 control-label"><?php echo @$custom_field["name"] ?></label>
             <div class="col-sm-10">
               <div> <?php
-                @$save47709 = $custom_field_value                ;
+                @$save80552 = $custom_field_value                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$custom_field["custom_field_value"]);
                 foreach ($context['_seq'] as $_key => $custom_field_value) {
@@ -230,7 +230,7 @@ $custom_field_value                 = $save96838 ?>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['custom_field_value'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$custom_field_value                 = $save47709 ?></div>
+$custom_field_value                 = $save80552 ?></div>
               <?php
                 if (@$error_custom_field[@$custom_field["custom_field_id"]]) {
 ?>              <div class="text-danger"><?php echo @$error_custom_field[@$custom_field["custom_field_id"]] ?></div>
@@ -246,7 +246,7 @@ $custom_field_value                 = $save47709 ?></div>
             <label class="col-sm-2 control-label"><?php echo @$custom_field["name"] ?></label>
             <div class="col-sm-10">
               <div> <?php
-                @$save55765 = $custom_field_value                ;
+                @$save29303 = $custom_field_value                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$custom_field["custom_field_value"]);
                 foreach ($context['_seq'] as $_key => $custom_field_value) {
@@ -268,7 +268,7 @@ $custom_field_value                 = $save47709 ?></div>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['custom_field_value'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$custom_field_value                 = $save55765 ?> </div>
+$custom_field_value                 = $save29303 ?> </div>
               <?php
                 if (@$error_custom_field[@$custom_field["custom_field_id"]]) {
 ?>              <div class="text-danger"><?php echo @$error_custom_field[@$custom_field["custom_field_id"]] ?></div>
@@ -420,7 +420,7 @@ echo @$custom_field["value"];
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['custom_field'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$custom_field         = $save38305 ?>        </fieldset>
+$custom_field         = $save42238 ?>        </fieldset>
         <fieldset>
           <legend><?php echo @$text_your_password ?></legend>
           <div class="form-group required">

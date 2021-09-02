@@ -28,7 +28,7 @@ class customer_customer_transaction extends Twix_Template
       <?php
         if (@$transactions) {
 ?>      <?php
-            @$save64107 = $transaction            ;
+            @$save13444 = $transaction            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$transactions);
             foreach ($context['_seq'] as $_key => $transaction) {
@@ -42,7 +42,7 @@ class customer_customer_transaction extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['transaction'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$transaction             = $save64107 ?>      <tr>
+$transaction             = $save13444 ?>      <tr>
         <td>&nbsp;</td>
         <td class="text-right"><b><?php echo @$text_balance ?></b></td>
         <td class="text-right"><?php echo @$balance ?></td>
