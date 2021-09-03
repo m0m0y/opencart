@@ -23,7 +23,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save52252 = $breadcrumb        ;
+        @$save15503 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -33,7 +33,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save52252 ?>      </ul>
+$breadcrumb         = $save15503 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid">
@@ -48,7 +48,7 @@ $breadcrumb         = $save52252 ?>      </ul>
             <div class="input-group">
               <select name="type" class="form-control">
                 <?php
-        @$save67508 = $category        ;
+        @$save48395 = $category        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$categories);
         foreach ($context['_seq'] as $_key => $category) {
@@ -65,7 +65,7 @@ $breadcrumb         = $save52252 ?>      </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$category         = $save67508 ?>              </select>
+$category         = $save48395 ?>              </select>
               <span class="input-group-addon"><i class="fa fa-filter"></i> <?php echo @$text_filter ?></span>
             </div>
           </div>

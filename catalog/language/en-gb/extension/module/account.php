@@ -16,6 +16,7 @@ $_['text_order']       = 'Order History';
 $_['text_download']    = 'Downloads';
 $_['text_reward']      = 'Reward Points';
 $_['text_return']      = 'Returns';
+$_['text_rate']      = 'Rate';
 $_['text_transaction'] = 'Transactions';
 $_['text_newsletter']  = 'Newsletter';
 $_['text_recurring']   = 'Recurring payments';

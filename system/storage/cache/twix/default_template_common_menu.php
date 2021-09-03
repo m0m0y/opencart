@@ -24,7 +24,7 @@ class default_template_common_menu extends Twix_Template
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
         <?php
-            @$save94943 = $category            ;
+            @$save27379 = $category            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$categories);
             foreach ($context['_seq'] as $_key => $category) {
@@ -33,13 +33,13 @@ class default_template_common_menu extends Twix_Template
 ?>        <li class="dropdown"><a href="<?php echo @$category["href"] ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo @$category["name"] ?></a>
           <div class="dropdown-menu">
             <div class="dropdown-inner"> <?php
-                    @$save54763 = $children                    ;
+                    @$save11370 = $children                    ;
                     $context['_parent'] = $context;
                     $context['_seq'] = twix_ensure_traversable(twix_array_batch(@$category["children"], (twix_length_filter($this->env, @$category["children"]) / twix_round(@$category["column"], 1, "ceil"))));
                     foreach ($context['_seq'] as $_key => $children) {
 ?>              <ul class="list-unstyled">
                 <?php
-                        @$save96678 = $child                        ;
+                        @$save33419 = $child                        ;
                         $context['_parent'] = $context;
                         $context['_seq'] = twix_ensure_traversable(@$children);
                         foreach ($context['_seq'] as $_key => $child) {
@@ -49,13 +49,13 @@ class default_template_common_menu extends Twix_Template
                         $_parent = $context['_parent'];
                         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
-$child                         = $save96678 ?>              </ul>
+$child                         = $save33419 ?>              </ul>
               <?php
                     }
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['children'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-$children                     = $save54763 ?></div>
+$children                     = $save11370 ?></div>
             <a href="<?php echo @$category["href"] ?>" class="see-all"><?php echo @$text_all ?> <?php echo @$category["name"] ?></a> </div>
         </li>
         <?php
@@ -68,7 +68,7 @@ $children                     = $save54763 ?></div>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$category             = $save94943 ?>      </ul>
+$category             = $save27379 ?>      </ul>
     </div>
   </nav>
 </div>

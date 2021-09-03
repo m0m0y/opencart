@@ -20,7 +20,7 @@ class common_column_left extends Twix_Template
   <ul id="menu">
     <?php
         $i = 0 ?>    <?php
-        @$save66631 = $menu        ;
+        @$save16288 = $menu        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$menus);
         foreach ($context['_seq'] as $_key => $menu) {
@@ -36,7 +36,7 @@ class common_column_left extends Twix_Template
 ?>          <ul id="collapse<?php echo @$i ?>" class="collapse">
             <?php
                 $j = 0 ?>            <?php
-                @$save94680 = $children_1                ;
+                @$save86035 = $children_1                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$menu["children"]);
                 foreach ($context['_seq'] as $_key => $children_1) {
@@ -54,7 +54,7 @@ class common_column_left extends Twix_Template
 ?>                  <ul id="collapse<?php echo @$i ?>-<?php echo @$j ?>" class="collapse">
                     <?php
                         $k = 0 ?>                    <?php
-                        @$save12768 = $children_2                        ;
+                        @$save35792 = $children_2                        ;
                         $context['_parent'] = $context;
                         $context['_seq'] = twix_ensure_traversable(@$children_1["children"]);
                         foreach ($context['_seq'] as $_key => $children_2) {
@@ -70,7 +70,7 @@ class common_column_left extends Twix_Template
                             if (@$children_2["children"]) {
 ?>                          <ul id="collapse-<?php echo @$i ?>-<?php echo @$j ?>-<?php echo @$k ?>" class="collapse">
                             <?php
-                                @$save95194 = $children_3                                ;
+                                @$save95142 = $children_3                                ;
                                 $context['_parent'] = $context;
                                 $context['_seq'] = twix_ensure_traversable(@$children_2["children"]);
                                 foreach ($context['_seq'] as $_key => $children_3) {
@@ -80,7 +80,7 @@ class common_column_left extends Twix_Template
                                 $_parent = $context['_parent'];
                                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['children_3'], $context['_parent'], $context['loop']);
                                 $context = array_intersect_key($context, $_parent) + $_parent;
-$children_3                                 = $save95194 ?>                          </ul>
+$children_3                                 = $save95142 ?>                          </ul>
                         <?php
                             }
 ?></li>
@@ -90,7 +90,7 @@ $children_3                                 = $save95194 ?>                     
                         $_parent = $context['_parent'];
                         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['children_2'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
-$children_2                         = $save12768 ?>                  </ul>
+$children_2                         = $save35792 ?>                  </ul>
                 <?php
                     }
 ?> </li>
@@ -100,7 +100,7 @@ $children_2                         = $save12768 ?>                  </ul>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['children_1'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$children_1                 = $save94680 ?>          </ul>
+$children_1                 = $save86035 ?>          </ul>
         <?php
             }
 ?>      </li>
@@ -110,7 +110,7 @@ $children_1                 = $save94680 ?>          </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['menu'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$menu         = $save66631 ?>  </ul>
+$menu         = $save16288 ?>  </ul>
   <div id="stats">
     <ul>
       <li>
