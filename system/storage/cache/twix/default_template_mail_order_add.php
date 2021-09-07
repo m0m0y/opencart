@@ -243,7 +243,7 @@ class default_template_mail_order_add extends Twix_Template
                                                         <tbody>
                                                             
                                                             <?php
-        @$save62850 = $product        ;
+        @$save99674 = $product        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$products);
         foreach ($context['_seq'] as $_key => $product) {
@@ -252,7 +252,7 @@ class default_template_mail_order_add extends Twix_Template
                                                                     <?php echo @$product["name"] ?> 
                                                                     <?php
 ?>                                                                    <?php
-            @$save48106 = $option            ;
+            @$save59840 = $option            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$product["option"]);
             foreach ($context['_seq'] as $_key => $option) {
@@ -263,7 +263,7 @@ class default_template_mail_order_add extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['option'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$option             = $save48106 ?>                                                                </td>
+$option             = $save59840 ?>                                                                </td>
                                                                 
                                                                 <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
                                                                     <?php echo @$product["model"] ?>
@@ -285,8 +285,8 @@ $option             = $save48106 ?>                                             
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$product         = $save62850 ?>                                                            <?php
-        @$save95563 = $voucher        ;
+$product         = $save99674 ?>                                                            <?php
+        @$save33261 = $voucher        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$vouchers);
         foreach ($context['_seq'] as $_key => $voucher) {
@@ -310,10 +310,10 @@ $product         = $save62850 ?>                                                
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['voucher'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$voucher         = $save95563 ?>                                                        </tbody>
+$voucher         = $save33261 ?>                                                        </tbody>
                                                         <tfoot>
                                                             <?php
-        @$save32778 = $total        ;
+        @$save94185 = $total        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$totals);
         foreach ($context['_seq'] as $_key => $total) {
@@ -331,7 +331,7 @@ $voucher         = $save95563 ?>                                                
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['total'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$total         = $save32778 ?>                                                       
+$total         = $save94185 ?>                                                       
                                                             <tr>
                                                                 <td style="font-weight: bold; padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:right;" colspan="4">
                                                                     <b> Reffered by:  </b>

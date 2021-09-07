@@ -28,7 +28,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save40098 = $breadcrumb        ;
+        @$save88196 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -38,7 +38,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save40098 ?>      </ul>
+$breadcrumb         = $save88196 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid"><?php
@@ -75,7 +75,7 @@ $breadcrumb         = $save40098 ?>      </ul>
               <select name="filter_customer_group_id" id="input-customer-group" class="form-control">
                 <option value=""></option>
                 <?php
-        @$save56679 = $customer_group        ;
+        @$save62571 = $customer_group        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$customer_groups);
         foreach ($context['_seq'] as $_key => $customer_group) {
@@ -92,7 +92,7 @@ $breadcrumb         = $save40098 ?>      </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['customer_group'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$customer_group         = $save56679 ?>              </select>
+$customer_group         = $save62571 ?>              </select>
             </div>
             <div class="form-group">
               <label class="control-label" for="input-status"><?php echo @$entry_status ?></label>
@@ -196,7 +196,7 @@ $customer_group         = $save56679 ?>              </select>
                   <?php
         if (@$customers) {
 ?>                  <?php
-            @$save93666 = $customer            ;
+            @$save31234 = $customer            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$customers);
             foreach ($context['_seq'] as $_key => $customer) {
@@ -233,7 +233,7 @@ $customer_group         = $save56679 ?>              </select>
 ?>                          <li role="separator" class="divider"></li>
                           <li class="dropdown-header"><?php echo @$text_login ?></li>
                           <?php
-                @$save41803 = $store                ;
+                @$save75469 = $store                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$customer["store"]);
                 foreach ($context['_seq'] as $_key => $store) {
@@ -243,7 +243,7 @@ $customer_group         = $save56679 ?>              </select>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['store'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$store                 = $save41803 ?>                        </ul>
+$store                 = $save75469 ?>                        </ul>
                       </div>
                     </td>
                   </tr>
@@ -252,7 +252,7 @@ $store                 = $save41803 ?>                        </ul>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['customer'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$customer             = $save93666 ?>                  <?php
+$customer             = $save31234 ?>                  <?php
         } else {
 ?>                  <tr>
                     <td class="text-center" colspan="8"><?php echo @$text_no_results ?></td>

@@ -885,3 +885,13 @@
 2021-09-07 4:49:11 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
 2021-09-07 4:49:11 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
 2021-09-07 4:49:11 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-07 6:15:03 - PHP Notice:  Undefined index: tracking in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-07 6:15:07 - PHP Notice:  Undefined index: tracking in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-07 6:15:14 - PHP Notice:  Undefined index: tracking in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-07 6:15:14 - PHP Notice:  Undefined index: tracking in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-07 6:15:14 - PHP Notice:  Undefined index: tracking in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 127
+2021-09-07 6:38:09 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 247
+2021-09-07 6:38:12 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 247
+2021-09-07 6:38:18 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 247
+2021-09-07 6:38:18 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 247
+2021-09-07 6:38:18 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 247

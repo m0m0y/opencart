@@ -28,7 +28,7 @@ class customer_customer_reward extends Twix_Template
       <?php
         if (@$rewards) {
 ?>      <?php
-            @$save28019 = $reward            ;
+            @$save45233 = $reward            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$rewards);
             foreach ($context['_seq'] as $_key => $reward) {
@@ -42,7 +42,7 @@ class customer_customer_reward extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['reward'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$reward             = $save28019 ?>      <tr>
+$reward             = $save45233 ?>      <tr>
         <td></td>
         <td class="text-right"><b><?php echo @$text_balance ?></b></td>
         <td class="text-right"><?php echo @$balance ?></td>

@@ -122,6 +122,8 @@ class ModelCheckoutOrder extends Model {
 	
 		$affiliate = $this->db->query("SELECT * FROM oc_customer WHERE customer_id = '$affiliate_id' ");
 
+		// $aff_fullname = $affiliate->row['firstname'].' '.$affiliate->row['lastname'];
+
 		if($affiliate->num_rows) {
 			$aff_fullname = $affiliate->row['firstname'].' '.$affiliate->row['lastname'];
 		} else {
@@ -242,7 +244,7 @@ class ModelCheckoutOrder extends Model {
 				'accept_language'         => $order_query->row['accept_language'],
 				'date_added'              => $order_query->row['date_added'],
 				'date_modified'           => $order_query->row['date_modified'],
-				'aff_fullname' => $aff_fullname,
+				'aff_fullname' => $aff_fullname
 			);
 		} else {
 			return false;

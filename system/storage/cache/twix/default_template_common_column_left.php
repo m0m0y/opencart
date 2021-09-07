@@ -18,7 +18,7 @@ class default_template_common_column_left extends Twix_Template
     extract($context);         if (@$modules) {
 ?><aside id="column-left" class="col-sm-3 hidden-xs">
   <?php
-            @$save15782 = $module            ;
+            @$save19430 = $module            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$modules);
             foreach ($context['_seq'] as $_key => $module) {
@@ -28,7 +28,7 @@ class default_template_common_column_left extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$module             = $save15782 ?></aside>
+$module             = $save19430 ?></aside>
 <?php
         }
     }
