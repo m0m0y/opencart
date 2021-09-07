@@ -16,43 +16,62 @@
     {% else %}
     {% set class = 'col-sm-12' %}
     {% endif %}
-    {% if orders %}
     <div id="content" class="{{ class }}">{{ content_top }}
         <h1>{{ heading_title }}</h1>
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <td class="text-left">{{ column_name }}</td>
-                        <td class="text-left">{{ column_model }}</td>
-                        <td class="text-right">{{ column_quantity }}</td>
-                        <td class="text-right">{{ column_action }}</td>
-                    </tr>
-                </thead>
-                <tbody>
-                        {% for product in products %}
-                        <tr>
-                            <td class="text-right">#{{ product.order_id }} {{ product.name }}</td>
-                            <td class="text-right">{{ product.model }}</td>
-                            <td class="text-right">{{ product.quantity }}</td>
-                            <td class="text-right"><a href="{{ product.href }}" {{ reviews }}>Rate</a> </td>
-                        </tr>
-                        {% endfor %}
-                </tbody>
-            </table>
-        </div>
-         <div class="row">
-            <div class="col-sm-6 text-left">{{ pagination }}</div>
-            <div class="col-sm-6 text-right">{{ results }}</div>
-      </div>
-    {% else %}
-        <p>{{ text_empty }}</p>
+        <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+            <input type="hidden" name="rate_status" value="1" placeholder="" class="form-control" />
+            <fieldset>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <td class="text-left">{{ column_name }}</td>
+                                <td class="text-left">{{ column_model }}</td>
+                                <td class="text-right">{{ column_quantity }}</td>
+                                <td class="text-center">{{ column_action }}</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                {% if orders %}
+                                    {% for product in products %}
+                                        {% set productid = product.product_id %}
+                                        <input type='hidden' name='productid' value='{{ productid }}' disabled />
+                                        <tr>
+                                            <td class="text-left"> {{ product.name }}</td>
+                                            <td class="text-left">{{ product.model }}</td>
+                                            <td class="text-right">{{ product.quantity }}</td>
+                                            {% if product.rate_status == 1 %}
+                                                <td class="text-center">
+                                                    <button type="submit" name="ordernum" class="btn btn-link" disabled>Rate</button>
+                                                </td>
+                                            {% else %}
+                                            {% set ordernum = product.order_id %}
+                                                <td class="text-center">
+                                                <button type="submit" name="ordernum" value="{{ ordernum }}" class="btn btn-link">Rate</button>
+                                                </td>
+                                            {% endif %}
+                                        </tr>
+                                    {% endfor %}
+
+                                    <div class="row">
+                                        <div class="col-sm-6 text-left">{{ pagination }}</div>
+                                        <div class="col-sm-6 text-right">{{ results }}</div>
+                                    </div>
+
+                                {% else %}
+                                <tr>
+                                    <td colspan="4" class="text-center">{{ text_no_results }}</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </fieldset>
+        </form>
     {% endif %}
         <div class="buttons clearfix">
             <div class="pull-right"><a href="{{ continue }}" class="btn btn-primary">{{ button_continue }}</a></div>
         </div>
         {{ content_bottom }}</div>
         {{ column_right }}</div>
-    </div>
 </div>
 {{ footer }}

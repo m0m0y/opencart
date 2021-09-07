@@ -18,7 +18,7 @@ class default_template_extension_module_banner extends Twix_Template
     extract($context); ?><div class="swiper-viewport">
   <div id="banner<?php echo @$module ?>" class="swiper-container">
     <div class="swiper-wrapper"><?php
-        @$save10198 = $banner        ;
+        @$save38069 = $banner        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$banners);
         foreach ($context['_seq'] as $_key => $banner) {
@@ -34,7 +34,7 @@ class default_template_extension_module_banner extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['banner'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$banner         = $save10198 ?></div>
+$banner         = $save38069 ?></div>
   </div>
 </div>
 <script type="text/javascript"><!--

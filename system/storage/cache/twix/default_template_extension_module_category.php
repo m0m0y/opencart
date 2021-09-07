@@ -17,7 +17,7 @@ class default_template_extension_module_category extends Twix_Template
     {
     extract($context); ?><div class="list-group">
   <?php
-        @$save13385 = $category        ;
+        @$save73993 = $category        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$categories);
         foreach ($context['_seq'] as $_key => $category) {
@@ -28,7 +28,7 @@ class default_template_extension_module_category extends Twix_Template
   <?php
                 if (@$category["children"]) {
 ?>  <?php
-                    @$save88793 = $child                    ;
+                    @$save85101 = $child                    ;
                     $context['_parent'] = $context;
                     $context['_seq'] = twix_ensure_traversable(@$category["children"]);
                     foreach ($context['_seq'] as $_key => $child) {
@@ -46,7 +46,7 @@ class default_template_extension_module_category extends Twix_Template
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-$child                     = $save88793 ?>  <?php
+$child                     = $save85101 ?>  <?php
                 }
 ?>  <?php
             } else {
@@ -58,7 +58,7 @@ $child                     = $save88793 ?>  <?php
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$category         = $save13385 ?></div>
+$category         = $save73993 ?></div>
 <?php
     }
 

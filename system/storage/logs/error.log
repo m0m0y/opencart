@@ -526,3 +526,362 @@
 2021-09-03 6:34:24 - PHP Notice:  Undefined variable: limit in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
 2021-09-03 6:34:40 - PHP Notice:  Undefined variable: start in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
 2021-09-03 6:34:40 - PHP Notice:  Undefined variable: limit in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-06 1:52:22 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:55:27 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:55:35 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:56:36 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:57:02 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 79
+2021-09-06 1:57:02 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:57:04 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 79
+2021-09-06 1:57:04 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:57:30 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 82
+2021-09-06 1:57:30 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:57:33 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:57:39 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 82
+2021-09-06 1:57:39 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:57:49 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 82
+2021-09-06 1:57:49 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:57:58 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 82
+2021-09-06 1:57:58 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:58:03 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 82
+2021-09-06 1:58:03 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 1:58:11 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 82
+2021-09-06 1:58:11 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 83
+2021-09-06 2:32:09 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:32:09 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:32:09 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:32:19 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:32:19 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:32:19 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:35:41 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:35:41 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:35:41 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:36:20 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:36:20 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:36:20 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:36:52 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:36:52 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:36:52 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:37:10 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:37:10 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:37:10 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:37:44 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:37:44 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:37:44 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:38:11 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:38:11 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:38:11 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:38:28 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:38:28 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:38:28 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:38:58 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:38:58 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:38:58 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:39:11 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:39:11 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:39:11 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:39:16 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:39:16 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:39:16 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:39:22 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:39:22 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:39:22 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:42:22 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:42:22 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:42:22 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:46:34 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:46:34 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:46:34 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:46:45 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:46:45 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:46:45 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 2:54:21 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:54:21 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 2:54:21 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:04:17 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:04:17 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:04:17 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:04:39 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:04:39 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:04:39 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:13:27 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:13:27 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:13:27 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:14:29 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:14:29 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:14:29 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:16:52 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:16:52 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:16:52 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:17:42 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:17:42 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:17:42 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:18:56 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:18:56 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:18:56 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:18:57 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:18:57 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:18:57 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:18:57 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:18:57 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:18:57 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:19:08 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:19:08 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:19:08 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:19:30 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:19:30 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:19:30 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:20:40 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:20:40 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:20:40 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:21:51 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:21:51 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:21:51 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:22:45 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:22:45 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-06 3:22:45 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:23:07 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-06 3:29:34 - PHP Notice:  Trying to get property 'order_id' of non-object in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 3:30:28 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 3:30:28 - PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 3:34:24 - PHP Notice:  Trying to get property 'order_id' of non-object in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 3:34:45 - PHP Notice:  Trying to get property 'order_id' of non-object in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 3:38:21 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 3:59:00 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 3:59:00 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 3:59:10 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 3:59:10 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:18:47 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:19:25 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:21:40 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:22:14 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:22:30 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:22:30 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:22:47 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:23:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:24:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:41:20 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:41:20 - PHP Notice:  Trying to get property 'Array' of non-object in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:41:20 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:41:29 - PHP Notice:  Trying to get property 'product' of non-object in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:41:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:41:35 - PHP Notice:  Trying to get property 'data' of non-object in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:41:35 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:41:42 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:47:24 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:49:46 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:49:46 - PHP Notice:  Trying to get property '' of non-object in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:50:02 - PHP Notice:  Trying to get property 'order_id' of non-object in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:51:10 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 4:59:58 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:00:14 - PHP Notice:  Undefined property: Request::$data in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:00:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:01:57 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:03:43 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:04:55 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:07:17 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:08:02 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:11:03 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:11:10 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:11:23 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:11:25 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:11:33 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:11:40 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:13:53 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:17:36 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:20:32 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:20:37 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:20:41 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:20:55 - PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:21:51 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:22:17 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:22:21 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:37:09 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:41:18 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:41:18 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 156
+2021-09-06 5:41:18 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 156
+2021-09-06 5:41:18 - PHP Notice:  Undefined variable: query in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 158
+2021-09-06 5:41:18 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 158
+2021-09-06 5:41:18 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 158
+2021-09-06 5:41:46 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:41:46 - PHP Notice:  Undefined variable: query in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 158
+2021-09-06 5:41:46 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 158
+2021-09-06 5:41:46 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 158
+2021-09-06 5:42:25 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:42:25 - PHP Notice:  Undefined variable: query in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 158
+2021-09-06 5:42:25 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 158
+2021-09-06 5:42:25 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 158
+2021-09-06 5:43:24 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:44:46 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:50:03 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:50:12 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:52:24 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:53:53 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:54:31 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:54:35 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 5:55:09 - PHP Notice:  Undefined index: rate_status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 91
+2021-09-06 6:26:50 - PHP Notice:  Undefined index: asddsad in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 92
+2021-09-06 7:22:02 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 97
+2021-09-06 7:23:41 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 98
+2021-09-06 7:25:49 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 98
+2021-09-06 7:26:05 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 98
+2021-09-06 7:26:57 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 98
+2021-09-06 7:33:54 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-06 7:35:46 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-06 7:38:40 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-06 7:38:51 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-06 8:03:26 - PHP Notice:  Undefined variable: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 98
+2021-09-06 8:08:06 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 98
+2021-09-06 8:08:27 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 98
+2021-09-06 8:13:59 - PHP Notice:  Undefined variable: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 100
+2021-09-06 23:48:08 - PHP Notice:  Undefined variable: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:48:08 - PHP Notice:  Undefined variable: ordernum in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:48:08 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:48:08 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:48:08 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:48:08 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:49:33 - PHP Notice:  Undefined variable: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:49:33 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:49:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:49:33 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:49:33 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:49:57 - PHP Notice:  Undefined variable: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:49:57 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:49:57 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 165
+2021-09-06 23:54:25 - PHP Notice:  Undefined variable: customer_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 99
+2021-09-06 23:54:40 - PHP Notice:  Undefined variable: customer_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 99
+2021-09-06 23:55:18 - PHP Notice:  Undefined variable: customer_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 99
+2021-09-06 23:55:40 - PHP Notice:  Undefined variable: customer_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 99
+2021-09-06 23:59:19 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 166
+2021-09-06 23:59:59 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 166
+2021-09-07 0:14:23 - PHP Notice:  Undefined variable: products in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:14:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:24:12 - PHP Notice:  Undefined variable: order_query in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:24:12 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:24:12 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:24:12 - PHP Notice:  Undefined variable: order_query in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:24:12 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:24:12 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:25:47 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:25:47 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:26:35 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:26:35 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:36:26 - PHP Notice:  Undefined index: oc_order.order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 0:36:26 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:36:26 - PHP Notice:  Undefined index: oc_order.order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 0:36:26 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:38:59 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:38:59 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:41:57 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:41:57 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:42:09 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:42:09 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:42:36 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:43:05 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:43:23 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 0:43:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:43:23 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 0:43:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:43:29 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:43:29 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:43:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:49:53 - PHP Notice:  Undefined variable: order_query in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:49:53 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:49:53 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:50:37 - PHP Notice:  Undefined variable: order_query in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:50:37 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:50:37 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:50:52 - PHP Notice:  Undefined variable: order_query in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:50:52 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:50:52 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:51:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 0:51:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 0:57:07 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:57:07 - PHP Notice:  Undefined variable: orderid in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 127
+2021-09-07 0:57:07 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:57:07 - PHP Notice:  Undefined variable: orderid in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 127
+2021-09-07 0:57:32 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:57:32 - PHP Notice:  Undefined variable: orderid in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 127
+2021-09-07 0:57:32 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:57:32 - PHP Notice:  Undefined variable: orderid in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 127
+2021-09-07 0:57:58 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:57:58 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 0:57:58 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:57:58 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 0:58:08 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:58:08 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 0:58:08 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:58:08 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 0:59:53 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:59:53 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 0:59:53 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 0:59:53 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:00:58 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 1:01:08 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 124
+2021-09-07 1:01:41 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:01:41 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:01:41 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:01:41 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:01:55 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:01:55 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:01:55 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:01:55 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:02:32 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:02:39 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:02:39 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:02:39 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:02:39 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:02:46 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:02:46 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:02:46 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 51
+2021-09-07 1:02:46 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:02:46 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:02:46 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 76
+2021-09-07 1:02:49 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:02:49 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:02:49 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:02:49 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:04:13 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:04:32 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:05:47 - PHP Notice:  Undefined variable: order_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 125
+2021-09-07 1:06:04 - PHP Notice:  Undefined variable: orderid in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:06:04 - PHP Notice:  Undefined variable: orderid in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 126
+2021-09-07 1:21:39 - PHP Notice:  Undefined variable: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 163
+2021-09-07 1:23:17 - PHP Notice:  Undefined variable: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 163
+2021-09-07 1:24:45 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 163
+2021-09-07 1:24:48 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 163
+2021-09-07 1:24:51 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 163
+2021-09-07 1:25:20 - PHP Notice:  Undefined index: customer_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 163
+2021-09-07 2:01:09 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:01:40 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:01:43 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:03:08 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:03:13 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:04:18 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:08:44 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:08:44 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 163
+2021-09-07 2:10:04 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:10:04 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 143
+2021-09-07 2:10:47 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:10:47 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 143
+2021-09-07 2:11:20 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:11:23 - PHP Notice:  Undefined index: productid in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 94
+2021-09-07 2:30:03 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 148
+2021-09-07 2:30:20 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 148
+2021-09-07 2:30:20 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 148
+2021-09-07 2:30:23 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 148
+2021-09-07 2:31:10 - PHP Notice:  Undefined index:  oc_order.firstname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 148
+2021-09-07 2:31:16 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 148
+2021-09-07 4:43:29 - PHP Notice:  Undefined index: ordernum in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 92
+2021-09-07 4:43:29 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 131
+2021-09-07 4:43:29 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 142
+2021-09-07 4:45:11 - PHP Notice:  Undefined index: ordernum in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 92
+2021-09-07 4:45:11 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 131
+2021-09-07 4:45:11 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 142
+2021-09-07 4:49:11 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-07 4:49:11 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-07 4:49:11 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57
+2021-09-07 4:49:11 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-07 4:49:11 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 56
+2021-09-07 4:49:11 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 57

@@ -100,48 +100,20 @@ class ModelAccountRate extends Model{
 		}
 	}
 
-	public function getOrders($start = 0, $limit = 20) {
-		if ($start < 0) {
-			$start = 0;
-		}
-
-		if ($limit < 1) {
-			$limit = 1;
-		}
-
-		$query = $this->db->query("SELECT o.order_id, o.firstname, o.lastname, os.name as status, o.date_added, o.total, o.currency_code, o.currency_value FROM `" . DB_PREFIX . "order` o LEFT JOIN " . DB_PREFIX . "order_status os ON (o.order_status_id = os.order_status_id) WHERE o.customer_id = '" . (int)$this->customer->getId() . "' AND o.order_status_id = '3' AND o.store_id = '" . (int)$this->config->get('config_store_id') . "' AND os.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY o.order_id DESC LIMIT " . (int)$start . "," . (int)$limit);
-
-		return $query->rows;
-	}
-
-	public function getOrderProduct($order_id, $order_product_id) {
-		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_product WHERE order_id = '" . (int)$order_id . "' AND order_product_id = '" . (int)$order_product_id . "'");
-
-		return $query->row;
-	}
-
 	public function getOrderProducts($start = 0, $limit = 20) {
-		if ($start < 0) {
-			$start = 0;
-		}
-
-		if ($limit < 1) {
-			$limit = 1;
-		}
-		// $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_product WHERE order_id = '" . (int)$order_id . "'");
-		$query = $this->db->query("SELECT oc_order_product.order_product_id, oc_order_product.order_id, oc_order_product.product_id, oc_order_product.name, oc_order_product.model, oc_order_product.quantity FROM  `" . DB_PREFIX . "order_product` LEFT JOIN oc_order ON oc_order.order_id = oc_order_product.order_id WHERE oc_order.order_status_id = '3' ORDER BY oc_order.order_id DESC LIMIT ". (int)$start .", ". (int)$limit ."");
-
+		$query = $this->db->query("SELECT oc_order_product.order_product_id, oc_order_product.order_id, oc_order_product.product_id, oc_order_product.name, oc_order_product.model, oc_order_product.quantity, oc_order_product.rate_status FROM  `" . DB_PREFIX . "order_product` INNER JOIN oc_order ON  oc_order.customer_id = '". (int)$this->customer->getId() ."' WHERE oc_order.order_status_id = '3' AND oc_order.order_id = oc_order_product.order_id AND oc_order.customer_id != '0' ORDER BY oc_order.order_id DESC LIMIT ". (int)$start .", ". (int)$limit ."");
+		
 		return $query->rows;
 	}
 
 	public function getTotalOrders() {
-		$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order` o WHERE customer_id = '" . (int)$this->customer->getId() . "' AND o.order_status_id > '0' AND o.store_id = '" . (int)$this->config->get('config_store_id') . "'");
+		$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order` o WHERE customer_id = '" . (int)$this->customer->getId() . "' AND o.order_status_id = '3' AND o.customer_id = '". (int)$this->customer->getId() ."'");
 
 		return $query->row['total'];
 	}
 
 	public function getTotalOrderProductsByOrderId($order_id) {
-		$query = $this->db->query("SELECT COUNT(*) AS total FROM " . DB_PREFIX . "order_product WHERE order_id = '" . (int)$order_id . "'");
+		$query = $this->db->query("SELECT COUNT(*) AS total FROM " . DB_PREFIX . "order_product WHERE order_id = '" . (int)$order_id . "' AND rate_status = '1'");
 
 		return $query->row['total'];
 	}
@@ -150,5 +122,26 @@ class ModelAccountRate extends Model{
 		$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order_voucher` WHERE order_id = '" . (int)$order_id . "'");
 
 		return $query->row['total'];
+	}
+
+	public function updateRate($ordernum, $ratestatus) {
+		$this->db->query("UPDATE oc_order_product SET rate_status = '" .(int)$ratestatus. "' WHERE order_id = '" . (int)$ordernum . "'");
+
+		$query = $this->db->query("SELECT product_id FROM oc_order_product WHERE order_id = '" .(int)$ordernum. "' ");
+		$product_id = $query->row['product_id'];
+
+		return $product_id;
+
+	}
+
+	public function addReview($ordernum) {
+		$query = $this->db->query("SELECT * FROM oc_order WHERE customer_id = '". (int)$this->customer->getId() ."'");
+		$name = $query->row['firstname'] ." ". $query->row['lastname'];
+
+		$query = $this->db->query("SELECT product_id FROM oc_order_product WHERE order_id = '" .(int)$ordernum. "' ");
+		$product_id = $query->row['product_id'];
+
+		$this->db->query("INSERT INTO oc_review SET product_id = '" . (int)$product_id . "', customer_id = '" . (int)$this->customer->getId() . "', text = 'N/A', author = '" . $name . "', rating = '5', status = '', date_added = NOW()");
+	
 	}
 }

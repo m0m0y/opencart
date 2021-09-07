@@ -19,7 +19,7 @@ class default_template_account_rate extends Twix_Template
 <div id="account-edit" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save32176 = $breadcrumb        ;
+        @$save27119 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_account_rate extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save32176 ?>  </ul>
+$breadcrumb         = $save27119 ?>  </ul>
   <?php
         if (@$error_warning) {
 ?>  <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> <?php echo @$error_warning ?></div>
@@ -47,47 +47,70 @@ $breadcrumb         = $save32176 ?>  </ul>
 ?>    <?php
             $class = "col-sm-12" ?>    <?php
         }
-?>    <?php
-        if (@$orders) {
 ?>    <div id="content" class="<?php echo @$class ?>"><?php echo @$content_top ?>
         <h1><?php echo @$heading_title ?></h1>
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <td class="text-left"><?php echo @$column_name ?></td>
-                        <td class="text-left"><?php echo @$column_model ?></td>
-                        <td class="text-right"><?php echo @$column_quantity ?></td>
-                        <td class="text-right"><?php echo @$column_action ?></td>
-                    </tr>
-                </thead>
-                <tbody>
-                        <?php
-            @$save34967 = $product            ;
+        <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+            <input type="hidden" name="rate_status" value="1" placeholder="" class="form-control" />
+            <fieldset>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <td class="text-left"><?php echo @$column_name ?></td>
+                                <td class="text-left"><?php echo @$column_model ?></td>
+                                <td class="text-right"><?php echo @$column_quantity ?></td>
+                                <td class="text-center"><?php echo @$column_action ?></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <?php
+        if (@$orders) {
+?>                                    <?php
+            @$save25512 = $product            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$products);
             foreach ($context['_seq'] as $_key => $product) {
-?>                        <tr>
-                            <td class="text-right">#<?php echo @$product["order_id"] ?> <?php echo @$product["name"] ?></td>
-                            <td class="text-right"><?php echo @$product["model"] ?></td>
-                            <td class="text-right"><?php echo @$product["quantity"] ?></td>
-                            <td class="text-right"><a href="<?php echo @$product["href"] ?>" <?php echo @$reviews ?>>Rate</a> </td>
-                        </tr>
-                        <?php
+?>                                        <?php
+                $productid = @$product["product_id"] ?>                                        <input type='hidden' name='productid' value='<?php echo @$productid ?>' disabled />
+                                        <tr>
+                                            <td class="text-left"> <?php echo @$product["name"] ?></td>
+                                            <td class="text-left"><?php echo @$product["model"] ?></td>
+                                            <td class="text-right"><?php echo @$product["quantity"] ?></td>
+                                            <?php
+                if ((@$product["rate_status"] == 1)) {
+?>                                                <td class="text-center">
+                                                    <button type="submit" name="ordernum" class="btn btn-link" disabled>Rate</button>
+                                                </td>
+                                            <?php
+                } else {
+?>                                            <?php
+                    $ordernum = @$product["order_id"] ?>                                                <td class="text-center">
+                                                <button type="submit" name="ordernum" value="<?php echo @$ordernum ?>" class="btn btn-link">Rate</button>
+                                                </td>
+                                            <?php
+                }
+?>                                        </tr>
+                                    <?php
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$product             = $save34967 ?>                </tbody>
-            </table>
-        </div>
-         <div class="row">
-            <div class="col-sm-6 text-left"><?php echo @$pagination ?></div>
-            <div class="col-sm-6 text-right"><?php echo @$results ?></div>
-      </div>
-    <?php
+$product             = $save25512 ?>
+                                    <div class="row">
+                                        <div class="col-sm-6 text-left"><?php echo @$pagination ?></div>
+                                        <div class="col-sm-6 text-right"><?php echo @$results ?></div>
+                                    </div>
+
+                                <?php
         } else {
-?>        <p><?php echo @$text_empty ?></p>
+?>                                <tr>
+                                    <td colspan="4" class="text-center"><?php echo @$text_no_results ?></td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </fieldset>
+        </form>
     <?php
         }
 ?>        <div class="buttons clearfix">
@@ -95,7 +118,6 @@ $product             = $save34967 ?>                </tbody>
         </div>
         <?php echo @$content_bottom ?></div>
         <?php echo @$column_right ?></div>
-    </div>
 </div>
 <?php echo @$footer ?>
 <?php

@@ -19,7 +19,7 @@ class default_template_account_wishlist extends Twix_Template
 <div id="account-wishlist" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save45407 = $breadcrumb        ;
+        @$save53066 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_account_wishlist extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save45407 ?>  </ul>
+$breadcrumb         = $save53066 ?>  </ul>
   <?php
         if (@$success) {
 ?>  <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> <?php echo @$success ?>
@@ -68,7 +68,7 @@ $breadcrumb         = $save45407 ?>  </ul>
           <tbody>
           
           <?php
-            @$save85019 = $product            ;
+            @$save17955 = $product            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$products);
             foreach ($context['_seq'] as $_key => $product) {
@@ -102,7 +102,7 @@ $breadcrumb         = $save45407 ?>  </ul>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$product             = $save85019 ?>            </tbody>
+$product             = $save17955 ?>            </tbody>
           
         </table>
       </div>

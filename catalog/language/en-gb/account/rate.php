@@ -21,3 +21,6 @@ $_['column_status']         = 'Status';
 $_['column_comment']        = 'Comment';
 $_['column_action']         ='Action';
 $_['text_empty']            = 'You have not made any previous orders!';
+
+// Alert
+$_['text_success']      ='Success';

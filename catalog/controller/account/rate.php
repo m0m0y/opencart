@@ -46,15 +46,13 @@ class ControllerAccountRate extends Controller{
 
 		$order_total = $this->model_account_rate->getTotalOrders();
 
-		$results = $this->model_account_rate->getOrders(($page - 1) * 10, 10);
+		$results = $this->model_account_rate->getOrderProducts(($page - 1) * 10, 10);
 
 		foreach ($results as $result) {
 			$product_total = $this->model_account_rate->getTotalOrderProductsByOrderId($result['order_id']);
 
 			$data['orders'][] = array(
-				'order_id'   => $result['order_id'],
-				'name'       => $result['firstname'] . ' ' . $result['lastname'],
-				'status'     => $result['status']
+				'order_id'   => $result['order_id']
 			);
 		}
 
@@ -75,15 +73,36 @@ class ControllerAccountRate extends Controller{
 
 		foreach ($products as $product) {
 			$data['products'][] = array(
+				'product_id'	=> $product['product_id'],
 				'order_id'     => $product['order_id'],
 				'name'     => $product['name'],
 				'model'    => $product['model'],
 				'quantity' => $product['quantity'],
+				'rate_status' => $product['rate_status'],
 				'href'      => $this->url->link('product/product', 'product_id=' . $product['product_id'])
 			);
 		}
-		// end of product
+		// end
 
+		// rating status
+		if (($this->request->server['REQUEST_METHOD'] == 'POST')) {
+			
+			$ordernum =  $_POST['ordernum'];
+			$ratestatus = $_POST['rate_status'];
+			$productid = $this->model_account_rate->updateRate($ordernum, $ratestatus);
+
+			$this->model_account_rate->addReview($ordernum);
+			// redirect
+
+			$this->response->redirect($this->url->link('product/product','product_id='. $productid));
+		}
+
+		if (isset($this->request->post['rate_status'])) {
+			$data['rate_status'] = $this->request->post['rate_status'];
+		} else {
+			$data['rate_status'] = '';
+		}
+		// end
 		
 		$data['continue'] = $this->url->link('account/account', '', true);
 
