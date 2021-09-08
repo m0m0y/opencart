@@ -31,7 +31,7 @@ class customer_customer_approval_list extends Twix_Template
     <?php
         if (@$customer_approvals) {
 ?>    <?php
-            @$save20491 = $customer_approval            ;
+            @$save25872 = $customer_approval            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$customer_approvals);
             foreach ($context['_seq'] as $_key => $customer_approval) {
@@ -48,7 +48,7 @@ class customer_customer_approval_list extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['customer_approval'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$customer_approval             = $save20491 ?>    <?php
+$customer_approval             = $save25872 ?>    <?php
         } else {
 ?>    <tr>
       <td class="text-center" colspan="6"><?php echo @$text_no_results ?></td>

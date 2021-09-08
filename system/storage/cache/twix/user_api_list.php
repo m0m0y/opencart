@@ -1,7 +1,7 @@
 <?php
 
-/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\admin\view\template\design\banner_list.twig */
-class design_banner_list extends Twix_Template
+/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\admin\view\template\user\api_list.twig */
+class user_api_list extends Twix_Template
 {
     public function __construct($env)
     {
@@ -21,12 +21,12 @@ echo @$column_left ?>
   <div class="page-header">
     <div class="container-fluid">
       <div class="pull-right"><a href="<?php echo @$add ?>" data-toggle="tooltip" title="<?php echo @$button_add ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a>
-        <button type="button" data-toggle="tooltip" title="<?php echo @$button_delete ?>" class="btn btn-danger" onclick="confirm('<?php echo @$text_confirm ?>') ? $('#form-banner').submit() : false;"><i class="fa fa-trash-o"></i></button>
+        <button type="button" data-toggle="tooltip" title="<?php echo @$button_delete ?>" class="btn btn-danger" onclick="confirm('<?php echo @$text_confirm ?>') ? $('#form-api').submit() : false;"><i class="fa fa-trash-o"></i></button>
       </div>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save74044 = $breadcrumb        ;
+        @$save42173 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -36,7 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save74044 ?>      </ul>
+$breadcrumb         = $save42173 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid">
@@ -59,18 +59,18 @@ $breadcrumb         = $save74044 ?>      </ul>
         <h3 class="panel-title"><i class="fa fa-list"></i> <?php echo @$text_list ?></h3>
       </div>
       <div class="panel-body">
-        <form action="<?php echo @$delete ?>" method="post" enctype="multipart/form-data" id="form-banner">
+        <form action="<?php echo @$delete ?>" method="post" enctype="multipart/form-data" id="form-api">
           <div class="table-responsive">
             <table class="table table-bordered table-hover">
               <thead>
                 <tr>
                   <td style="width: 1px;" class="text-center"><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);" /></td>
                   <td class="text-left"><?php
-        if ((@$sort == "name")) {
-?>                    <a href="<?php echo @$sort_name ?>" class="<?php echo strtolower(@$order) ?>"><?php echo @$column_name ?></a>
+        if ((@$sort == "username")) {
+?>                    <a href="<?php echo @$sort_name ?>" class="<?php echo strtolower(@$order) ?>"><?php echo @$column_username ?></a>
                     <?php
         } else {
-?>                    <a href="<?php echo @$sort_name ?>"><?php echo @$column_name ?></a>
+?>                    <a href="<?php echo @$sort_name ?>"><?php echo @$column_username ?></a>
                     <?php
         }
 ?></td>
@@ -83,40 +83,60 @@ $breadcrumb         = $save74044 ?>      </ul>
                     <?php
         }
 ?></td>
+                  <td class="text-left"><?php
+        if ((@$sort == "date_added")) {
+?>                    <a href="<?php echo @$sort_date_added ?>" class="<?php echo strtolower(@$order) ?>"><?php echo @$column_date_added ?></a>
+                    <?php
+        } else {
+?>                    <a href="<?php echo @$sort_date_added ?>"><?php echo @$column_date_added ?></a>
+                    <?php
+        }
+?></td>
+                  <td class="text-left"><?php
+        if ((@$sort == "date_modified")) {
+?>                    <a href="<?php echo @$sort_date_modified ?>" class="<?php echo strtolower(@$order) ?>"><?php echo @$column_date_modified ?></a>
+                    <?php
+        } else {
+?>                    <a href="<?php echo @$sort_date_modified ?>"><?php echo @$column_date_modified ?></a>
+                    <?php
+        }
+?></td>                    
                   <td class="text-right"><?php echo @$column_action ?></td>
                 </tr>
               </thead>
               <tbody>
                 <?php
-        if (@$banners) {
+        if (@$apis) {
 ?>                <?php
-            @$save36148 = $banner            ;
+            @$save68761 = $api            ;
             $context['_parent'] = $context;
-            $context['_seq'] = twix_ensure_traversable(@$banners);
-            foreach ($context['_seq'] as $_key => $banner) {
+            $context['_seq'] = twix_ensure_traversable(@$apis);
+            foreach ($context['_seq'] as $_key => $api) {
 ?>                <tr>
                   <td class="text-center"><?php
-                if (twix_in_filter(@$banner["banner_id"], @$selected)) {
-?>                    <input type="checkbox" name="selected[]" value="<?php echo @$banner["banner_id"] ?>" checked="checked" />
+                if (twix_in_filter(@$api["api_id"], @$selected)) {
+?>                    <input type="checkbox" name="selected[]" value="<?php echo @$api["api_id"] ?>" checked="checked" />
                     <?php
                 } else {
-?>                    <input type="checkbox" name="selected[]" value="<?php echo @$banner["banner_id"] ?>" />
+?>                    <input type="checkbox" name="selected[]" value="<?php echo @$api["api_id"] ?>" />
                     <?php
                 }
 ?></td>
-                  <td class="text-left"><?php echo @$banner["name"] ?></td>
-                  <td class="text-left"><?php echo @$banner["status"] ?></td>
-                  <td class="text-right"><a href="<?php echo @$banner["edit"] ?>" data-toggle="tooltip" title="<?php echo @$button_edit ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
+                  <td class="text-left"><?php echo @$api["username"] ?></td>
+                  <td class="text-left"><?php echo @$api["status"] ?></td>
+                  <td class="text-left"><?php echo @$api["date_added"] ?></td>
+                  <td class="text-left"><?php echo @$api["date_modified"] ?></td>
+                  <td class="text-right"><a href="<?php echo @$api["edit"] ?>" data-toggle="tooltip" title="<?php echo @$button_edit ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
                 </tr>
                 <?php
             }
             $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['banner'], $context['_parent'], $context['loop']);
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['api'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$banner             = $save36148 ?>                <?php
+$api             = $save68761 ?>                <?php
         } else {
 ?>                <tr>
-                  <td class="text-center" colspan="4"><?php echo @$text_no_results ?></td>
+                  <td class="text-center" colspan="6"><?php echo @$text_no_results ?></td>
                 </tr>
                 <?php
         }
@@ -132,12 +152,13 @@ $banner             = $save36148 ?>                <?php
     </div>
   </div>
 </div>
-<?php echo @$footer;
+<?php echo @$footer ?>
+<?php
     }
 
     public function getTemplateName()
     {
-        return "design/banner_list.twig";
+        return "user/api_list.twig";
     }
 
     public function isTraitable()

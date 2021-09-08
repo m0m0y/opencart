@@ -22,14 +22,14 @@ class default_template_checkout_shipping_method extends Twix_Template
         if (@$shipping_methods) {
 ?><p><?php echo @$text_shipping_method ?></p>
 <?php
-            @$save90737 = $shipping_method            ;
+            @$save85942 = $shipping_method            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$shipping_methods);
             foreach ($context['_seq'] as $_key => $shipping_method) {
 ?><p><strong><?php echo @$shipping_method["title"] ?></strong></p>
 <?php
                 if ( !@$shipping_method["error"]) {
-                    @$save45622 = $quote                    ;
+                    @$save64354 = $quote                    ;
                     $context['_parent'] = $context;
                     $context['_seq'] = twix_ensure_traversable(@$shipping_method["quote"]);
                     foreach ($context['_seq'] as $_key => $quote) {
@@ -50,7 +50,7 @@ class default_template_checkout_shipping_method extends Twix_Template
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['quote'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-$quote                     = $save45622;
+$quote                     = $save64354;
                 } else {
 ?><div class="alert alert-danger alert-dismissible"><?php echo @$shipping_method["error"] ?></div>
 <?php
@@ -59,7 +59,7 @@ $quote                     = $save45622;
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['shipping_method'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$shipping_method             = $save90737;
+$shipping_method             = $save85942;
         }
 ?><p><strong><?php echo @$text_comments ?></strong></p>
 <p>

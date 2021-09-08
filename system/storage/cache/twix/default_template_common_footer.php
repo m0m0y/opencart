@@ -24,7 +24,7 @@ class default_template_common_footer extends Twix_Template
         <h5><?php echo @$text_information ?></h5>
         <ul class="list-unstyled">
          <?php
-            @$save17925 = $information            ;
+            @$save28770 = $information            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$informations);
             foreach ($context['_seq'] as $_key => $information) {
@@ -34,7 +34,7 @@ class default_template_common_footer extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['information'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$information             = $save17925 ?>        </ul>
+$information             = $save28770 ?>        </ul>
       </div>
       <?php
         }
@@ -70,7 +70,7 @@ $information             = $save17925 ?>        </ul>
   </div>
 </footer>
 <?php
-        @$save10778 = $style        ;
+        @$save49301 = $style        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$styles);
         foreach ($context['_seq'] as $_key => $style) {
@@ -80,8 +80,8 @@ $information             = $save17925 ?>        </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['style'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$style         = $save10778;
-        @$save83391 = $script        ;
+$style         = $save49301;
+        @$save70481 = $script        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$scripts);
         foreach ($context['_seq'] as $_key => $script) {
@@ -91,7 +91,7 @@ $style         = $save10778;
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['script'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$script         = $save83391 ?><!--
+$script         = $save70481 ?><!--
 OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
 Please donate via PayPal to donate@opencart.com
 //-->

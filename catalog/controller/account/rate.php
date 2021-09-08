@@ -40,38 +40,18 @@ class ControllerAccountRate extends Controller{
 			$page = 1;
 		}
 
-		$data['orders'] = array();
+		// select product
+		$data['products'] = array();
 
 		$this->load->model('account/rate');
 
 		$order_total = $this->model_account_rate->getTotalOrders();
 
-		$results = $this->model_account_rate->getOrderProducts(($page - 1) * 10, 10);
-
-		foreach ($results as $result) {
-			$product_total = $this->model_account_rate->getTotalOrderProductsByOrderId($result['order_id']);
-
-			$data['orders'][] = array(
-				'order_id'   => $result['order_id']
-			);
-		}
-
-		$pagination = new Pagination();
-		$pagination->total = $order_total;
-		$pagination->page = $page;
-		$pagination->limit = 10;
-		$pagination->url = $this->url->link('account/order', 'page={page}', true);
-
-		$data['pagination'] = $pagination->render();
-
-		$data['results'] = sprintf($this->language->get('text_pagination'), ($order_total) ? (($page - 1) * 10) + 1 : 0, ((($page - 1) * 10) > ($order_total - 10)) ? $order_total : ((($page - 1) * 10) + 10), $order_total, ceil($order_total / 10));
-
-		// Products
-		$data['products'] = array();
-
-		$products = $this->model_account_rate->getOrderProducts();
+		$products = $this->model_account_rate->getOrderProducts(($page - 1) * 10, 10);
 
 		foreach ($products as $product) {
+			$product_total = $this->model_account_rate->getTotalOrderProductsByOrderId($product['order_id']);
+
 			$data['products'][] = array(
 				'product_id'	=> $product['product_id'],
 				'order_id'     => $product['order_id'],
@@ -83,6 +63,16 @@ class ControllerAccountRate extends Controller{
 			);
 		}
 		// end
+
+		$pagination = new Pagination();
+		$pagination->total = $order_total;
+		$pagination->page = $page;
+		$pagination->limit = 10;
+		$pagination->url = $this->url->link('account/rate', 'page={page}', true);
+
+		$data['pagination'] = $pagination->render();
+
+		$data['results'] = sprintf($this->language->get('text_pagination'), ($order_total) ? (($page - 1) * 10) + 1 : 0, ((($page - 1) * 10) > ($order_total - 10)) ? $order_total : ((($page - 1) * 10) + 10), $order_total, ceil($order_total / 10));
 
 		// rating status
 		if (($this->request->server['REQUEST_METHOD'] == 'POST')) {

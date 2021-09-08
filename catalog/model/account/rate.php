@@ -101,13 +101,20 @@ class ModelAccountRate extends Model{
 	}
 
 	public function getOrderProducts($start = 0, $limit = 20) {
-		$query = $this->db->query("SELECT oc_order_product.order_product_id, oc_order_product.order_id, oc_order_product.product_id, oc_order_product.name, oc_order_product.model, oc_order_product.quantity, oc_order_product.rate_status FROM  `" . DB_PREFIX . "order_product` INNER JOIN oc_order ON  oc_order.customer_id = '". (int)$this->customer->getId() ."' WHERE oc_order.order_status_id = '3' AND oc_order.order_id = oc_order_product.order_id AND oc_order.customer_id != '0' ORDER BY oc_order.order_id DESC LIMIT ". (int)$start .", ". (int)$limit ."");
+		if ($start < 0) {
+			$start = 0;
+		}
+
+		if ($limit < 1) {
+			$limit = 1;
+		}
+		$query = $this->db->query("SELECT oc_order_product.order_product_id, oc_order_product.order_id, oc_order_product.product_id, oc_order_product.name, oc_order_product.model, oc_order_product.quantity, oc_order_product.rate_status FROM  `" . DB_PREFIX . "order_product` INNER JOIN oc_order ON  oc_order.customer_id = '". (int)$this->customer->getId() ."' WHERE oc_order.order_status_id = '4' AND oc_order.order_id = oc_order_product.order_id AND oc_order.customer_id != '0' ORDER BY oc_order.order_id DESC LIMIT ". (int)$start .", ". (int)$limit ."");
 		
 		return $query->rows;
 	}
 
 	public function getTotalOrders() {
-		$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order` o WHERE customer_id = '" . (int)$this->customer->getId() . "' AND o.order_status_id = '3' AND o.customer_id = '". (int)$this->customer->getId() ."'");
+		$query = $this->db->query("SELECT COUNT(*) AS total FROM `" . DB_PREFIX . "order` o WHERE customer_id = '" . (int)$this->customer->getId() . "' AND o.order_status_id = '4' AND o.store_id = '" . (int)$this->config->get('config_store_id') . "'");
 
 		return $query->row['total'];
 	}

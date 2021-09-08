@@ -1,7 +1,7 @@
 <?php
 
-/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\admin\view\template\user\user_form.twig */
-class user_user_form extends Twix_Template
+/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\admin\view\template\common\profile.twig */
+class common_profile extends Twix_Template
 {
     public function __construct($env)
     {
@@ -26,7 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save13146 = $breadcrumb        ;
+        @$save36966 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -36,10 +36,18 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save13146 ?>      </ul>
+$breadcrumb         = $save36966 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid">
+    <?php
+        if (@$success) {
+?>    <div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> <?php echo @$success ?>
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    <?php
+        }
+?>    
     <?php
         if (@$error_warning) {
 ?>    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> <?php echo @$error_warning ?>
@@ -47,9 +55,10 @@ $breadcrumb         = $save13146 ?>      </ul>
     </div>
     <?php
         }
-?>    <div class="panel panel-default">
+?>    
+    <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title"><i class="fa fa-pencil"></i> <?php echo @$text_form ?></h3>
+        <h3 class="panel-title"><i class="fa fa-pencil"></i> <?php echo @$text_edit ?></h3>
       </div>
       <div class="panel-body">
         <form action="<?php echo @$action ?>" method="post" enctype="multipart/form-data" id="form-user" class="form-horizontal">
@@ -63,31 +72,6 @@ $breadcrumb         = $save13146 ?>      </ul>
               <?php
         }
 ?>            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-user-group"><?php echo @$entry_user_group ?></label>
-            <div class="col-sm-10">
-              <select name="user_group_id" id="input-user-group" class="form-control">
-                <?php
-        @$save37070 = $user_group        ;
-        $context['_parent'] = $context;
-        $context['_seq'] = twix_ensure_traversable(@$user_groups);
-        foreach ($context['_seq'] as $_key => $user_group) {
-?>                <?php
-            if ((@$user_group["user_group_id"] == @$user_group_id)) {
-?>                <option value="<?php echo @$user_group["user_group_id"] ?>" selected="selected"><?php echo @$user_group["name"] ?></option>
-                <?php
-            } else {
-?>                <option value="<?php echo @$user_group["user_group_id"] ?>"><?php echo @$user_group["name"] ?></option>
-                <?php
-            }
-?>                <?php
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['user_group'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-$user_group         = $save37070 ?>              </select>
-            </div>
           </div>
           <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-firstname"><?php echo @$entry_firstname ?></label>
@@ -150,23 +134,6 @@ $user_group         = $save37070 ?>              </select>
         }
 ?>            </div>
           </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-status"><?php echo @$entry_status ?></label>
-            <div class="col-sm-10">
-              <select name="status" id="input-status" class="form-control">
-                <?php
-        if (@$status) {
-?>                <option value="0"><?php echo @$text_disabled ?></option>
-                <option value="1" selected="selected"><?php echo @$text_enabled ?></option>
-                <?php
-        } else {
-?>                <option value="0" selected="selected"><?php echo @$text_disabled ?></option>
-                <option value="1"><?php echo @$text_enabled ?></option>
-                <?php
-        }
-?>              </select>
-            </div>
-          </div>
         </form>
       </div>
     </div>
@@ -177,7 +144,7 @@ $user_group         = $save37070 ?>              </select>
 
     public function getTemplateName()
     {
-        return "user/user_form.twig";
+        return "common/profile.twig";
     }
 
     public function isTraitable()

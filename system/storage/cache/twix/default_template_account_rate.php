@@ -19,7 +19,7 @@ class default_template_account_rate extends Twix_Template
 <div id="account-edit" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save40563 = $breadcrumb        ;
+        @$save81400 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_account_rate extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save40563 ?>  </ul>
+$breadcrumb         = $save81400 ?>  </ul>
   <?php
         if (@$error_warning) {
 ?>  <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> <?php echo @$error_warning ?></div>
@@ -65,9 +65,9 @@ $breadcrumb         = $save40563 ?>  </ul>
                         </thead>
                         <tbody>
                                 <?php
-        if (@$orders) {
+        if (@$products) {
 ?>                                    <?php
-            @$save51341 = $product            ;
+            @$save72480 = $product            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$products);
             foreach ($context['_seq'] as $_key => $product) {
@@ -95,7 +95,7 @@ $breadcrumb         = $save40563 ?>  </ul>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$product             = $save51341 ?>                                <?php
+$product             = $save72480 ?>                                <?php
         } else {
 ?>                                    <tr>
                                         <td colspan="4" class="text-center"><?php echo @$text_no_results ?></td>
@@ -107,6 +107,13 @@ $product             = $save51341 ?>                                <?php
                 </div>
             </fieldset>
         </form>
+        <div class="row">
+            <div class="col-sm-6 text-left"><?php echo @$pagination ?></div>
+            <div class="col-sm-6 text-right"><?php echo @$results ?></div>
+        </div>
+        <div class="buttons clearfix">
+            <div class="pull-right"><a href="<?php echo @$continue ?>" class="btn btn-primary"><?php echo @$button_continue ?></a></div>
+        </div>
          <?php echo @$content_bottom ?> </div>
         <?php echo @$column_right ?> </div>
     

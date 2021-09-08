@@ -22,7 +22,7 @@ class default_template_checkout_payment_method extends Twix_Template
         if (@$payment_methods) {
 ?><p><?php echo @$text_payment_method ?></p>
 <?php
-            @$save41702 = $payment_method            ;
+            @$save39710 = $payment_method            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$payment_methods);
             foreach ($context['_seq'] as $_key => $payment_method) {
@@ -49,7 +49,7 @@ class default_template_checkout_payment_method extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['payment_method'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$payment_method             = $save41702;
+$payment_method             = $save39710;
         }
 ?><p><strong><?php echo @$text_comments ?></strong></p>
 <p>

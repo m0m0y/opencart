@@ -1,7 +1,7 @@
 <?php
 
-/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\catalog\view\theme\default\template\account\order_list.twig */
-class default_template_account_order_list extends Twix_Template
+/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\catalog\view\theme\default\template\account\reward.twig */
+class default_template_account_reward extends Twix_Template
 {
     public function __construct($env)
     {
@@ -16,10 +16,10 @@ class default_template_account_order_list extends Twix_Template
     protected function doDisplay(array $context, array $blocks = array())
     {
     extract($context); echo @$header ?>
-<div id="account-order" class="container">
+<div id="account-reward" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save74396 = $breadcrumb        ;
+        @$save23492 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_account_order_list extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save74396 ?>  </ul>
+$breadcrumb         = $save23492 ?>  </ul>
   <div class="row"><?php echo @$column_left ?>
     <?php
         if ((@$column_left && @$column_right)) {
@@ -44,66 +44,69 @@ $breadcrumb         = $save74396 ?>  </ul>
         }
 ?>    <div id="content" class="<?php echo @$class ?>"><?php echo @$content_top ?>
       <h1><?php echo @$heading_title ?></h1>
-      <?php
-        if (@$orders) {
-?>      <div class="table-responsive">
+      <p><?php echo @$text_total ?> <b><?php echo @$total ?></b>.</p>
+      <div class="table-responsive">
         <table class="table table-bordered table-hover">
           <thead>
             <tr>
-              <td class="text-right"><?php echo @$column_order_id ?></td>
-              <td class="text-left"><?php echo @$column_customer ?></td>
-              <td class="text-right"><?php echo @$column_product ?></td>
-              <td class="text-left"><?php echo @$column_status ?></td>
-              <td class="text-right"><?php echo @$column_total ?></td>
               <td class="text-left"><?php echo @$column_date_added ?></td>
-              <td></td>
+              <td class="text-left"><?php echo @$column_description ?></td>
+              <td class="text-right"><?php echo @$column_points ?></td>
             </tr>
           </thead>
           <tbody>
-           <?php
-            @$save40190 = $order            ;
+          
+          <?php
+        if (@$rewards) {
+?>          <?php
+            @$save19363 = $reward            ;
             $context['_parent'] = $context;
-            $context['_seq'] = twix_ensure_traversable(@$orders);
-            foreach ($context['_seq'] as $_key => $order) {
-?>            <tr>
-              <td class="text-right">#<?php echo @$order["order_id"] ?></td>
-              <td class="text-left"><?php echo @$order["name"] ?></td>
-              <td class="text-right"><?php echo @$order["products"] ?></td>
-              <td class="text-left"><?php echo @$order["status"] ?></td>
-              <td class="text-right"><?php echo @$order["total"] ?></td>
-              <td class="text-left"><?php echo @$order["date_added"] ?></td>
-              <td class="text-right"><a href="<?php echo @$order["view"] ?>" data-toggle="tooltip" title="<?php echo @$button_view ?>" class="btn btn-info"><i class="fa fa-eye"></i></a></td>
-            </tr>
-            <?php
+            $context['_seq'] = twix_ensure_traversable(@$rewards);
+            foreach ($context['_seq'] as $_key => $reward) {
+?>          <tr>
+            <td class="text-left"><?php echo @$reward["date_added"] ?></td>
+            <td class="text-left"><?php
+                if (@$reward["order_id"]) {
+?> <a href="<?php echo @$reward["href"] ?>"><?php echo @$reward["description"] ?></a> <?php
+                } else {
+?>              <?php echo @$reward["description"] ?>
+              <?php
+                }
+?></td>
+            <td class="text-right"><?php echo @$reward["points"] ?></td>
+          </tr>
+          <?php
             }
             $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['order'], $context['_parent'], $context['loop']);
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['reward'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$order             = $save40190 ?>          </tbody>
+$reward             = $save19363 ?>          <?php
+        } else {
+?>          <tr>
+            <td class="text-center" colspan="3"><?php echo @$text_empty ?></td>
+          </tr>
+          <?php
+        }
+?>            </tbody>
+          
         </table>
       </div>
       <div class="row">
         <div class="col-sm-6 text-left"><?php echo @$pagination ?></div>
         <div class="col-sm-6 text-right"><?php echo @$results ?></div>
       </div>
-      <?php
-        } else {
-?>      <p><?php echo @$text_empty ?></p>
-      <?php
-        }
-?>      <div class="buttons clearfix">
+      <div class="buttons clearfix">
         <div class="pull-right"><a href="<?php echo @$continue ?>" class="btn btn-primary"><?php echo @$button_continue ?></a></div>
       </div>
       <?php echo @$content_bottom ?></div>
     <?php echo @$column_right ?></div>
 </div>
-<?php echo @$footer ?>
-<?php
+<?php echo @$footer;
     }
 
     public function getTemplateName()
     {
-        return "default/template/account/order_list.twig";
+        return "default/template/account/reward.twig";
     }
 
     public function isTraitable()

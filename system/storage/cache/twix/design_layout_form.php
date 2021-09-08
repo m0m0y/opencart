@@ -26,7 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save31724 = $breadcrumb        ;
+        @$save81406 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -36,7 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save31724 ?>      </ul>
+$breadcrumb         = $save81406 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid">
@@ -77,7 +77,7 @@ $breadcrumb         = $save31724 ?>      </ul>
               <tbody>
                 <?php
         $route_row = 0 ?>                <?php
-        @$save91240 = $layout_route        ;
+        @$save50620 = $layout_route        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$layout_routes);
         foreach ($context['_seq'] as $_key => $layout_route) {
@@ -85,7 +85,7 @@ $breadcrumb         = $save31724 ?>      </ul>
                   <td class="text-left"><select name="layout_route[<?php echo @$route_row ?>][store_id]" class="form-control">
                       <option value="0"><?php echo @$text_default ?></option>
                       <?php
-            @$save29287 = $store            ;
+            @$save17051 = $store            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$stores);
             foreach ($context['_seq'] as $_key => $store) {
@@ -102,7 +102,7 @@ $breadcrumb         = $save31724 ?>      </ul>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['store'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$store             = $save29287 ?>                    </select></td>
+$store             = $save17051 ?>                    </select></td>
                   <td class="text-left"><input type="text" name="layout_route[<?php echo @$route_row ?>][route]" value="<?php echo @$layout_route["route"] ?>" placeholder="<?php echo @$entry_route ?>" class="form-control" /></td>
                   <td class="text-left"><button type="button" onclick="$('#route-row<?php echo @$route_row ?>').remove();" data-toggle="tooltip" title="<?php echo @$button_remove ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>
                 </tr>
@@ -112,7 +112,7 @@ $store             = $save29287 ?>                    </select></td>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['layout_route'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$layout_route         = $save91240 ?>              </tbody>
+$layout_route         = $save50620 ?>              </tbody>
               <tfoot>
                 <tr>
                   <td colspan="2"></td>
@@ -134,7 +134,7 @@ $layout_route         = $save91240 ?>              </tbody>
                   </thead>
                   <tbody>
                     <?php
-        @$save62085 = $layout_module        ;
+        @$save65866 = $layout_module        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$layout_modules);
         foreach ($context['_seq'] as $_key => $layout_module) {
@@ -144,7 +144,7 @@ $layout_route         = $save91240 ?>              </tbody>
                       <td class="text-left"><div class="input-group">
                           <select name="layout_module[<?php echo @$module_row ?>][code]" class="form-control input-sm">
                             <?php
-                @$save14733 = $extension                ;
+                @$save43902 = $extension                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extensions);
                 foreach ($context['_seq'] as $_key => $extension) {
@@ -162,7 +162,7 @@ $layout_route         = $save91240 ?>              </tbody>
 ?>                            <?php
                     } else {
 ?>                            <?php
-                        @$save99839 = $module                        ;
+                        @$save30341 = $module                        ;
                         $context['_parent'] = $context;
                         $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                         foreach ($context['_seq'] as $_key => $module) {
@@ -179,7 +179,7 @@ $layout_route         = $save91240 ?>              </tbody>
                         $_parent = $context['_parent'];
                         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
-$module                         = $save99839 ?>                            <?php
+$module                         = $save30341 ?>                            <?php
                     }
 ?>                            </optgroup>
                             <?php
@@ -187,7 +187,7 @@ $module                         = $save99839 ?>                            <?php
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$extension                 = $save14733 ?>                          </select>
+$extension                 = $save43902 ?>                          </select>
                           <input type="hidden" name="layout_module[<?php echo @$module_row ?>][position]" value="<?php echo @$layout_module["position"] ?>" />
                           <input type="hidden" name="layout_module[<?php echo @$module_row ?>][sort_order]" value="<?php echo @$layout_module["sort_order"] ?>" />
                           <div class="input-group-btn"><a href="<?php echo @$layout_module["edit"] ?>" type="button" data-toggle="tooltip" title="<?php echo @$button_edit ?>" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a>
@@ -203,14 +203,14 @@ $extension                 = $save14733 ?>                          </select>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['layout_module'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$layout_module         = $save62085 ?>                  </tbody>
+$layout_module         = $save65866 ?>                  </tbody>
                   <tfoot>
                     <tr>
                       <td class="text-left"><div class="input-group">
                           <select class="form-control input-sm">
                             <option value=""></option>
                             <?php
-        @$save37134 = $extension        ;
+        @$save72961 = $extension        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$extensions);
         foreach ($context['_seq'] as $_key => $extension) {
@@ -221,7 +221,7 @@ $layout_module         = $save62085 ?>                  </tbody>
                             <?php
             } else {
 ?>                            <?php
-                @$save48643 = $module                ;
+                @$save24478 = $module                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                 foreach ($context['_seq'] as $_key => $module) {
@@ -231,7 +231,7 @@ $layout_module         = $save62085 ?>                  </tbody>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$module                 = $save48643 ?>                            <?php
+$module                 = $save24478 ?>                            <?php
             }
 ?>                            </optgroup>
                             <?php
@@ -239,7 +239,7 @@ $module                 = $save48643 ?>                            <?php
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$extension         = $save37134 ?>                          </select>
+$extension         = $save72961 ?>                          </select>
                           <div class="input-group-btn">
                             <button type="button" onclick="addModule('column-left');" data-toggle="tooltip" title="<?php echo @$button_module_add ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus-circle"></i></button>
                           </div>
@@ -257,7 +257,7 @@ $extension         = $save37134 ?>                          </select>
                   </thead>
                   <tbody>
                     <?php
-        @$save13130 = $layout_module        ;
+        @$save32335 = $layout_module        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$layout_modules);
         foreach ($context['_seq'] as $_key => $layout_module) {
@@ -267,7 +267,7 @@ $extension         = $save37134 ?>                          </select>
                       <td class="text-left"><div class="input-group">
                           <select name="layout_module[<?php echo @$module_row ?>][code]" class="form-control input-sm">
                             <?php
-                @$save32238 = $extension                ;
+                @$save19434 = $extension                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extensions);
                 foreach ($context['_seq'] as $_key => $extension) {
@@ -285,7 +285,7 @@ $extension         = $save37134 ?>                          </select>
 ?>                            <?php
                     } else {
 ?>                            <?php
-                        @$save66740 = $module                        ;
+                        @$save64178 = $module                        ;
                         $context['_parent'] = $context;
                         $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                         foreach ($context['_seq'] as $_key => $module) {
@@ -302,7 +302,7 @@ $extension         = $save37134 ?>                          </select>
                         $_parent = $context['_parent'];
                         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
-$module                         = $save66740 ?>                            <?php
+$module                         = $save64178 ?>                            <?php
                     }
 ?>                            </optgroup>
                             <?php
@@ -310,7 +310,7 @@ $module                         = $save66740 ?>                            <?php
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$extension                 = $save32238 ?>                          </select>
+$extension                 = $save19434 ?>                          </select>
                           <input type="hidden" name="layout_module[<?php echo @$module_row ?>][position]" value="<?php echo @$layout_module["position"] ?>" />
                           <input type="hidden" name="layout_module[<?php echo @$module_row ?>][sort_order]" value="<?php echo @$layout_module["sort_order"] ?>" />
                           <div class="input-group-btn"> <a href="<?php echo @$layout_module["edit"] ?>" type="button" data-toggle="tooltip" title="<?php echo @$button_edit ?>" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a>
@@ -326,14 +326,14 @@ $extension                 = $save32238 ?>                          </select>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['layout_module'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$layout_module         = $save13130 ?>                  </tbody>
+$layout_module         = $save32335 ?>                  </tbody>
                   <tfoot>
                     <tr>
                       <td class="text-left"><div class="input-group">
                           <select class="form-control input-sm">
                             <option value=""></option>
                             <?php
-        @$save31858 = $extension        ;
+        @$save90330 = $extension        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$extensions);
         foreach ($context['_seq'] as $_key => $extension) {
@@ -344,7 +344,7 @@ $layout_module         = $save13130 ?>                  </tbody>
                             <?php
             } else {
 ?>                            <?php
-                @$save33077 = $module                ;
+                @$save13817 = $module                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                 foreach ($context['_seq'] as $_key => $module) {
@@ -354,7 +354,7 @@ $layout_module         = $save13130 ?>                  </tbody>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$module                 = $save33077 ?>                            <?php
+$module                 = $save13817 ?>                            <?php
             }
 ?>                            </optgroup>
                             <?php
@@ -362,7 +362,7 @@ $module                 = $save33077 ?>                            <?php
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$extension         = $save31858 ?>                          </select>
+$extension         = $save90330 ?>                          </select>
                           <div class="input-group-btn">
                             <button type="button" onclick="addModule('content-top');" data-toggle="tooltip" title="<?php echo @$button_module_add ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus-circle"></i></button>
                           </div>
@@ -378,7 +378,7 @@ $extension         = $save31858 ?>                          </select>
                   </thead>
                   <tbody>
                     <?php
-        @$save24557 = $layout_module        ;
+        @$save25586 = $layout_module        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$layout_modules);
         foreach ($context['_seq'] as $_key => $layout_module) {
@@ -388,7 +388,7 @@ $extension         = $save31858 ?>                          </select>
                       <td class="text-left"><div class="input-group">
                           <select name="layout_module[<?php echo @$module_row ?>][code]" class="form-control input-sm">
                             <?php
-                @$save24241 = $extension                ;
+                @$save66268 = $extension                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extensions);
                 foreach ($context['_seq'] as $_key => $extension) {
@@ -406,7 +406,7 @@ $extension         = $save31858 ?>                          </select>
 ?>                            <?php
                     } else {
 ?>                            <?php
-                        @$save56593 = $module                        ;
+                        @$save64047 = $module                        ;
                         $context['_parent'] = $context;
                         $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                         foreach ($context['_seq'] as $_key => $module) {
@@ -423,7 +423,7 @@ $extension         = $save31858 ?>                          </select>
                         $_parent = $context['_parent'];
                         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
-$module                         = $save56593 ?>                            <?php
+$module                         = $save64047 ?>                            <?php
                     }
 ?>                            </optgroup>
                             <?php
@@ -431,7 +431,7 @@ $module                         = $save56593 ?>                            <?php
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$extension                 = $save24241 ?>                          </select>
+$extension                 = $save66268 ?>                          </select>
                           <input type="hidden" name="layout_module[<?php echo @$module_row ?>][position]" value="<?php echo @$layout_module["position"] ?>" />
                           <input type="hidden" name="layout_module[<?php echo @$module_row ?>][sort_order]" value="<?php echo @$layout_module["sort_order"] ?>" />
                           <div class="input-group-btn"><a href="<?php echo @$layout_module["edit"] ?>" type="button" data-toggle="tooltip" title="<?php echo @$button_edit ?>" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a>
@@ -447,14 +447,14 @@ $extension                 = $save24241 ?>                          </select>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['layout_module'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$layout_module         = $save24557 ?>                  </tbody>
+$layout_module         = $save25586 ?>                  </tbody>
                   <tfoot>
                     <tr>
                       <td class="text-left"><div class="input-group">
                           <select class="form-control input-sm">
                             <option value=""></option>
                             <?php
-        @$save49764 = $extension        ;
+        @$save54725 = $extension        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$extensions);
         foreach ($context['_seq'] as $_key => $extension) {
@@ -465,7 +465,7 @@ $layout_module         = $save24557 ?>                  </tbody>
                             <?php
             } else {
 ?>                            <?php
-                @$save64864 = $module                ;
+                @$save42759 = $module                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                 foreach ($context['_seq'] as $_key => $module) {
@@ -475,7 +475,7 @@ $layout_module         = $save24557 ?>                  </tbody>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$module                 = $save64864 ?>                            <?php
+$module                 = $save42759 ?>                            <?php
             }
 ?>                            </optgroup>
                             <?php
@@ -483,7 +483,7 @@ $module                 = $save64864 ?>                            <?php
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$extension         = $save49764 ?>                          </select>
+$extension         = $save54725 ?>                          </select>
                           <div class="input-group-btn">
                             <button type="button" onclick="addModule('content-bottom');" data-toggle="tooltip" title="<?php echo @$button_module_add ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus-circle"></i></button>
                           </div>
@@ -501,7 +501,7 @@ $extension         = $save49764 ?>                          </select>
                   </thead>
                   <tbody>
                     <?php
-        @$save96572 = $layout_module        ;
+        @$save24064 = $layout_module        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$layout_modules);
         foreach ($context['_seq'] as $_key => $layout_module) {
@@ -511,7 +511,7 @@ $extension         = $save49764 ?>                          </select>
                       <td class="text-left"><div class="input-group">
                           <select name="layout_module[<?php echo @$module_row ?>][code]" class="form-control input-sm">
                             <?php
-                @$save37862 = $extension                ;
+                @$save23139 = $extension                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extensions);
                 foreach ($context['_seq'] as $_key => $extension) {
@@ -529,7 +529,7 @@ $extension         = $save49764 ?>                          </select>
 ?>                            <?php
                     } else {
 ?>                            <?php
-                        @$save63142 = $module                        ;
+                        @$save83179 = $module                        ;
                         $context['_parent'] = $context;
                         $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                         foreach ($context['_seq'] as $_key => $module) {
@@ -546,7 +546,7 @@ $extension         = $save49764 ?>                          </select>
                         $_parent = $context['_parent'];
                         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
-$module                         = $save63142 ?>                            <?php
+$module                         = $save83179 ?>                            <?php
                     }
 ?>                            </optgroup>
                             <?php
@@ -554,7 +554,7 @@ $module                         = $save63142 ?>                            <?php
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$extension                 = $save37862 ?>                          </select>
+$extension                 = $save23139 ?>                          </select>
                           <input type="hidden" name="layout_module[<?php echo @$module_row ?>][position]" value="<?php echo @$layout_module["position"] ?>" />
                           <input type="hidden" name="layout_module[<?php echo @$module_row ?>][sort_order]" value="<?php echo @$layout_module["sort_order"] ?>" />
                           <div class="input-group-btn"><a href="<?php echo @$layout_module["edit"] ?>" data-toggle="tooltip" title="<?php echo @$button_edit ?>" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a>
@@ -570,14 +570,14 @@ $extension                 = $save37862 ?>                          </select>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['layout_module'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$layout_module         = $save96572 ?>                  </tbody>
+$layout_module         = $save24064 ?>                  </tbody>
                   <tfoot>
                     <tr>
                       <td class="text-left"><div class="input-group">
                           <select class="form-control input-sm">
                             <option value=""></option>
                             <?php
-        @$save96228 = $extension        ;
+        @$save12539 = $extension        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$extensions);
         foreach ($context['_seq'] as $_key => $extension) {
@@ -588,7 +588,7 @@ $layout_module         = $save96572 ?>                  </tbody>
                             <?php
             } else {
 ?>                            <?php
-                @$save99324 = $module                ;
+                @$save46512 = $module                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                 foreach ($context['_seq'] as $_key => $module) {
@@ -598,7 +598,7 @@ $layout_module         = $save96572 ?>                  </tbody>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$module                 = $save99324 ?>                            <?php
+$module                 = $save46512 ?>                            <?php
             }
 ?>                            </optgroup>
                             <?php
@@ -606,7 +606,7 @@ $module                 = $save99324 ?>                            <?php
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$extension         = $save96228 ?>                          </select>
+$extension         = $save12539 ?>                          </select>
                           <div class="input-group-btn">
                             <button type="button" onclick="addModule('column-right');" data-toggle="tooltip" title="<?php echo @$button_module_add ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus-circle"></i></button>
                           </div>
@@ -629,7 +629,7 @@ function addRoute() {
 	html += '  <td class="text-left"><select name="layout_route[' + route_row + '][store_id]" class="form-control">';
 	html += '  <option value="0"><?php echo @$text_default ?></option>';
 	<?php
-        @$save75004 = $store        ;
+        @$save14558 = $store        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$stores);
         foreach ($context['_seq'] as $_key => $store) {
@@ -639,7 +639,7 @@ function addRoute() {
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['store'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$store         = $save75004 ?>	html += '  </select></td>';
+$store         = $save14558 ?>	html += '  </select></td>';
 	html += '  <td class="text-left"><input type="text" name="layout_route[' + route_row + '][route]" value="" placeholder="<?php echo @$entry_route ?>" class="form-control" /></td>';
 	html += '  <td class="text-left"><button type="button" onclick="$(\'#route-row' + route_row + '\').remove();" data-toggle="tooltip" title="<?php echo @$button_remove ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
 	html += '</tr>';
@@ -655,7 +655,7 @@ function addModule(type) {
 	html  = '<tr id="module-row' + module_row + '">';
     html += '  <td class="text-left"><div class="input-group"><select name="layout_module[' + module_row + '][code]" class="form-control input-sm">';
 	<?php
-        @$save85904 = $extension        ;
+        @$save69978 = $extension        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$extensions);
         foreach ($context['_seq'] as $_key => $extension) {
@@ -666,7 +666,7 @@ function addModule(type) {
 	<?php
             } else {
 ?>	<?php
-                @$save72709 = $module                ;
+                @$save49819 = $module                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                 foreach ($context['_seq'] as $_key => $module) {
@@ -676,7 +676,7 @@ function addModule(type) {
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$module                 = $save72709 ?>	<?php
+$module                 = $save49819 ?>	<?php
             }
 ?>	html += '    </optgroup>';
 	<?php
@@ -684,7 +684,7 @@ $module                 = $save72709 ?>	<?php
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$extension         = $save85904 ?>	html += '  </select>';
+$extension         = $save69978 ?>	html += '  </select>';
     html += '  <input type="hidden" name="layout_module[' + module_row + '][position]" value="' + type.replace('-', '_') + '" />';
     html += '  <input type="hidden" name="layout_module[' + module_row + '][sort_order]" value="" />';
 	html += '  <div class="input-group-btn"><a href="" target="_blank" type="button" data-toggle="tooltip" title="<?php echo @$button_edit ?>" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i></a><button type="button" onclick="$(\'#module-row' + module_row + '\').remove();" data-toggle="tooltip" title="<?php echo @$button_remove ?>" class="btn btn-danger btn-sm"><i class="fa fa fa-minus-circle"></i></button></div></div></td>';

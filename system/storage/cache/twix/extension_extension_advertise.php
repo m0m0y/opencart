@@ -47,7 +47,7 @@ class extension_extension_advertise extends Twix_Template
         <?php
         if (@$extensions) {
 ?>        <?php
-            @$save81571 = $extension            ;
+            @$save72234 = $extension            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$extensions);
             foreach ($context['_seq'] as $_key => $extension) {
@@ -66,7 +66,7 @@ class extension_extension_advertise extends Twix_Template
         <?php
                 if (@$extension["installed"]) {
 ?>        <?php
-                    @$save36115 = $store                    ;
+                    @$save78380 = $store                    ;
                     $context['_parent'] = $context;
                     $context['_seq'] = twix_ensure_traversable(@$extension["store"]);
                     foreach ($context['_seq'] as $_key => $store) {
@@ -80,14 +80,14 @@ class extension_extension_advertise extends Twix_Template
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['store'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-$store                     = $save36115 ?>        <?php
+$store                     = $save78380 ?>        <?php
                 }
 ?>        <?php
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$extension             = $save81571 ?>        <?php
+$extension             = $save72234 ?>        <?php
         } else {
 ?>        <tr>
           <td class="text-center" colspan="3"><?php echo @$text_no_results ?></td>

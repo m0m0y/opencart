@@ -895,3 +895,49 @@
 2021-09-07 6:38:18 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 247
 2021-09-07 6:38:18 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 247
 2021-09-07 6:38:18 - PHP Notice:  Undefined variable: aff_fullname in C:\xampp\htdocs\opencart\catalog\model\checkout\order.php on line 247
+2021-09-08 3:56:42 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 67
+2021-09-08 3:56:42 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 74
+2021-09-08 3:56:42 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 74
+2021-09-08 3:56:42 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 74
+2021-09-08 3:56:42 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 74
+2021-09-08 3:56:42 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 74
+2021-09-08 4:45:12 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 51
+2021-09-08 4:45:12 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 51
+2021-09-08 4:47:14 - PHP Notice:  Undefined variable: start in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 118
+2021-09-08 4:47:14 - PHP Notice:  Undefined variable: limit in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 118
+2021-09-08 4:47:16 - PHP Notice:  Undefined variable: start in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 118
+2021-09-08 4:47:16 - PHP Notice:  Undefined variable: limit in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 118
+2021-09-08 4:47:18 - PHP Notice:  Undefined variable: start in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 118
+2021-09-08 4:47:18 - PHP Notice:  Undefined variable: limit in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 118
+2021-09-08 4:47:19 - PHP Notice:  Undefined variable: start in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 118
+2021-09-08 4:47:19 - PHP Notice:  Undefined variable: limit in C:\xampp\htdocs\opencart\catalog\model\account\rate.php on line 118
+2021-09-08 4:59:16 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 60
+2021-09-08 4:59:16 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 67
+2021-09-08 4:59:16 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 67
+2021-09-08 4:59:16 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 67
+2021-09-08 4:59:16 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 67
+2021-09-08 4:59:16 - PHP Notice:  Undefined variable: order_total in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 67
+2021-09-08 5:02:00 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:00 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:00 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:00 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Undefined variable: result in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52
+2021-09-08 5:02:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 52

@@ -1,7 +1,7 @@
 <?php
 
-/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\admin\view\template\marketing\marketing_list.twig */
-class marketing_marketing_list extends Twix_Template
+/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\admin\view\template\tool\upload.twig */
+class tool_upload extends Twix_Template
 {
     public function __construct($env)
     {
@@ -21,14 +21,13 @@ echo @$column_left ?>
   <div class="page-header">
     <div class="container-fluid">
       <div class="pull-right">
-        <button type="button" data-toggle="tooltip" title="<?php echo @$button_filter ?>" onclick="$('#filter-marketing').toggleClass('hidden-sm hidden-xs');" class="btn btn-default hidden-md hidden-lg"><i class="fa fa-filter"></i></button>
-        <a href="<?php echo @$add ?>" data-toggle="tooltip" title="<?php echo @$button_add ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a>
-        <button type="button" data-toggle="tooltip" title="<?php echo @$button_delete ?>" class="btn btn-danger" onclick="confirm('<?php echo @$text_confirm ?>') ? $('#form-marketing').submit() : false;"><i class="fa fa-trash-o"></i></button>
+        <button type="button" data-toggle="tooltip" title="<?php echo @$button_filter ?>" onclick="$('#filter-upload').toggleClass('hidden-sm hidden-xs');" class="btn btn-default hidden-md hidden-lg"><i class="fa fa-filter"></i></button>
+        <button type="button" data-toggle="tooltip" title="<?php echo @$button_delete ?>" class="btn btn-danger" onclick="confirm('<?php echo @$text_confirm ?>') ? $('#form-upload').submit() : false;"><i class="fa fa-trash-o"></i></button>
       </div>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save46354 = $breadcrumb        ;
+        @$save22665 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -38,7 +37,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save46354 ?>      </ul>
+$breadcrumb         = $save22665 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid"><?php
@@ -56,7 +55,7 @@ $breadcrumb         = $save46354 ?>      </ul>
     <?php
         }
 ?>    <div class="row">
-      <div id="filter-marketing" class="col-md-3 col-md-push-9 col-sm-12 hidden-sm hidden-xs">
+      <div id="filter-upload" class="col-md-3 col-md-push-9 col-sm-12 hidden-sm hidden-xs">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title"><i class="fa fa-filter"></i> <?php echo @$text_filter ?></h3>
@@ -67,13 +66,9 @@ $breadcrumb         = $save46354 ?>      </ul>
               <input type="text" name="filter_name" value="<?php echo @$filter_name ?>" placeholder="<?php echo @$entry_name ?>" id="input-name" class="form-control" />
             </div>
             <div class="form-group">
-              <label class="control-label" for="input-code"><?php echo @$entry_code ?></label>
-              <input type="text" name="filter_code" value="<?php echo @$filter_code ?>" placeholder="<?php echo @$entry_code ?>" id="input-code" class="form-control" />
-            </div>
-            <div class="form-group">
               <label class="control-label" for="input-date-added"><?php echo @$entry_date_added ?></label>
               <div class="input-group date">
-                <input type="text" name="filter_date_added" value="<?php echo @$filter_date_added ?>" placeholder="<?php echo @$entry_date_added ?>" data-date-format="YYYY-MM-DD" class="form-control" />
+                <input type="text" name="filter_date_added" value="<?php echo @$filter_date_added ?>" placeholder="<?php echo @$entry_date_added ?>" data-date-format="YYYY-MM-DD" id="input-date-added" class="form-control" />
                 <span class="input-group-btn">
                 <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
                 </span></div>
@@ -90,30 +85,28 @@ $breadcrumb         = $save46354 ?>      </ul>
             <h3 class="panel-title"><i class="fa fa-list"></i> <?php echo @$text_list ?></h3>
           </div>
           <div class="panel-body">
-            <form action="<?php echo @$delete ?>" method="post" enctype="multipart/form-data" id="form-marketing">
+            <form action="<?php echo @$delete ?>" method="post" enctype="multipart/form-data" id="form-upload">
               <div class="table-responsive">
                 <table class="table table-bordered table-hover">
                   <thead>
                     <tr>
                       <td style="width: 1px;" class="text-center"><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);" /></td>
                       <td class="text-left"><?php
-        if ((@$sort == "m.name")) {
+        if ((@$sort == "name")) {
 ?> <a href="<?php echo @$sort_name ?>" class="<?php echo strtolower(@$order) ?>"><?php echo @$column_name ?></a> <?php
         } else {
 ?> <a href="<?php echo @$sort_name ?>"><?php echo @$column_name ?></a> <?php
         }
 ?></td>
                       <td class="text-left"><?php
-        if ((@$sort == "m.code")) {
-?> <a href="<?php echo @$sort_code ?>" class="<?php echo strtolower(@$order) ?>"><?php echo @$column_code ?></a> <?php
+        if ((@$sort == "filename")) {
+?> <a href="<?php echo @$sort_filename ?>" class="<?php echo strtolower(@$order) ?>"><?php echo @$column_filename ?></a> <?php
         } else {
-?> <a href="<?php echo @$sort_code ?>"><?php echo @$column_code ?></a> <?php
+?> <a href="<?php echo @$sort_filename ?>"><?php echo @$column_filename ?></a> <?php
         }
 ?></td>
-                      <td class="text-right"><?php echo @$column_clicks ?></td>
-                      <td class="text-right"><?php echo @$column_orders ?></td>
-                      <td class="text-left"><?php
-        if ((@$sort == "m.date_added")) {
+                      <td class="text-right"><?php
+        if ((@$sort == "date_added")) {
 ?> <a href="<?php echo @$sort_date_added ?>" class="<?php echo strtolower(@$order) ?>"><?php echo @$column_date_added ?></a> <?php
         } else {
 ?> <a href="<?php echo @$sort_date_added ?>"><?php echo @$column_date_added ?></a> <?php
@@ -125,38 +118,36 @@ $breadcrumb         = $save46354 ?>      </ul>
                   <tbody>
                   
                   <?php
-        if (@$marketings) {
+        if (@$uploads) {
 ?>                  <?php
-            @$save94915 = $marketing            ;
+            @$save13780 = $upload            ;
             $context['_parent'] = $context;
-            $context['_seq'] = twix_ensure_traversable(@$marketings);
-            foreach ($context['_seq'] as $_key => $marketing) {
+            $context['_seq'] = twix_ensure_traversable(@$uploads);
+            foreach ($context['_seq'] as $_key => $upload) {
 ?>                  <tr>
                     <td class="text-center"><?php
-                if (twix_in_filter(@$marketing["marketing_id"], @$selected)) {
-?>                      <input type="checkbox" name="selected[]" value="<?php echo @$marketing["marketing_id"] ?>" checked="checked" />
+                if (twix_in_filter(@$upload["upload_id"], @$selected)) {
+?>                      <input type="checkbox" name="selected[]" value="<?php echo @$upload["upload_id"] ?>" checked="checked" />
                       <?php
                 } else {
-?>                      <input type="checkbox" name="selected[]" value="<?php echo @$marketing["marketing_id"] ?>" />
+?>                      <input type="checkbox" name="selected[]" value="<?php echo @$upload["upload_id"] ?>" />
                       <?php
                 }
 ?></td>
-                    <td class="text-left"><?php echo @$marketing["name"] ?></td>
-                    <td class="text-left"><?php echo @$marketing["code"] ?></td>
-                    <td class="text-right"><?php echo @$marketing["clicks"] ?></td>
-                    <td class="text-right"><?php echo @$marketing["orders"] ?></td>
-                    <td class="text-left"><?php echo @$marketing["date_added"] ?></td>
-                    <td class="text-right"><a href="<?php echo @$marketing["edit"] ?>" data-toggle="tooltip" title="<?php echo @$button_edit ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
+                    <td class="text-left"><?php echo @$upload["name"] ?></td>
+                    <td class="text-left"><?php echo @$upload["filename"] ?></td>
+                    <td class="text-right"><?php echo @$upload["date_added"] ?></td>
+                    <td class="text-right"><a href="<?php echo @$upload["download"] ?>" data-toggle="tooltip" title="<?php echo @$button_download ?>" class="btn btn-info"><i class="fa fa-download"></i></a></td>
                   </tr>
                   <?php
             }
             $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['marketing'], $context['_parent'], $context['loop']);
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['upload'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$marketing             = $save94915 ?>                  <?php
+$upload             = $save13780 ?>                  <?php
         } else {
 ?>                  <tr>
-                    <td class="text-center" colspan="8"><?php echo @$text_no_results ?></td>
+                    <td class="text-center" colspan="5"><?php echo @$text_no_results ?></td>
                   </tr>
                   <?php
         }
@@ -176,7 +167,7 @@ $marketing             = $save94915 ?>                  <?php
   </div>
   <script type="text/javascript"><!--
 $('#button-filter').on('click', function() {
-	url = 'index.php?route=marketing/marketing&user_token=<?php echo @$user_token ?>';
+	url = 'index.php?route=tool/upload&user_token=<?php echo @$user_token ?>';
 	
 	var filter_name = $('input[name=\'filter_name\']').val();
 	
@@ -184,18 +175,18 @@ $('#button-filter').on('click', function() {
 		url += '&filter_name=' + encodeURIComponent(filter_name);
 	}
 	
-	var filter_code = $('input[name=\'filter_code\']').val();
+	var filter_filename = $('input[name=\'filter_filename\']').val();
 	
-	if (filter_code) {
-		url += '&filter_code=' + encodeURIComponent(filter_code);
+	if (filter_filename) {
+		url += '&filter_filename=' + encodeURIComponent(filter_filename);
 	}
-		
+	
 	var filter_date_added = $('input[name=\'filter_date_added\']').val();
 	
 	if (filter_date_added) {
 		url += '&filter_date_added=' + encodeURIComponent(filter_date_added);
 	}
-	
+
 	location = url;
 });
 //--></script> 
@@ -204,14 +195,13 @@ $('.date').datetimepicker({
 	language: '<?php echo @$datepicker ?>',
 	pickTime: false
 });
-//--></script> 
-</div>
+//--></script></div>
 <?php echo @$footer;
     }
 
     public function getTemplateName()
     {
-        return "marketing/marketing_list.twig";
+        return "tool/upload.twig";
     }
 
     public function isTraitable()
