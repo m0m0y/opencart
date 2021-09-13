@@ -30,13 +30,13 @@ class default_template_checkout_confirm extends Twix_Template
     <tbody>
     
     <?php
-            @$save10337 = $product            ;
+            @$save54273 = $product            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$products);
             foreach ($context['_seq'] as $_key => $product) {
 ?>    <tr>
       <td class="text-left"><a href="<?php echo @$product["href"] ?>"><?php echo @$product["name"] ?></a> <?php
-                @$save45265 = $option                ;
+                @$save98908 = $option                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$product["option"]);
                 foreach ($context['_seq'] as $_key => $option) {
@@ -46,7 +46,7 @@ class default_template_checkout_confirm extends Twix_Template
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['option'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$option                 = $save45265 ?>        <?php
+$option                 = $save98908 ?>        <?php
                 if (@$product["recurring"]) {
 ?> <br />
         <span class="label label-info"><?php echo @$text_recurring_item ?></span> <small><?php echo @$product["recurring"] ?></small> <?php
@@ -62,8 +62,8 @@ $option                 = $save45265 ?>        <?php
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$product             = $save10337 ?>    <?php
-            @$save32420 = $voucher            ;
+$product             = $save54273 ?>    <?php
+            @$save20965 = $voucher            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$vouchers);
             foreach ($context['_seq'] as $_key => $voucher) {
@@ -79,12 +79,12 @@ $product             = $save10337 ?>    <?php
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['voucher'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$voucher             = $save32420 ?>      </tbody>
+$voucher             = $save20965 ?>      </tbody>
     
     <tfoot>
     
     <?php
-            @$save33861 = $total            ;
+            @$save96517 = $total            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$totals);
             foreach ($context['_seq'] as $_key => $total) {
@@ -97,7 +97,7 @@ $voucher             = $save32420 ?>      </tbody>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['total'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$total             = $save33861 ?>      </tfoot>
+$total             = $save96517 ?>      </tfoot>
     
   </table>
 </div>

@@ -40,6 +40,13 @@ class ControllerAccountRate extends Controller{
 			$page = 1;
 		}
 
+		// select customer info
+		if ($this->customer->isLogged()) {
+			$data['customer_name'] = $this->customer->getFirstName() . '&nbsp;' . $this->customer->getLastName();
+		} else {
+			$data['customer_name'] = '';
+		}
+
 		// select product
 		$data['products'] = array();
 
@@ -54,6 +61,7 @@ class ControllerAccountRate extends Controller{
 
 			$data['products'][] = array(
 				'product_id'	=> $product['product_id'],
+				'order_product_id' => $product['order_product_id'],
 				'order_id'     => $product['order_id'],
 				'name'     => $product['name'],
 				'model'    => $product['model'],
@@ -62,6 +70,25 @@ class ControllerAccountRate extends Controller{
 				'href'      => $this->url->link('product/product', 'product_id=' . $product['product_id'])
 			);
 		}
+		// end
+
+		// select review
+			$data['reviews'] = array();
+
+			$reviews = $this->model_account_rate->getReview();
+
+			foreach ($reviews as $review) {
+				$data['reviews'][] = array(
+					'review_id' => $review['review_id'],
+					'product_id' => $review['product_id'],
+					'customer_id' => $review['customer_id'],
+					'author' => $review['author'],
+					'text' => $review['text'],
+					'rating' => $review['rating']
+				);
+			}
+		// end
+
 		// end
 
 		$pagination = new Pagination();
@@ -73,26 +100,6 @@ class ControllerAccountRate extends Controller{
 		$data['pagination'] = $pagination->render();
 
 		$data['results'] = sprintf($this->language->get('text_pagination'), ($order_total) ? (($page - 1) * 10) + 1 : 0, ((($page - 1) * 10) > ($order_total - 10)) ? $order_total : ((($page - 1) * 10) + 10), $order_total, ceil($order_total / 10));
-
-		// rating status
-		if (($this->request->server['REQUEST_METHOD'] == 'POST')) {
-			
-			$ordernum =  $_POST['ordernum'];
-			$ratestatus = $_POST['rate_status'];
-			$productid = $this->model_account_rate->updateRate($ordernum, $ratestatus);
-
-			$this->model_account_rate->addReview($ordernum);
-			// redirect
-
-			$this->response->redirect($this->url->link('product/product','product_id='. $productid));
-		}
-
-		if (isset($this->request->post['rate_status'])) {
-			$data['rate_status'] = $this->request->post['rate_status'];
-		} else {
-			$data['rate_status'] = '';
-		}
-		// end
 		
 		$data['continue'] = $this->url->link('account/account', '', true);
 
@@ -104,6 +111,46 @@ class ControllerAccountRate extends Controller{
 		$data['header'] = $this->load->controller('common/header');
 
 		$this->response->setOutput($this->load->view('account/rate', $data));
+	}
+
+	public function insert(){
+
+		$this->load->model('account/rate');
+		$R_order_id =  $_POST['R_order_id'];
+		$ratestatus = $_POST['rate_status'];
+		$text = $_POST['input_review'];
+		$customer_name = $_POST['input_name'];
+		$R_order_prod_id = $_POST['R_order_prod_id'];
+		$radioValue = $_POST['radioValue'];
+		$productid = $this->model_account_rate->addReview($R_order_id,$ratestatus,$text,$customer_name,$R_order_prod_id,$radioValue);
+
+		// redirect
+		// $this->response->redirect($this->url->link('product/product','product_id='. $productid));
+	}
+
+	public function get(){
+
+		$this->load->model('account/rate');
+		$order_prod_id = $_POST['order_prod_id'];
+
+		$order_prod_details = $this->model_account_rate->getRate($order_prod_id);
+
+		echo json_encode($order_prod_details);
+	}
+
+	public function update(){
+
+		$this->load->model('account/rate');
+		$R_order_id =  $_POST['R_order_id'];
+		$ratestatus = $_POST['rate_status'];
+		$text = $_POST['input_review'];
+		$customer_name = $_POST['input_name'];
+		$R_order_prod_id = $_POST['R_order_prod_id'];
+		$radioValue = $_POST['radioValue'];
+		$productid = $this->model_account_rate->editReview($R_order_id,$ratestatus,$text,$customer_name,$R_order_prod_id,$radioValue);
+
+		// redirect
+		// $this->response->redirect($this->url->link('product/product','product_id='. $productid));
 	}
 }
 ?>

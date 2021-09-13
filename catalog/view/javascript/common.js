@@ -22,6 +22,96 @@ function getURLVar(key) {
 	}
 }
 
+// Ratings
+function rate(order_id,order_prod_id){
+	// alert(order_id + ' and '+ order_prod_id);
+	$('#btnSave').show();
+	$('#btnUpdate').hide();
+	$('#R_order_id').val(order_id);
+	$('#R_order_prod_id').val(order_prod_id);
+	$("#RateModal").modal('show');
+	$('#input_review').val("");
+	$("input[name='rating']").prop('checked', false);
+}
+
+function InsertRate(){
+
+var R_order_id = $('#R_order_id').val();
+var rate_status = $('#rate_status').val();
+var input_review = $('#input_review').val();
+var input_name = $('#input_name').val();
+var R_order_prod_id = $('#R_order_prod_id').val();
+var radioValue = $("input[name='rating']:checked").val();
+
+	$.ajax({
+		url:"index.php?route=account/rate/insert",
+		method:"POST",
+		data:{
+			R_order_id: R_order_id,
+			rate_status: rate_status,
+			input_review: input_review,
+			input_name: input_name,
+			R_order_prod_id: R_order_prod_id,
+			radioValue: radioValue
+		},success:function(){
+			window.location.href="index.php?route=account/rate";
+		}
+	})
+}
+
+function EditRate(){
+
+	var R_order_id = $('#R_order_id').val();
+	var rate_status = $('#rate_status').val();
+	var input_review = $('#input_review').val();
+	var input_name = $('#input_name').val();
+	var R_order_prod_id = $('#R_order_prod_id').val();
+	var radioValue = $("input[name='rating']:checked").val();
+	var product_id =$('#product_id').val();
+
+	$.ajax({
+		url:"index.php?route=account/rate/update",
+		method:"POST",
+		data:{
+			R_order_id: R_order_id,
+			rate_status: rate_status,
+			input_review: input_review,
+			input_name: input_name,
+			R_order_prod_id: R_order_prod_id,
+			radioValue: radioValue,
+			product_id: product_id
+		},success:function(){
+			window.location.href="index.php?route=account/rate";
+		}
+	})
+}
+
+function Updaterate(order_prod_id){
+	$('#btnSave').hide();
+	$('#btnUpdate').show();
+	$.ajax({
+		url:"index.php?route=account/rate/get",
+		method:"POST",
+		data:{
+			order_prod_id: order_prod_id
+		},success:function(data){
+			var b = $.parseJSON(data);
+			$('#input_review').val(b.text);
+			$('#R_order_id').val(b.order_id);
+			$('#R_order_prod_id').val(b.order_prod_id);
+			
+			var rate_id = "rating"+b.rating;
+			// alert(rate_id);
+
+			$('#'+rate_id+'').prop('checked', true);
+			
+			$('#RateModal').modal('show');
+			// alert(order_prod_id);
+
+		}
+	})
+}
+
 $(document).ready(function() {
 	// Highlight any found errors
 	$('.text-danger').each(function() {

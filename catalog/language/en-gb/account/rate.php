@@ -4,7 +4,14 @@ $_['heading_title']  = 'Rate';
 
 // Text
 $_['text_account']          = 'Account';
-$_['text_greetings']          = 'Mabuhay';
+
+// Modal Text
+$_['text_write']               = 'Write a review';
+$_['entry_name']               = 'Your Name';
+$_['entry_review']             = 'Your Review';
+$_['entry_rating']             = 'Rating';
+$_['entry_good']               = 'Good';
+$_['entry_bad']                = 'Bad';
 
 // Column
 $_['column_order_id']       = 'Order ID';

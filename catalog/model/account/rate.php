@@ -131,24 +131,50 @@ class ModelAccountRate extends Model{
 		return $query->row['total'];
 	}
 
-	public function updateRate($ordernum, $ratestatus) {
-		$this->db->query("UPDATE oc_order_product SET rate_status = '" .(int)$ratestatus. "' WHERE order_id = '" . (int)$ordernum . "'");
+	public function addReview($R_order_id,$ratestatus,$text,$customer_name,$R_order_prod_id,$radioValue) 
+	{
 
-		$query = $this->db->query("SELECT product_id FROM oc_order_product WHERE order_id = '" .(int)$ordernum. "' ");
+		$query = $this->db->query("SELECT product_id FROM oc_order_product WHERE order_id = '" .(int)$R_order_id. "' ");
 		$product_id = $query->row['product_id'];
 
-		return $product_id;
+		$this->db->query("INSERT INTO oc_review SET product_id = '" . (int)$product_id . "', customer_id = '" . (int)$this->customer->getId() . "', text = '".$text."', author = '" . $customer_name . "', rating = '" .(int)$radioValue. "', status = '', order_id = '".(int)$R_order_id."', order_prod_id = '".(int)$R_order_prod_id."', date_added = NOW()");
 
+		$this->db->query("UPDATE oc_order_product SET rate_status = '" .(int)$ratestatus. "' WHERE order_product_id = '" . (int)$R_order_prod_id . "'");
+		return $product_id;
+		
 	}
 
-	public function addReview($ordernum) {
-		$query = $this->db->query("SELECT * FROM oc_order WHERE customer_id = '". (int)$this->customer->getId() ."'");
-		$name = $query->row['firstname'] ." ". $query->row['lastname'];
-
-		$query = $this->db->query("SELECT product_id FROM oc_order_product WHERE order_id = '" .(int)$ordernum. "' ");
+	public function editReview($R_order_id,$ratestatus,$text,$customer_name,$R_order_prod_id,$radioValue)
+	{
+		$query = $this->db->query("SELECT product_id FROM oc_order_product WHERE order_id = '" .(int)$R_order_id. "' ");
 		$product_id = $query->row['product_id'];
 
-		$this->db->query("INSERT INTO oc_review SET product_id = '" . (int)$product_id . "', customer_id = '" . (int)$this->customer->getId() . "', text = 'N/A', author = '" . $name . "', rating = '5', status = '', date_added = NOW()");
+		$this->db->query("UPDATE oc_review SET product_id = '" . (int)$product_id . "', customer_id = '" . (int)$this->customer->getId() . "', text = '".$text."', author = '" . $customer_name . "', rating = '" .(int)$radioValue. "', order_id = '".(int)$R_order_id."', date_added = NOW() WHERE order_prod_id = '".(int)$R_order_prod_id."' ");
+		return $product_id;
+	}
 	
+	public function getRate($order_prod_id)
+	{
+		$order_query = $this->db->query("SELECT review_id, product_id, customer_id, author, text, rating, status, date_added, date_modified, order_id, order_prod_id FROM oc_review WHERE order_prod_id = '" .(int)$order_prod_id. "' ");
+
+		return array(
+			'review_id' => $order_query->row['review_id'],
+			'product_id' => $order_query->row['product_id'],
+			'customer_id' => $order_query->row['customer_id'],
+			'author' => $order_query->row['author'],
+			'text' => $order_query->row['text'],
+			'rating' => $order_query->row['rating'],
+			'status' => $order_query->row['status'],
+			'date_added' => $order_query->row['date_added'],
+			'date_modified' => $order_query->row['date_modified'],
+			'order_id' => $order_query->row['order_id'],
+			'order_prod_id' => $order_query->row['order_prod_id']
+		);
+	}
+
+	public function getReview() {
+		$query = $this->db->query("SELECT oc_review.review_id,  oc_review.product_id, oc_review.customer_id, oc_review.author, oc_review.text, oc_review.rating, oc_order_product.product_id, oc_review.order_id, oc_order_product.rate_status FROM oc_review INNER JOIN oc_order_product ON oc_review.product_id = oc_order_product.product_id WHERE oc_order_product.rate_status = '1' OR oc_review.order_id = oc_order_product.order_id");
+
+		return $query->rows;
 	}
 }

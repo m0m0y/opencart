@@ -16,7 +16,7 @@ class default_template_product_review extends Twix_Template
     protected function doDisplay(array $context, array $blocks = array())
     {
     extract($context);         if (@$reviews) {
-            @$save62122 = $review            ;
+            @$save82162 = $review            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$reviews);
             foreach ($context['_seq'] as $_key => $review) {
@@ -28,7 +28,7 @@ class default_template_product_review extends Twix_Template
   <tr>
     <td colspan="2"><p><?php echo @$review["text"] ?></p>
       <?php
-                @$save33006 = $i                ;
+                @$save27766 = $i                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(range(1, 5));
                 foreach ($context['_seq'] as $_key => $i) {
@@ -43,7 +43,7 @@ class default_template_product_review extends Twix_Template
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$i                 = $save33006 ?></td>
+$i                 = $save27766 ?></td>
   </tr>
 </table>
 <?php
@@ -51,7 +51,7 @@ $i                 = $save33006 ?></td>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['review'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$review             = $save62122 ?><div class="row">
+$review             = $save82162 ?><div class="row">
   <div class="col-sm-6 text-left"><?php echo @$pagination ?></div>
   <div class="col-sm-6 text-right"><?php echo @$results ?></div>
 </div>

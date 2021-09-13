@@ -31,7 +31,8 @@ class common_header extends Twix_Template
 <?php
         }
 ?><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
-<script type="text/javascript" src="view/javascript/jquery/jquery-2.1.1.min.js"></script>
+<?php
+?><script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
 <link href="view/stylesheet/bootstrap.css" type="text/css" rel="stylesheet" />
 <link href="view/javascript/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
@@ -41,7 +42,7 @@ class common_header extends Twix_Template
 <link href="view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet" media="screen" />
 <link type="text/css" href="view/stylesheet/stylesheet.css" rel="stylesheet" media="screen" />
 <?php
-        @$save39468 = $style        ;
+        @$save47765 = $style        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$styles);
         foreach ($context['_seq'] as $_key => $style) {
@@ -51,8 +52,8 @@ class common_header extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['style'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$style         = $save39468;
-        @$save52513 = $link        ;
+$style         = $save47765;
+        @$save46081 = $link        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$links);
         foreach ($context['_seq'] as $_key => $link) {
@@ -62,9 +63,9 @@ $style         = $save39468;
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['link'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$link         = $save52513 ?><script src="view/javascript/common.js" type="text/javascript"></script>
+$link         = $save46081 ?><script src="view/javascript/common.js" type="text/javascript"></script>
 <?php
-        @$save14884 = $script        ;
+        @$save77976 = $script        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$scripts);
         foreach ($context['_seq'] as $_key => $script) {
@@ -74,7 +75,7 @@ $link         = $save52513 ?><script src="view/javascript/common.js" type="text/
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['script'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$script         = $save14884 ?></head>
+$script         = $save77976 ?></head>
 <body>
 <div id="container">
 <header id="header" class="navbar navbar-static-top">
@@ -90,7 +91,7 @@ $script         = $save14884 ?></head>
           <li role="separator" class="divider"></li>
           <li class="dropdown-header"><?php echo @$text_store ?></li>
           <?php
-            @$save97539 = $store            ;
+            @$save93936 = $store            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$stores);
             foreach ($context['_seq'] as $_key => $store) {
@@ -100,7 +101,7 @@ $script         = $save14884 ?></head>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['store'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$store             = $save97539 ?>          <li role="separator" class="divider"></li>
+$store             = $save93936 ?>          <li role="separator" class="divider"></li>
           <li class="dropdown-header"><?php echo @$text_help ?></li>
           <li><a href="https://www.opencart.com" target="_blank"><i class="fa fa-opencart fa-fw"></i> <?php echo @$text_homepage ?></a></li>
           <li><a href="http://docs.opencart.com" target="_blank"><i class="fa fa-file-text-o fa-fw"></i> <?php echo @$text_documentation ?></a></li>
