@@ -18,7 +18,7 @@ class default_template_extension_module_carousel extends Twix_Template
     extract($context); ?><div class="carousel swiper-viewport">
   <div id="carousel<?php echo @$module ?>" class="swiper-container">
     <div class="swiper-wrapper"><?php
-        @$save36535 = $banner        ;
+        @$save57290 = $banner        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$banners);
         foreach ($context['_seq'] as $_key => $banner) {
@@ -34,7 +34,7 @@ class default_template_extension_module_carousel extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['banner'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$banner         = $save36535 ?></div>
+$banner         = $save57290 ?></div>
   </div>
   <div class="swiper-pagination carousel<?php echo @$module ?>"></div>
   <div class="swiper-pager">

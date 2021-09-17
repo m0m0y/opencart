@@ -59,6 +59,20 @@ var radioValue = $("input[name='rating']:checked").val();
 	})
 }
 
+function clik(order_id){
+	$.ajax({
+		url:"http://pmc.net.ph:8080/osus-pmc/controller.php?getmyOrderStatus",
+		method:"POST",
+		data:{
+			order_id: order_id
+		},success:function(data){
+			var b = JSON.parse(data);
+			$('#'+order_id+'').html(b.jerico);
+		}
+	});
+
+}
+
 function EditRate(){
 
 	var R_order_id = $('#R_order_id').val();

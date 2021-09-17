@@ -1630,3 +1630,26 @@
 2021-09-13 0:25:20 - PHP Notice:  Undefined variable: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 140
 2021-09-13 0:33:41 - PHP Notice:  Undefined variable: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 151
 2021-09-13 0:33:54 - PHP Notice:  Undefined variable: product_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 151
+2021-09-16 2:55:53 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\account\order.php on line 51
+2021-09-17 1:29:22 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 143
+2021-09-17 1:29:26 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 143
+2021-09-17 1:29:26 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 143
+2021-09-17 1:29:28 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 143
+2021-09-17 1:29:28 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 143
+2021-09-17 1:29:32 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 143
+2021-09-17 1:29:32 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 143
+2021-09-17 1:31:55 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:31:55 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:31:58 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:31:58 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:32:17 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:32:17 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:33:35 - PHP Notice:  Undefined index: order_id in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 142
+2021-09-17 1:33:35 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:35:17 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:35:42 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:35:44 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:35:44 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:35:45 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:35:45 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-17 1:35:45 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144

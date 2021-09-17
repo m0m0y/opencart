@@ -44,7 +44,7 @@ class default_template_common_header extends Twix_Template
 
 <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
 <?php
-        @$save92356 = $style        ;
+        @$save77623 = $style        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$styles);
         foreach ($context['_seq'] as $_key => $style) {
@@ -54,8 +54,8 @@ class default_template_common_header extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['style'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$style         = $save92356;
-        @$save30939 = $script        ;
+$style         = $save77623;
+        @$save16942 = $script        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$scripts);
         foreach ($context['_seq'] as $_key => $script) {
@@ -65,9 +65,9 @@ $style         = $save92356;
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['script'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$script         = $save30939 ?><script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+$script         = $save16942 ?><script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 <?php
-        @$save84557 = $link        ;
+        @$save45837 = $link        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$links);
         foreach ($context['_seq'] as $_key => $link) {
@@ -77,8 +77,8 @@ $script         = $save30939 ?><script src="catalog/view/javascript/common.js" t
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['link'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$link         = $save84557;
-        @$save18537 = $analytic        ;
+$link         = $save45837;
+        @$save19136 = $analytic        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$analytics);
         foreach ($context['_seq'] as $_key => $analytic) {
@@ -88,7 +88,7 @@ echo @$analytic ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['analytic'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$analytic         = $save18537 ?></head>
+$analytic         = $save19136 ?></head>
 <body>
 <nav id="top">
   <div class="container"><?php echo @$currency ?>

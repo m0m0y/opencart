@@ -24,6 +24,7 @@
               <td class="text-left">{{ column_customer }}</td>
               <td class="text-right">{{ column_product }}</td>
               <td class="text-left">{{ column_status }}</td>
+              <td class="text-left">Order Status</td>
               <td class="text-right">{{ column_total }}</td>
               <td class="text-left">{{ column_date_added }}</td>
               <td></td>
@@ -32,10 +33,12 @@
           <tbody>
            {% for order in orders %}
             <tr>
-              <td class="text-right">#{{ order.order_id }}</td>
+              <td class="text-right">{{ order.order_id }}</td>
               <td class="text-left">{{ order.name }}</td>
               <td class="text-right">{{ order.products }}</td>
               <td class="text-left">{{ order.status }}</td>
+              <script>clik('{{order.order_id}}')</script>
+              <td class="text-center"><span id="{{order.order_id}}"></span>  </td>
               <td class="text-right">{{ order.total }}</td>
               <td class="text-left">{{ order.date_added }}</td>
               <td class="text-right"><a href="{{ order.view }}" data-toggle="tooltip" title="{{ button_view }}" class="btn btn-info"><i class="fa fa-eye"></i></a></td>
@@ -58,3 +61,5 @@
     {{ column_right }}</div>
 </div>
 {{ footer }}
+
+

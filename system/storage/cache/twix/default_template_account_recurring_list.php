@@ -1,7 +1,7 @@
 <?php
 
-/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\catalog\view\theme\default\template\account\order_list.twig */
-class default_template_account_order_list extends Twix_Template
+/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\catalog\view\theme\default\template\account\recurring_list.twig */
+class default_template_account_recurring_list extends Twix_Template
 {
     public function __construct($env)
     {
@@ -16,10 +16,10 @@ class default_template_account_order_list extends Twix_Template
     protected function doDisplay(array $context, array $blocks = array())
     {
     extract($context); echo @$header ?>
-<div id="account-order" class="container">
+<div id="account-recurring" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save43537 = $breadcrumb        ;
+        @$save31128 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_account_order_list extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save43537 ?>  </ul>
+$breadcrumb         = $save31128 ?>  </ul>
   <div class="row"><?php echo @$column_left ?>
     <?php
         if ((@$column_left && @$column_right)) {
@@ -45,50 +45,42 @@ $breadcrumb         = $save43537 ?>  </ul>
 ?>    <div id="content" class="<?php echo @$class ?>"><?php echo @$content_top ?>
       <h1><?php echo @$heading_title ?></h1>
       <?php
-        if (@$orders) {
+        if (@$recurrings) {
 ?>      <div class="table-responsive">
         <table class="table table-bordered table-hover">
           <thead>
             <tr>
-              <td class="text-right"><?php echo @$column_order_id ?></td>
-              <td class="text-left"><?php echo @$column_customer ?></td>
-              <td class="text-right"><?php echo @$column_product ?></td>
+              <td class="text-right"><?php echo @$column_order_recurring_id ?></td>
+              <td class="text-left"><?php echo @$column_product ?></td>
               <td class="text-left"><?php echo @$column_status ?></td>
-              <td class="text-left">Order Status</td>
-              <td class="text-right"><?php echo @$column_total ?></td>
               <td class="text-left"><?php echo @$column_date_added ?></td>
-              <td></td>
+              <td class="text-right"></td>
             </tr>
           </thead>
           <tbody>
-           <?php
-            @$save52484 = $order            ;
+          
+          <?php
+            @$save81033 = $recurring            ;
             $context['_parent'] = $context;
-            $context['_seq'] = twix_ensure_traversable(@$orders);
-            foreach ($context['_seq'] as $_key => $order) {
-?>            <tr>
-              <td class="text-right"><?php echo @$order["order_id"] ?></td>
-              <td class="text-left"><?php echo @$order["name"] ?></td>
-              <td class="text-right"><?php echo @$order["products"] ?></td>
-              <td class="text-left"><?php echo @$order["status"] ?></td>
-              <script>clik('<?php echo @$order["order_id"] ?>')</script>
-              <td class="text-center"><span id="<?php echo @$order["order_id"] ?>"></span>  </td>
-              <td class="text-right"><?php echo @$order["total"] ?></td>
-              <td class="text-left"><?php echo @$order["date_added"] ?></td>
-              <td class="text-right"><a href="<?php echo @$order["view"] ?>" data-toggle="tooltip" title="<?php echo @$button_view ?>" class="btn btn-info"><i class="fa fa-eye"></i></a></td>
-            </tr>
-            <?php
+            $context['_seq'] = twix_ensure_traversable(@$recurrings);
+            foreach ($context['_seq'] as $_key => $recurring) {
+?>          <tr>
+            <td class="text-right">#<?php echo @$recurring["order_recurring_id"] ?></td>
+            <td class="text-left"><?php echo @$recurring["product"] ?></td>
+            <td class="text-left"><?php echo @$recurring["status"] ?></td>
+            <td class="text-left"><?php echo @$recurring["date_added"] ?></td>
+            <td class="text-right"><a href="<?php echo @$recurring["view"] ?>" data-toggle="tooltip" title="<?php echo @$button_view ?>" class="btn btn-info"><i class="fa fa-eye"></i></a></td>
+          </tr>
+          <?php
             }
             $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['order'], $context['_parent'], $context['loop']);
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['recurring'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$order             = $save52484 ?>          </tbody>
+$recurring             = $save81033 ?>          
+          </tbody>
         </table>
       </div>
-      <div class="row">
-        <div class="col-sm-6 text-left"><?php echo @$pagination ?></div>
-        <div class="col-sm-6 text-right"><?php echo @$results ?></div>
-      </div>
+      <div class="text-right"><?php echo @$pagination ?></div>
       <?php
         } else {
 ?>      <p><?php echo @$text_empty ?></p>
@@ -100,15 +92,12 @@ $order             = $save52484 ?>          </tbody>
       <?php echo @$content_bottom ?></div>
     <?php echo @$column_right ?></div>
 </div>
-<?php echo @$footer ?>
-
-
-<?php
+<?php echo @$footer;
     }
 
     public function getTemplateName()
     {
-        return "default/template/account/order_list.twig";
+        return "default/template/account/recurring_list.twig";
     }
 
     public function isTraitable()
