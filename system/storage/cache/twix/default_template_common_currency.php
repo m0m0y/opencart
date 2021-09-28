@@ -20,7 +20,7 @@ class default_template_common_currency extends Twix_Template
   <form action="<?php echo @$action ?>" method="post" enctype="multipart/form-data" id="form-currency">
     <div class="btn-group">
       <button class="btn btn-link dropdown-toggle" data-toggle="dropdown"><?php
-            @$save52207 = $currency            ;
+            @$save66098 = $currency            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$currencies);
             foreach ($context['_seq'] as $_key => $currency) {
@@ -35,10 +35,10 @@ class default_template_common_currency extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['currency'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$currency             = $save52207 ?> <span class="hidden-xs hidden-sm hidden-md"><?php echo @$text_currency ?></span>&nbsp;<i class="fa fa-caret-down"></i></button>
+$currency             = $save66098 ?> <span class="hidden-xs hidden-sm hidden-md"><?php echo @$text_currency ?></span>&nbsp;<i class="fa fa-caret-down"></i></button>
       <ul class="dropdown-menu">
         <?php
-            @$save48771 = $currency            ;
+            @$save91866 = $currency            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$currencies);
             foreach ($context['_seq'] as $_key => $currency) {
@@ -59,7 +59,7 @@ $currency             = $save52207 ?> <span class="hidden-xs hidden-sm hidden-md
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['currency'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$currency             = $save48771 ?>      </ul>
+$currency             = $save91866 ?>      </ul>
     </div>
     <input type="hidden" name="code" value="" />
     <input type="hidden" name="redirect" value="<?php echo @$redirect ?>" />

@@ -15,7 +15,7 @@ class default_template_common_content_top extends Twix_Template
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-    extract($context);         @$save22612 = $module        ;
+    extract($context);         @$save97085 = $module        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$modules);
         foreach ($context['_seq'] as $_key => $module) {
@@ -25,7 +25,7 @@ echo @$module ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$module         = $save22612;
+$module         = $save97085;
     }
 
     public function getTemplateName()

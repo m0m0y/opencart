@@ -1653,3 +1653,6 @@
 2021-09-17 1:35:45 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
 2021-09-17 1:35:45 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
 2021-09-17 1:35:45 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\opencart\catalog\controller\account\rate.php on line 144
+2021-09-20 8:09:40 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\controller\account\form.php on line 4
+2021-09-20 8:09:40 - PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in C:\xampp\htdocs\opencart\catalog\controller\event\language.php on line 4
+2021-09-20 8:29:01 - PHP Notice:  Undefined variable: url in C:\xampp\htdocs\opencart\catalog\controller\account\form.php on line 18

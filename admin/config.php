@@ -1,7 +1,7 @@
 <?php
 // HTTP
 define('HTTP_SERVER', 'http://localhost/opencart/admin/');
-define('HTTP_CATALOG', 'http://localhost/opencart/');
+define('HTTP_CATALOG', 'https://localhost/opencart/');
 
 // HTTPS
 define('HTTPS_SERVER', 'http://localhost/opencart/admin/');
