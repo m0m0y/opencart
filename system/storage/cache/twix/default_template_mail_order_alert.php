@@ -26,7 +26,7 @@ Reffered by: <?php echo @$affiliate_name ?>
 <?php echo @$text_product ?>
 
 <?php
-        @$save94702 = $product        ;
+        @$save82565 = $product        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$products);
         foreach ($context['_seq'] as $_key => $product) {
@@ -34,7 +34,7 @@ echo @$product["quantity"] ?>x <?php echo @$product["name"] ?> (<?php echo @$pro
 	<?php
             if (@$product["option"]) {
 ?>		<?php
-                @$save77816 = $option                ;
+                @$save51945 = $option                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$product["option"]);
                 foreach ($context['_seq'] as $_key => $option) {
@@ -44,17 +44,17 @@ echo @$product["quantity"] ?>x <?php echo @$product["name"] ?> (<?php echo @$pro
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['option'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$option                 = $save77816 ?>	<?php
+$option                 = $save51945 ?>	<?php
             }
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$product         = $save94702;
+$product         = $save82565;
         if (@$vouchers) {
 ?>
 <?php
-            @$save94323 = $voucher            ;
+            @$save79011 = $voucher            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$vouchers);
             foreach ($context['_seq'] as $_key => $voucher) {
@@ -64,12 +64,12 @@ $product         = $save94702;
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['voucher'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$voucher             = $save94323;
+$voucher             = $save79011;
         }
 echo @$text_total ?>
 
 <?php
-        @$save94476 = $total        ;
+        @$save38355 = $total        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$totals);
         foreach ($context['_seq'] as $_key => $total) {
@@ -79,7 +79,7 @@ echo @$total["title"] ?>: <?php echo @$total["value"] ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['total'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$total         = $save94476 ?>  
+$total         = $save38355 ?>  
 <?php
         if (@$comment) {
 echo @$text_comment ?>

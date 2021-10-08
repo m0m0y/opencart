@@ -28,7 +28,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save38682 = $breadcrumb        ;
+        @$save64673 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -38,7 +38,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save38682 ?>      </ul>
+$breadcrumb         = $save64673 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid"><?php
@@ -95,7 +95,7 @@ $breadcrumb         = $save38682 ?>      </ul>
             
                   
                   <?php
-        @$save14032 = $return_status        ;
+        @$save60914 = $return_status        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$return_statuses);
         foreach ($context['_seq'] as $_key => $return_status) {
@@ -144,7 +144,7 @@ $breadcrumb         = $save38682 ?>      </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['return_status'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$return_status         = $save14032 ?>                
+$return_status         = $save60914 ?>                
                 
           
               
@@ -252,7 +252,7 @@ $return_status         = $save14032 ?>
                   <?php
         if (@$returns) {
 ?>                  <?php
-            @$save98783 = $return            ;
+            @$save83077 = $return            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$returns);
             foreach ($context['_seq'] as $_key => $return) {
@@ -281,7 +281,7 @@ $return_status         = $save14032 ?>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['return'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$return             = $save98783 ?>                  <?php
+$return             = $save83077 ?>                  <?php
         } else {
 ?>                  <tr>
                     <td class="text-center" colspan="10"><?php echo @$text_no_results ?></td>

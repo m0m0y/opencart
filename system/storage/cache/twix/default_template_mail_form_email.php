@@ -1,0 +1,209 @@
+<?php
+
+/* Twix ver. 1.18  Source: C:\xampp\htdocs\opencart\catalog\view\theme\default\template\mail\form_email.twig */
+class default_template_mail_form_email extends Twix_Template
+{
+    public function __construct($env)
+    {
+        parent::__construct($env);
+
+        $this->parent = false;
+
+        $this->blocks = array(
+        );
+    }
+
+    protected function doDisplay(array $context, array $blocks = array())
+    {
+    extract($context); ?><!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <style>
+            html,
+            body,
+            table,
+            tbody,
+            tr,
+            td,
+            div,
+            p,
+            ul,
+            ol,
+            li,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+                font-size: 0;
+                line-height: 0;
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+            }
+            table {
+                border-spacing: 0;
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+            }
+            table td {
+                border-collapse: collapse;
+            }
+            .ExternalClass {
+                width: 100%;
+            }
+            .ExternalClass,
+            .ExternalClass p,
+            .ExternalClass span,
+            .ExternalClass font,
+            .ExternalClass td,
+            .ExternalClass div {
+                line-height: 100%;
+            }
+            /* Outermost container in Outlook.com */
+            .ReadMsgBody {
+                width: 100%;
+            }
+            img {
+                -ms-interpolation-mode: bicubic;
+            }
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: Arial;
+            }
+            h1 {
+                font-size: 28px;
+                line-height: 32px;
+                padding-top: 10px;
+                padding-bottom: 24px;
+            }
+            h2 {
+                font-size: 24px;
+                line-height: 28px;
+                padding-top: 10px;
+                padding-bottom: 20px;
+            }
+            h3 {
+                font-size: 20px;
+                line-height: 24px;
+                padding-top: 10px;
+                padding-bottom: 16px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 20px;
+                font-family: Arial, sans-serif;
+            }
+            </style>
+            <style>
+                
+            .container600 {
+                width: 600px;
+                max-width: 100%;
+            }
+            @media all and (max-width: 599px) {
+                .container600 {
+                    width: 100% !important;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <table class="container600" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:calc(100%);max-width:calc(650px);margin: 0 auto;">
+                <tr>
+                    <td style="font-family: Arial,sans-serif; font-size: 16px; line-height:30px;text-align:left; padding: 20px; background-color: #f5f5f5; border-radius: 5px; ">
+                        <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:30px;text-align:right;">
+                                       <img src="https://medicalshop.ph/macy_logo.png" alt="<?php echo @$store_name ?>" style="width: 50%; height: 190px;" />
+                                    </td>
+                                </tr>
+
+                                 <tr>
+                                    <td style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:16px;text-align:left;">
+                                        <br /><?php echo @$email_greeting ?>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:5px; font-family: Arial,sans-serif; line-height:21px;text-align:left;">
+                                        </br><h4><b> <?php echo @$macy_pan ?></b></h4>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
+                                        <p><b>Name: </b><?php echo @$name ?></p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
+                                        <p> <b>Email: </b><?php echo @$email ?></p>
+                                    </td>
+                                    <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
+                                        <p><b>Contact No: </b><?php echo @$contact_num ?></p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
+                                        <p><b>Company / Organization: </b><?php echo @$company ?></p>
+                                    </td>
+                                    <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
+                                        <p> <b>Designation: </b><?php echo @$designation ?></p>
+                                    </td>
+                                </tr>
+                            
+                                <tr>
+                                    <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
+                                        <p><b>Company Address: </b><?php echo @$company_add ?></p>
+                                    </td>
+                                </tr>
+
+                                <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
+                                    <p><b>Message: </b></p>
+                                    <p><?php echo @$enquiry ?></p>
+                                </td>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+           </table>
+        </center>
+    </body>
+</html><?php
+    }
+
+    public function getTemplateName()
+    {
+        return "default/template/mail/form_email.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array ();
+    }
+}

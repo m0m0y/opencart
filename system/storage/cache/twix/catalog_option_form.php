@@ -26,7 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save93839 = $breadcrumb        ;
+        @$save80719 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -36,7 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save93839 ?>      </ul>
+$breadcrumb         = $save80719 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid"> <?php
@@ -57,7 +57,7 @@ $breadcrumb         = $save93839 ?>      </ul>
             <div class="form-group required">
               <label class="col-sm-2 control-label"><?php echo @$entry_name ?></label>
               <div class="col-sm-10"> <?php
-        @$save67860 = $language        ;
+        @$save65399 = $language        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$languages);
         foreach ($context['_seq'] as $_key => $language) {
@@ -74,7 +74,7 @@ $breadcrumb         = $save93839 ?>      </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['language'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$language         = $save67860 ?></div>
+$language         = $save65399 ?></div>
             </div>
             <div class="form-group">
               <label class="col-sm-2 control-label" for="input-type"><?php echo @$entry_type ?></label>
@@ -257,14 +257,14 @@ $language         = $save67860 ?></div>
               
               <?php
         $option_value_row = 0 ?>              <?php
-        @$save12732 = $option_value        ;
+        @$save70771 = $option_value        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$option_values);
         foreach ($context['_seq'] as $_key => $option_value) {
 ?>              <tr id="option-value-row<?php echo @$option_value_row ?>">
                 <td class="text-center"><input type="hidden" name="option_value[<?php echo @$option_value_row ?>][option_value_id]" value="<?php echo @$option_value["option_value_id"] ?>" />
                   <?php
-            @$save96209 = $language            ;
+            @$save13666 = $language            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$languages);
             foreach ($context['_seq'] as $_key => $language) {
@@ -281,7 +281,7 @@ $language         = $save67860 ?></div>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['language'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$language             = $save96209 ?></td>
+$language             = $save13666 ?></td>
                 <td class="text-left"><a href="" id="thumb-image<?php echo @$option_value_row ?>" data-toggle="image" class="img-thumbnail"><img src="<?php echo @$option_value["thumb"] ?>" alt="" title="" data-placeholder="<?php echo @$placeholder ?>" /></a>
                   <input type="hidden" name="option_value[<?php echo @$option_value_row ?>][image]" value="<?php echo @$option_value["image"] ?>" id="input-image<?php echo @$option_value_row ?>" /></td>
                 <td class="text-right"><input type="text" name="option_value[<?php echo @$option_value_row ?>][sort_order]" value="<?php echo @$option_value["sort_order"] ?>" class="form-control" /></td>
@@ -293,7 +293,7 @@ $language             = $save96209 ?></td>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['option_value'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$option_value         = $save12732 ?>                </tbody>
+$option_value         = $save70771 ?>                </tbody>
               
               <tfoot>
                 <tr>
@@ -324,7 +324,7 @@ function addOptionValue() {
 	html  = '<tr id="option-value-row' + option_value_row + '">';
     html += '  <td class="text-left"><input type="hidden" name="option_value[' + option_value_row + '][option_value_id]" value="" />';
 	<?php
-        @$save83755 = $language        ;
+        @$save88560 = $language        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$languages);
         foreach ($context['_seq'] as $_key => $language) {
@@ -336,7 +336,7 @@ function addOptionValue() {
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['language'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$language         = $save83755 ?>	html += '  </td>';
+$language         = $save88560 ?>	html += '  </td>';
     html += '  <td class="text-center"><a href="" id="thumb-image' + option_value_row + '" data-toggle="image" class="img-thumbnail"><img src="<?php echo @$placeholder ?>" alt="" title="" data-placeholder="<?php echo @$placeholder ?>" /></a><input type="hidden" name="option_value[' + option_value_row + '][image]" value="" id="input-image' + option_value_row + '" /></td>';
 	html += '  <td class="text-right"><input type="text" name="option_value[' + option_value_row + '][sort_order]" value="" placeholder="<?php echo @$entry_sort_order ?>" class="form-control" /></td>';
 	html += '  <td class="text-right"><button type="button" onclick="$(\'#option-value-row' + option_value_row + '\').remove();" data-toggle="tooltip" title="<?php echo @$button_remove ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';

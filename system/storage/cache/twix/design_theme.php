@@ -23,7 +23,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save33930 = $breadcrumb        ;
+        @$save42996 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -33,7 +33,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save33930 ?>      </ul>
+$breadcrumb         = $save42996 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid">
@@ -52,7 +52,7 @@ $breadcrumb         = $save33930 ?>      </ul>
                 <select name="store_id" class="form-control">
                   <option value="0"><?php echo @$text_default ?></option>
                   <?php
-        @$save58177 = $store        ;
+        @$save71123 = $store        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$stores);
         foreach ($context['_seq'] as $_key => $store) {
@@ -62,7 +62,7 @@ $breadcrumb         = $save33930 ?>      </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['store'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$store         = $save58177 ?>                </select>
+$store         = $save71123 ?>                </select>
               </div>
             </div>
             <div class="list-group">

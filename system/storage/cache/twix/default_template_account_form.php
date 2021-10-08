@@ -19,16 +19,21 @@ class default_template_account_form extends Twix_Template
 <div class="form container">
     <?php
         if (@$error_warning) {
-?>    <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> <?php echo @$error_warning ?></div>
+?>     <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> <?php echo @$error_warning ?></div>
     <?php
         }
-?>    <form class="moy form-horizontal" method="post" action="">
+?>    <form class="moy form-horizontal" method="post" action="index.php?route=account/form">
         <div class="col-md-10 col-md-offset-1" style="padding: 30px 5%; background:#eaeaea; border-radius: 10px;">
             <div class="row form-group">
                 <div class="col-xs-6"> 
                     <label for="name" class="control-label">Fullname:</label>
-                    <input type="text" class="form-control" id="" placeholder="Type Here...">
-                </div>
+                    <input type="text" name="name" class="form-control" id="" placeholder="Type Here...">
+                    <?php
+        if (@$error_name) {
+?>                        <div class="text-danger"><?php echo @$error_name ?></div>
+                    <?php
+        }
+?>                </div>
 
                  <div class="col-xs-6"> 
                     <label for="contactNum" class="control-label">Contact Number:</label>
@@ -83,13 +88,12 @@ class default_template_account_form extends Twix_Template
 
             <div class="form-group">
                 <div class="col-sm-12">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <input type="submit" value="<?php echo @$button_continue ?>" class="btn btn-primary" />
                 </div>
             </div>
         </div>
     </form>
     
-
     <script language="javascript" type="text/javascript">
             const random = (length = 6) => {
             let chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';

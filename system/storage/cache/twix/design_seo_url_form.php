@@ -26,7 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save18762 = $breadcrumb        ;
+        @$save91283 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -36,7 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save18762 ?>      </ul>
+$breadcrumb         = $save91283 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid"><?php
@@ -82,7 +82,7 @@ $breadcrumb         = $save18762 ?>      </ul>
             <div class="col-sm-10">
               <select name="store_id" id="input-store" class="form-control">
                 <?php
-        @$save96791 = $store        ;
+        @$save62958 = $store        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$stores);
         foreach ($context['_seq'] as $_key => $store) {
@@ -99,7 +99,7 @@ $breadcrumb         = $save18762 ?>      </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['store'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$store         = $save96791 ?>              </select>
+$store         = $save62958 ?>              </select>
             </div>
           </div>
           <div class="form-group">
@@ -107,7 +107,7 @@ $store         = $save96791 ?>              </select>
             <div class="col-sm-10">
               <select name="language_id" id="input-language" class="form-control">
                 <?php
-        @$save95427 = $language        ;
+        @$save77865 = $language        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$languages);
         foreach ($context['_seq'] as $_key => $language) {
@@ -124,7 +124,7 @@ $store         = $save96791 ?>              </select>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['language'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$language         = $save95427 ?>              </select>
+$language         = $save77865 ?>              </select>
             </div>
           </div>
         </form>

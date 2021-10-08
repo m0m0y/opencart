@@ -26,7 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-        @$save73070 = $breadcrumb        ;
+        @$save57946 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -36,7 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save73070 ?>      </ul>
+$breadcrumb         = $save57946 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid"><?php
@@ -77,7 +77,7 @@ $breadcrumb         = $save73070 ?>      </ul>
               <select name="filter_status" id="input-status" class="form-control">
                 
                 <?php
-        @$save82544 = $recurring_status        ;
+        @$save31855 = $recurring_status        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$recurring_statuses);
         foreach ($context['_seq'] as $_key => $recurring_status) {
@@ -94,7 +94,7 @@ $breadcrumb         = $save73070 ?>      </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['recurring_status'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$recurring_status         = $save82544 ?> 
+$recurring_status         = $save31855 ?> 
               </select>
             </div>
             <div class="form-group">
@@ -176,7 +176,7 @@ $recurring_status         = $save82544 ?>
                   <?php
         if (@$recurrings) {
 ?>                  <?php
-            @$save52455 = $recurring            ;
+            @$save19484 = $recurring            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$recurrings);
             foreach ($context['_seq'] as $_key => $recurring) {
@@ -194,7 +194,7 @@ $recurring_status         = $save82544 ?>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['recurring'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$recurring             = $save52455 ?>                  <?php
+$recurring             = $save19484 ?>                  <?php
         } else {
 ?>                  <tr>
                     <td class="text-center" colspan="7"><?php echo @$text_no_results ?></td>

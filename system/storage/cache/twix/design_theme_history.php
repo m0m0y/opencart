@@ -30,7 +30,7 @@ class design_theme_history extends Twix_Template
     <?php
         if (@$histories) {
 ?>    <?php
-            @$save88087 = $history            ;
+            @$save48626 = $history            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$histories);
             foreach ($context['_seq'] as $_key => $history) {
@@ -48,7 +48,7 @@ class design_theme_history extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['history'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$history             = $save88087 ?>    <?php
+$history             = $save48626 ?>    <?php
         } else {
 ?>    <tr>
       <td class="text-center" colspan="5"><?php echo @$text_no_results ?></td>

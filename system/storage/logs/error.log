@@ -1656,3 +1656,52 @@
 2021-09-20 8:09:40 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\controller\account\form.php on line 4
 2021-09-20 8:09:40 - PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in C:\xampp\htdocs\opencart\catalog\controller\event\language.php on line 4
 2021-09-20 8:29:01 - PHP Notice:  Undefined variable: url in C:\xampp\htdocs\opencart\catalog\controller\account\form.php on line 18
+2021-09-28 7:30:35 - PHP Notice:  Undefined property: Request::$serve in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 10
+2021-09-28 7:31:00 - PHP Notice:  Undefined property: Request::$serve in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 10
+2021-09-28 8:02:40 - PHP Notice:  Indirect modification of overloaded property ControllerInformationForm::$error has no effect in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 69
+2021-09-28 9:07:10 - PHP Warning:  html_entity_decode() expects parameter 2 to be int, string given in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 23
+2021-09-28 9:07:31 - PHP Warning:  html_entity_decode() expects parameter 2 to be int, string given in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 23
+2021-09-28 9:07:49 - PHP Warning:  html_entity_decode() expects parameter 2 to be int, string given in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 23
+2021-09-29 0:36:18 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 31
+2021-09-29 0:36:18 - PHP Warning:  array_merge(): Expected parameter 2 to be an array, null given in C:\xampp\htdocs\opencart\catalog\controller\event\language.php on line 4
+2021-09-29 0:40:01 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 10
+2021-09-29 0:40:46 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 10
+2021-09-29 0:41:58 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 6
+2021-09-29 0:41:59 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 6
+2021-09-29 0:41:59 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 6
+2021-09-29 0:41:59 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 6
+2021-09-29 0:42:25 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 6
+2021-09-29 0:42:26 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 6
+2021-09-29 0:42:27 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 6
+2021-09-29 0:42:31 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 7
+2021-09-29 0:42:32 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 7
+2021-09-29 0:42:41 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 10
+2021-09-29 2:30:13 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 9
+2021-09-29 2:31:23 - PHP Notice:  Undefined variable: order_info in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 4
+2021-09-29 2:31:23 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 4
+2021-09-29 2:31:23 - PHP Notice:  Undefined variable: order_info in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:31:23 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:31:38 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 4
+2021-09-29 2:32:04 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:32:09 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 6
+2021-09-29 2:32:23 - PHP Notice:  Undefined variable: order_info in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 4
+2021-09-29 2:32:23 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 4
+2021-09-29 2:32:23 - PHP Notice:  Undefined variable: order_info in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:32:23 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:50 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:52 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:52 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:52 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:52 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:52 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:53 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:53 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:53 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:53 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 2:33:53 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 5
+2021-09-29 3:17:09 - PHP Notice:  Indirect modification of overloaded property ControllerInformationForm::$error has no effect in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 88
+2021-09-29 3:19:05 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 89
+2021-09-29 3:19:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 89
+2021-09-29 3:20:24 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 90
+2021-09-29 3:21:04 - PHP Notice:  Undefined variable: language in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 90
+2021-09-29 5:24:42 - PHP Notice:  Undefined index: inquiry in C:\xampp\htdocs\opencart\catalog\controller\information\form.php on line 24
