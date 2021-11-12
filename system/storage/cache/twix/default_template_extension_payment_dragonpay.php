@@ -19,7 +19,8 @@ class default_template_extension_payment_dragonpay extends Twix_Template
 <p><b><?php echo @$text_description ?></b></p>
 <div class="well well-sm">
   <p><?php echo @$bank ?></p>
-  <p><?php echo @$text_payment ?></p>
+  <p><?php echo @$text_payment ?> </p>
+    <p><?php echo @$button_confirm ?> </p>
 </div>
 <div class="buttons">
   <div class="pull-right">

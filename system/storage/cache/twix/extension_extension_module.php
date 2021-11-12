@@ -47,7 +47,7 @@ class extension_extension_module extends Twix_Template
       <?php
         if (@$extensions) {
 ?>      <?php
-            @$save36937 = $extension            ;
+            @$save91574 = $extension            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$extensions);
             foreach ($context['_seq'] as $_key => $extension) {
@@ -76,7 +76,7 @@ class extension_extension_module extends Twix_Template
 ?></td>
       </tr>
       <?php
-                @$save16964 = $module                ;
+                @$save19993 = $module                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$extension["module"]);
                 foreach ($context['_seq'] as $_key => $module) {
@@ -90,12 +90,12 @@ class extension_extension_module extends Twix_Template
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$module                 = $save16964 ?>      <?php
+$module                 = $save19993 ?>      <?php
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$extension             = $save36937 ?>      <?php
+$extension             = $save91574 ?>      <?php
         } else {
 ?>      <tr>
         <td class="text-center" colspan="3"><?php echo @$text_no_results ?></td>

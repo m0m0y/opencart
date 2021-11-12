@@ -46,7 +46,7 @@ class extension_extension_shipping extends Twix_Template
         <?php
         if (@$extensions) {
 ?>        <?php
-            @$save69549 = $extension            ;
+            @$save43268 = $extension            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$extensions);
             foreach ($context['_seq'] as $_key => $extension) {
@@ -77,7 +77,7 @@ class extension_extension_shipping extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['extension'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$extension             = $save69549 ?>        <?php
+$extension             = $save43268 ?>        <?php
         } else {
 ?>        <tr>
           <td class="text-center" colspan="4"><?php echo @$text_no_results ?></td>
