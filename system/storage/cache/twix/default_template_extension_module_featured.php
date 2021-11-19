@@ -18,7 +18,7 @@ class default_template_extension_module_featured extends Twix_Template
     extract($context); ?><h3><?php echo @$heading_title ?></h3>
 <div class="row">
  <?php
-        @$save96751 = $product        ;
+        @$save50976 = $product        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$products);
         foreach ($context['_seq'] as $_key => $product) {
@@ -32,7 +32,7 @@ class default_template_extension_module_featured extends Twix_Template
             if (@$product["rating"]) {
 ?>        <div class="rating">
           <?php
-                @$save79583 = $i                ;
+                @$save47917 = $i                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(5);
                 foreach ($context['_seq'] as $_key => $i) {
@@ -49,7 +49,7 @@ class default_template_extension_module_featured extends Twix_Template
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$i                 = $save79583 ?>        </div>
+$i                 = $save47917 ?>        </div>
         <?php
             }
 ?>        <?php
@@ -84,7 +84,7 @@ $i                 = $save79583 ?>        </div>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$product         = $save96751 ?></div>
+$product         = $save50976 ?></div>
 <?php
     }
 

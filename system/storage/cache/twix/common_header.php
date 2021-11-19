@@ -42,7 +42,7 @@ class common_header extends Twix_Template
 <link href="view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet" media="screen" />
 <link type="text/css" href="view/stylesheet/stylesheet.css" rel="stylesheet" media="screen" />
 <?php
-        @$save89018 = $style        ;
+        @$save31264 = $style        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$styles);
         foreach ($context['_seq'] as $_key => $style) {
@@ -52,8 +52,8 @@ class common_header extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['style'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$style         = $save89018;
-        @$save62479 = $link        ;
+$style         = $save31264;
+        @$save72320 = $link        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$links);
         foreach ($context['_seq'] as $_key => $link) {
@@ -63,9 +63,9 @@ $style         = $save89018;
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['link'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$link         = $save62479 ?><script src="view/javascript/common.js" type="text/javascript"></script>
+$link         = $save72320 ?><script src="view/javascript/common.js" type="text/javascript"></script>
 <?php
-        @$save77801 = $script        ;
+        @$save16776 = $script        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$scripts);
         foreach ($context['_seq'] as $_key => $script) {
@@ -75,7 +75,7 @@ $link         = $save62479 ?><script src="view/javascript/common.js" type="text/
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['script'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$script         = $save77801 ?></head>
+$script         = $save16776 ?></head>
 <body>
 <div id="container">
 <header id="header" class="navbar navbar-static-top">
@@ -91,7 +91,7 @@ $script         = $save77801 ?></head>
           <li role="separator" class="divider"></li>
           <li class="dropdown-header"><?php echo @$text_store ?></li>
           <?php
-            @$save62152 = $store            ;
+            @$save13726 = $store            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$stores);
             foreach ($context['_seq'] as $_key => $store) {
@@ -101,7 +101,7 @@ $script         = $save77801 ?></head>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['store'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$store             = $save62152 ?>          <li role="separator" class="divider"></li>
+$store             = $save13726 ?>          <li role="separator" class="divider"></li>
           <li class="dropdown-header"><?php echo @$text_help ?></li>
           <li><a href="https://www.opencart.com" target="_blank"><i class="fa fa-opencart fa-fw"></i> <?php echo @$text_homepage ?></a></li>
           <li><a href="http://docs.opencart.com" target="_blank"><i class="fa fa-file-text-o fa-fw"></i> <?php echo @$text_documentation ?></a></li>

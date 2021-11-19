@@ -362,6 +362,14 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 
+			if ($this->user->hasPermission('access', 'marketing/referral')) {
+				$marketing[] = array(
+					'name'	   => $this->language->get('text_referral'),
+					'href'     => $this->url->link('marketing/referral', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+
 			if ($this->user->hasPermission('access', 'marketing/contact')) {
 				$marketing[] = array(
 					'name'	   => $this->language->get('text_contact'),

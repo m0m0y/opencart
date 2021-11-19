@@ -9,6 +9,7 @@ $_['text_catalog']              = 'Catalog';
 $_['text_category']             = 'Categories';
 $_['text_country']              = 'Countries';
 $_['text_coupon']               = 'Coupons';
+$_['text_referral']               = 'Referral';
 $_['text_currency']             = 'Currencies';
 $_['text_customer']             = 'Customers';
 $_['text_customer_group']       = 'Customer Groups';

@@ -23,7 +23,7 @@ class extension_dashboard_activity_info extends Twix_Template
     <?php
         if (@$activities) {
 ?>    <?php
-            @$save62876 = $activity            ;
+            @$save17893 = $activity            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$activities);
             foreach ($context['_seq'] as $_key => $activity) {
@@ -34,7 +34,7 @@ class extension_dashboard_activity_info extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['activity'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$activity             = $save62876 ?>    <?php
+$activity             = $save17893 ?>    <?php
         } else {
 ?>    <li class="list-group-item text-center"><?php echo @$text_no_results ?></li>
     <?php
