@@ -18,7 +18,11 @@ class default_template_extension_module_featured extends Twix_Template
     extract($context); ?><h3><?php echo @$heading_title ?></h3>
 <div class="row">
  <?php
+<<<<<<< HEAD
         @$save85894 = $product        ;
+=======
+        @$save50976 = $product        ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$products);
         foreach ($context['_seq'] as $_key => $product) {
@@ -32,7 +36,11 @@ class default_template_extension_module_featured extends Twix_Template
             if (@$product["rating"]) {
 ?>        <div class="rating">
           <?php
+<<<<<<< HEAD
                 @$save63790 = $i                ;
+=======
+                @$save47917 = $i                ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(5);
                 foreach ($context['_seq'] as $_key => $i) {
@@ -49,7 +57,11 @@ class default_template_extension_module_featured extends Twix_Template
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $i                 = $save63790 ?>        </div>
+=======
+$i                 = $save47917 ?>        </div>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         <?php
             }
 ?>        <?php
@@ -84,7 +96,11 @@ $i                 = $save63790 ?>        </div>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $product         = $save85894 ?></div>
+=======
+$product         = $save50976 ?></div>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
 <?php
     }
 

@@ -29,7 +29,11 @@ class marketing_coupon_history extends Twix_Template
       <?php
         if (@$histories) {
 ?>      <?php
+<<<<<<< HEAD
             @$save95068 = $history            ;
+=======
+            @$save45056 = $history            ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$histories);
             foreach ($context['_seq'] as $_key => $history) {
@@ -44,7 +48,11 @@ class marketing_coupon_history extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['history'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $history             = $save95068 ?>      <?php
+=======
+$history             = $save45056 ?>      <?php
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         } else {
 ?>      <tr>
         <td class="text-center" colspan="4"><?php echo @$text_no_results ?></td>

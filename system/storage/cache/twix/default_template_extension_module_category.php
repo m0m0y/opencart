@@ -17,7 +17,11 @@ class default_template_extension_module_category extends Twix_Template
     {
     extract($context); ?><div class="list-group">
   <?php
+<<<<<<< HEAD
         @$save72570 = $category        ;
+=======
+        @$save61337 = $category        ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$categories);
         foreach ($context['_seq'] as $_key => $category) {
@@ -28,7 +32,11 @@ class default_template_extension_module_category extends Twix_Template
   <?php
                 if (@$category["children"]) {
 ?>  <?php
+<<<<<<< HEAD
                     @$save44739 = $child                    ;
+=======
+                    @$save38969 = $child                    ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
                     $context['_parent'] = $context;
                     $context['_seq'] = twix_ensure_traversable(@$category["children"]);
                     foreach ($context['_seq'] as $_key => $child) {
@@ -46,7 +54,11 @@ class default_template_extension_module_category extends Twix_Template
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $child                     = $save44739 ?>  <?php
+=======
+$child                     = $save38969 ?>  <?php
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
                 }
 ?>  <?php
             } else {
@@ -58,7 +70,11 @@ $child                     = $save44739 ?>  <?php
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $category         = $save72570 ?></div>
+=======
+$category         = $save61337 ?></div>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
 <?php
     }
 

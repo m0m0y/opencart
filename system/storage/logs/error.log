@@ -1763,6 +1763,7 @@
 2021-11-19 8:01:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\system\storage\modification\system\engine\loader.php on line 83
 2021-11-19 8:03:41 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 27
 2021-11-19 8:06:26 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 27
+<<<<<<< HEAD
 2021-11-20 13:34:11 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 27
 2021-11-20 13:37:37 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 27
 2021-11-20 13:38:39 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 27
@@ -1774,3 +1775,5 @@
 2021-11-21 6:23:39 - PHP Notice:  Undefined variable: coupon in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 240
 2021-11-21 6:23:52 - PHP Notice:  Undefined variable: coupon in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 240
 2021-11-21 6:25:39 - PHP Warning:  unlink(C:/xampp/htdocs/opencart/system/storage/cache/twix/default_template_checkout_cart.php): Permission denied in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 44
+=======
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed

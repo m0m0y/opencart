@@ -18,7 +18,11 @@ class default_template_extension_module_slideshow extends Twix_Template
     extract($context); ?><div class="slideshow swiper-viewport">
   <div id="slideshow<?php echo @$module ?>" class="swiper-container">
     <div class="swiper-wrapper"> <?php
+<<<<<<< HEAD
         @$save17049 = $banner        ;
+=======
+        @$save18483 = $banner        ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$banners);
         foreach ($context['_seq'] as $_key => $banner) {
@@ -34,7 +38,11 @@ class default_template_extension_module_slideshow extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['banner'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $banner         = $save17049 ?> </div>
+=======
+$banner         = $save18483 ?> </div>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
   </div>
   <div class="swiper-pagination slideshow<?php echo @$module ?>"></div>
   <div class="swiper-pager">

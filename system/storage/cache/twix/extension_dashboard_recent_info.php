@@ -35,7 +35,11 @@ class extension_dashboard_recent_info extends Twix_Template
         <?php
         if (@$orders) {
 ?>        <?php
+<<<<<<< HEAD
             @$save51130 = $order            ;
+=======
+            @$save71498 = $order            ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$orders);
             foreach ($context['_seq'] as $_key => $order) {
@@ -52,7 +56,11 @@ class extension_dashboard_recent_info extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['order'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $order             = $save51130 ?>        <?php
+=======
+$order             = $save71498 ?>        <?php
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         } else {
 ?>        <tr>
           <td class="text-center" colspan="6"><?php echo @$text_no_results ?></td>

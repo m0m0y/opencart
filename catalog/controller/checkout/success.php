@@ -14,7 +14,10 @@ class ControllerCheckoutSuccess extends Controller {
 			unset($this->session->data['comment']);
 			unset($this->session->data['order_id']);
 			unset($this->session->data['coupon']);
+<<<<<<< HEAD
 			unset($this->session->data['referral']);
+=======
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
 			unset($this->session->data['reward']);
 			unset($this->session->data['voucher']);
 			unset($this->session->data['vouchers']);

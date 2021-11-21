@@ -19,7 +19,11 @@ class default_template_product_category extends Twix_Template
 <div id="product-category" class="container">
   <ul class="breadcrumb">
     <?php
+<<<<<<< HEAD
         @$save78123 = $breadcrumb        ;
+=======
+        @$save64958 = $breadcrumb        ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +33,11 @@ class default_template_product_category extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $breadcrumb         = $save78123 ?>  </ul>
+=======
+$breadcrumb         = $save64958 ?>  </ul>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
   <div class="row"><?php echo @$column_left ?>
     <?php
         if ((@$column_left && @$column_right)) {
@@ -69,7 +77,11 @@ $breadcrumb         = $save78123 ?>  </ul>
         <div class="col-sm-3">
           <ul>
             <?php
+<<<<<<< HEAD
                 @$save98344 = $category                ;
+=======
+                @$save36057 = $category                ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$categories);
                 foreach ($context['_seq'] as $_key => $category) {
@@ -79,20 +91,32 @@ $breadcrumb         = $save78123 ?>  </ul>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $category                 = $save98344 ?>          </ul>
+=======
+$category                 = $save36057 ?>          </ul>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         </div>
       </div>
       <?php
             } else {
 ?>      <div class="row"><?php
+<<<<<<< HEAD
                 @$save77312 = $category                ;
+=======
+                @$save11279 = $category                ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(twix_array_batch(@$categories, twix_round((twix_length_filter($this->env, @$categories) / 4), 1, "ceil")));
                 foreach ($context['_seq'] as $_key => $category) {
 ?>        <div class="col-sm-3">
           <ul>
             <?php
+<<<<<<< HEAD
                     @$save48691 = $child                    ;
+=======
+                    @$save93395 = $child                    ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
                     $context['_parent'] = $context;
                     $context['_seq'] = twix_ensure_traversable(@$category);
                     foreach ($context['_seq'] as $_key => $child) {
@@ -102,14 +126,22 @@ $category                 = $save98344 ?>          </ul>
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $child                     = $save48691 ?>          </ul>
+=======
+$child                     = $save93395 ?>          </ul>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         </div>
         <?php
                 }
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $category                 = $save77312 ?></div>
+=======
+$category                 = $save11279 ?></div>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
       <br />
       <?php
             }
@@ -135,7 +167,11 @@ $category                 = $save77312 ?></div>
               
               
               <?php
+<<<<<<< HEAD
             @$save31579 = $sorts            ;
+=======
+            @$save63036 = $sorts            ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$sorts);
             foreach ($context['_seq'] as $_key => $sorts) {
@@ -164,7 +200,11 @@ $category                 = $save77312 ?></div>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['sorts'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $sorts             = $save31579 ?>            
+=======
+$sorts             = $save63036 ?>            
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
             
             
             </select>
@@ -178,7 +218,11 @@ $sorts             = $save31579 ?>
               
               
               <?php
+<<<<<<< HEAD
             @$save48442 = $limits            ;
+=======
+            @$save48074 = $limits            ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$limits);
             foreach ($context['_seq'] as $_key => $limits) {
@@ -207,7 +251,11 @@ $sorts             = $save31579 ?>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['limits'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $limits             = $save48442 ?>            
+=======
+$limits             = $save48074 ?>            
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
             
             
             </select>
@@ -215,7 +263,11 @@ $limits             = $save48442 ?>
         </div>
       </div>
       <div class="row"> <?php
+<<<<<<< HEAD
             @$save69140 = $product            ;
+=======
+            @$save30199 = $product            ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$products);
             foreach ($context['_seq'] as $_key => $product) {
@@ -245,7 +297,11 @@ $limits             = $save48442 ?>
 ?>                <?php
                 if (@$product["rating"]) {
 ?>                <div class="rating"> <?php
+<<<<<<< HEAD
                     @$save30398 = $i                    ;
+=======
+                    @$save81865 = $i                    ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
                     $context['_parent'] = $context;
                     $context['_seq'] = twix_ensure_traversable(range(1, 5));
                     foreach ($context['_seq'] as $_key => $i) {
@@ -260,7 +316,11 @@ $limits             = $save48442 ?>
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $i                     = $save30398 ?> </div>
+=======
+$i                     = $save81865 ?> </div>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
                 <?php
                 }
 ?> </div>
@@ -277,7 +337,11 @@ $i                     = $save30398 ?> </div>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $product             = $save69140 ?> </div>
+=======
+$product             = $save30199 ?> </div>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
       <div class="row">
         <div class="col-sm-6 text-left"><?php echo @$pagination ?></div>
         <div class="col-sm-6 text-right"><?php echo @$results ?></div>

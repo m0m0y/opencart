@@ -26,7 +26,11 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
+<<<<<<< HEAD
         @$save51727 = $breadcrumb        ;
+=======
+        @$save13265 = $breadcrumb        ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -36,7 +40,11 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $breadcrumb         = $save51727 ?>      </ul>
+=======
+$breadcrumb         = $save13265 ?>      </ul>
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
     </div>
   </div>
   <div class="container-fluid">
@@ -126,7 +134,11 @@ $breadcrumb         = $save51727 ?>      </ul>
                 <?php
         if (@$coupons) {
 ?>                <?php
+<<<<<<< HEAD
             @$save48852 = $coupon            ;
+=======
+            @$save85860 = $coupon            ;
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$coupons);
             foreach ($context['_seq'] as $_key => $coupon) {
@@ -153,7 +165,11 @@ $breadcrumb         = $save51727 ?>      </ul>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['coupon'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
+<<<<<<< HEAD
 $coupon             = $save48852 ?>                <?php
+=======
+$coupon             = $save85860 ?>                <?php
+>>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
         } else {
 ?>                <tr>
                   <td class="text-center" colspan="8"><?php echo @$text_no_results ?></td>
