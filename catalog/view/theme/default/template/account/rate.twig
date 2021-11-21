@@ -1,0 +1,125 @@
+{{ header }}
+<div id="account-edit" class="container">
+  <ul class="breadcrumb">
+    {% for breadcrumb in breadcrumbs %}
+    <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+    {% endfor %}
+  </ul>
+  {% if error_warning %}
+  <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}</div>
+  {% endif %}
+  <div class="row">{{ column_left }}
+    {% if column_left and column_right %}
+    {% set class = 'col-sm-6' %}
+    {% elseif column_left or column_right %}
+    {% set class = 'col-sm-9' %}
+    {% else %}
+    {% set class = 'col-sm-12' %}
+    {% endif %}
+    <div id="content" class="{{ class }}">{{ content_top }}
+        <h1>{{ heading_title }}</h1>
+            <fieldset>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <td class="text-left">{{ column_name }}</td>
+                                <td class="text-left">{{ column_model }}</td>
+                                <td class="text-right">{{ column_quantity }}</td>
+                                <td class="text-center">{{ column_action }}</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                {% if products %}
+                                    {% for product in products %}
+                                        {% set productid = product.product_id %}
+                                        {% set ordernum = product.order_id %}
+                                        {% set order_prod_id = product.order_product_id %}
+                                        <input type='hidden' name='productid' value='{{ productid }}' disabled />
+                                        <tr>
+                                        <td class="text-left">{{ product.name }}</td>
+                                        <td class="text-left">{{ product.model }}</td>
+                                        <td class="text-right">{{ product.quantity }}</td>
+                                        {% if product.rate_status == 1 %}
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-primary" onclick="Updaterate('{{order_prod_id}}')">View Rate</button>
+                                        </td>
+                                        {% else %}
+                                        
+                                            <td class="text-center">
+                                                <button type="button" class="btn btn-primary" onclick="rate('{{ordernum}}','{{order_prod_id}}')">Rate </button>
+                                            </td>
+                                            
+                                        {% endif %}
+                                    {% endfor %}
+                                {% else %}
+                                    <tr>
+                                        <td colspan="4" class="text-center">{{ text_no_results }}</td>
+                                    </tr>
+                                {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </fieldset>
+
+        <div class="row">
+            <div class="col-sm-6 text-left">{{ pagination }}</div>
+            <div class="col-sm-6 text-right">{{ results }}</div>
+        </div>
+        {{ content_bottom }} </div>
+    {{ column_right }} </div>
+    
+</div>
+
+<!-- Rate Modal -->
+    <div id="RateModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3>{{ text_write }}</h3>
+                    </div>
+
+                    <div class="modal-body">
+                        <input type="hidden" id="rate_status" name="rate_status" value="1" placeholder="" class="form-control" />
+                        <div class="form-group required">
+                            <label class="control-label" for="input-name">{{ entry_name }}</label>
+                            <input type="text" name="name" value="{{ customer_name }}" id="input_name" class="form-control" />
+                        </div>
+                            <input type="hidden"  id="R_order_id"/>
+                            <input type="hidden"  id="R_order_prod_id"/>
+                        <div class="form-group required">
+                            <label class="control-label" for="input-review">{{ entry_review }}</label>
+                                <textarea name="text" rows="5" id="input_review" class="form-control"></textarea>
+                            <div class="help-block">{{ text_note }}</div>
+                        </div>
+
+                        <div class="form-group required">
+                            <label class="control-label">{{ entry_rating }}</label>
+                            &nbsp;&nbsp;&nbsp; {{ entry_bad }}&nbsp;
+
+                           <input type="radio" name="rating" id="rating1" value="1"/>
+                            &nbsp;
+                            <input type="radio" name="rating" id="rating2" value="2" />
+                            &nbsp;
+                            <input type="radio" name="rating"  id="rating3"value="3" />
+                            &nbsp;
+                            <input type="radio" name="rating" id="rating4" value="4" />
+                            &nbsp;
+                                <input type="radio" name="rating"  id="rating5" value="5"/>
+                            &nbsp;{{ entry_good }}
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" name="ordernum" id="btnSave" onclick="InsertRate()" class="btn btn-primary">Save</button>
+                        <button type="submit" name="ordernum" id="btnUpdate" onclick="EditRate()" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+<!-- end -->
+
+{{ footer }}
