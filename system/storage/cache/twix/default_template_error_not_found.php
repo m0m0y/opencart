@@ -19,7 +19,7 @@ class default_template_error_not_found extends Twix_Template
 <div id="error-not-found" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save20794 = $breadcrumb        ;
+        @$save55774 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_error_not_found extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save20794 ?>  </ul>
+$breadcrumb         = $save55774 ?>  </ul>
   <div class="row"><?php echo @$column_left ?>
     <?php
         if ((@$column_left && @$column_right)) {

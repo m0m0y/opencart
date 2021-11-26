@@ -25,7 +25,7 @@ class default_template_extension_total_coupon extends Twix_Template
       <div class="input-group">
         <input type="text" name="coupon" value="<?php echo @$coupon ?>" placeholder="<?php echo @$entry_coupon ?>" id="input-coupon" class="form-control" />
         <span class="input-group-btn">
-        <input type="button" value="<?php echo @$button_coupon ?>" id="button-coupon" data-loading-text="<?php echo @$text_loading ?>"  class="btn btn-primary" />
+        <input type="button" value="Apply Coupon" id="button-coupon" data-loading-text="<?php echo @$text_loading ?>"  class="btn btn-primary" />
         </span></div>
       <script type="text/javascript"><!--
 $('#button-coupon').on('click', function() {

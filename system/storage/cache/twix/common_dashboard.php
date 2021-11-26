@@ -26,11 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-<<<<<<< HEAD
-        @$save30066 = $breadcrumb        ;
-=======
-        @$save22077 = $breadcrumb        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+        @$save92060 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -40,11 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$breadcrumb         = $save30066 ?>      </ul>
-=======
-$breadcrumb         = $save22077 ?>      </ul>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$breadcrumb         = $save92060 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid"><?php
@@ -55,30 +47,18 @@ $breadcrumb         = $save22077 ?>      </ul>
     <?php
         }
 ?>    <?php
-<<<<<<< HEAD
-        @$save48998 = $row        ;
-=======
-        @$save80754 = $row        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+        @$save80363 = $row        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$rows);
         foreach ($context['_seq'] as $_key => $row) {
 ?>    <div class="row"><?php
-<<<<<<< HEAD
-            @$save26263 = $dashboard_1            ;
-=======
-            @$save43156 = $dashboard_1            ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+            @$save29282 = $dashboard_1            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$row);
             foreach ($context['_seq'] as $_key => $dashboard_1) {
 ?>      <?php
                 $class = sprintf("col-lg-%s %s", @$dashboard_1["width"], "col-md-3 col-sm-6") ?>      <?php
-<<<<<<< HEAD
-                @$save89320 = $dashboard_2                ;
-=======
-                @$save42856 = $dashboard_2                ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+                @$save20582 = $dashboard_2                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$row);
                 foreach ($context['_seq'] as $_key => $dashboard_2) {
@@ -92,31 +72,19 @@ $breadcrumb         = $save22077 ?>      </ul>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['dashboard_2'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$dashboard_2                 = $save89320 ?>      <div class="<?php echo @$class ?>"><?php echo @$dashboard_1["output"] ?></div>
-=======
-$dashboard_2                 = $save42856 ?>      <div class="<?php echo @$class ?>"><?php echo @$dashboard_1["output"] ?></div>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$dashboard_2                 = $save20582 ?>      <div class="<?php echo @$class ?>"><?php echo @$dashboard_1["output"] ?></div>
       <?php
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['dashboard_1'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$dashboard_1             = $save26263 ?></div>
-=======
-$dashboard_1             = $save43156 ?></div>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$dashboard_1             = $save29282 ?></div>
     <?php
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['row'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$row         = $save48998 ?></div>
-=======
-$row         = $save80754 ?></div>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$row         = $save80363 ?></div>
     <?php echo @$security ?>
   <script type="text/javascript"><!--
 $('#button-developer').on('click', function() {

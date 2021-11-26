@@ -87,7 +87,7 @@ class ControllerMailOrder extends Controller {
 		$data['text_footer'] = $language->get('text_footer');
 
 
-		$data['affiliate_name'] = $order_info['aff_fullname'];
+		// $data['affiliate_name'] = $order_info['aff_fullname'];
 		$data['logo'] = $order_info['store_url'] . 'image/' . $this->config->get('config_logo');
 		$data['store_name'] = $order_info['store_name'];
 		$data['store_url'] = $order_info['store_url'];
@@ -376,7 +376,7 @@ class ControllerMailOrder extends Controller {
 			$data['order_id'] = $order_info['order_id'];
 			$data['date_added'] = date($this->language->get('date_format_short'), strtotime($order_info['date_added']));
 			$data['affiliate_id'] = $order_info['affiliate_id'];
-			$data['affiliate_name'] = $order_info['aff_fullname'];
+			// $data['affiliate_name'] = $order_info['aff_fullname'];
 
 			$order_status_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_status WHERE order_status_id = '" . (int)$order_status_id . "' AND language_id = '" . (int)$this->config->get('config_language_id') . "'");
 

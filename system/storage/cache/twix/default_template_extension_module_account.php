@@ -27,7 +27,13 @@ class default_template_extension_module_account extends Twix_Template
 ?>  <a href="<?php echo @$edit ?>" class="list-group-item"><?php echo @$text_edit ?></a> <a href="<?php echo @$password ?>" class="list-group-item"><?php echo @$text_password ?></a>
   <?php
         }
-?>  <a href="<?php echo @$address ?>" class="list-group-item"><?php echo @$text_address ?></a> <a href="<?php echo @$wishlist ?>" class="list-group-item"><?php echo @$text_wishlist ?></a> <a href="<?php echo @$order ?>" class="list-group-item"><?php echo @$text_order ?> <span class="badge badge-light">new</span></a> <a href="<?php echo @$download ?>" class="list-group-item"><?php echo @$text_download ?></a><a href="<?php echo @$recurring ?>" class="list-group-item"><?php echo @$text_recurring ?></a> <a href="<?php echo @$reward ?>" class="list-group-item"><?php echo @$text_reward ?></a> <a href="<?php echo @$return ?>" class="list-group-item"><?php echo @$text_return ?></a> 
+?>  <a href="<?php echo @$address ?>" class="list-group-item"><?php echo @$text_address ?></a> 
+  <a href="<?php echo @$wishlist ?>" class="list-group-item"><?php echo @$text_wishlist ?></a> 
+  <a href="<?php echo @$order ?>" class="list-group-item"><?php echo @$text_order ?> <span class="badge badge-light">new</span></a> 
+  <a href="<?php echo @$download ?>" class="list-group-item"><?php echo @$text_download ?></a>
+  <a href="<?php echo @$recurring ?>" class="list-group-item"><?php echo @$text_recurring ?></a> 
+  <a href="<?php echo @$reward ?>" class="list-group-item"><?php echo @$text_reward ?></a> 
+  <a href="<?php echo @$return ?>" class="list-group-item"><?php echo @$text_return ?></a> 
   <?php
         if (@$logged) {
 ?>  <a href="<?php echo @$rate ?>" class="list-group-item"> <?php echo @$text_rate ?> </a>

@@ -33,7 +33,7 @@ class ControllerExtensionTotalCoupon extends Controller {
 			$json['error'] = $this->language->get('error_empty');
 
 			unset($this->session->data['coupon']);
-		} elseif ($coupon_info) {
+		} elseif ($coupon_info && $coupon_info['name'] == 'Coupon') {
 			$this->session->data['coupon'] = $this->request->post['coupon'];
 
 			$this->session->data['success'] = $this->language->get('text_success');

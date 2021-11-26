@@ -29,7 +29,7 @@ class default_template_extension_total_shipping extends Twix_Template
             <select name="country_id" id="input-country" class="form-control">
               <option value=""><?php echo @$text_select ?></option>
               <?php
-        @$save67716 = $country        ;
+        @$save88122 = $country        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$countries);
         foreach ($context['_seq'] as $_key => $country) {
@@ -46,7 +46,7 @@ class default_template_extension_total_shipping extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['country'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$country         = $save67716 ?>            </select>
+$country         = $save88122 ?>            </select>
           </div>
         </div>
         <div class="form-group required">

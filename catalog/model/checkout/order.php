@@ -26,7 +26,6 @@ class ModelCheckoutOrder extends Model {
 			foreach ($data['vouchers'] as $voucher) {
 				$this->db->query("INSERT INTO " . DB_PREFIX . "order_voucher SET order_id = '" . (int)$order_id . "', description = '" . $this->db->escape($voucher['description']) . "', code = '" . $this->db->escape($voucher['code']) . "', from_name = '" . $this->db->escape($voucher['from_name']) . "', from_email = '" . $this->db->escape($voucher['from_email']) . "', to_name = '" . $this->db->escape($voucher['to_name']) . "', to_email = '" . $this->db->escape($voucher['to_email']) . "', voucher_theme_id = '" . (int)$voucher['voucher_theme_id'] . "', message = '" . $this->db->escape($voucher['message']) . "', amount = '" . (float)$voucher['amount'] . "'");
 
-				$order_voucher_id = $t his->db->getLastId();
 				$order_voucher_id = $this->db->getLastId();
 
 				$voucher_id = $this->model_extension_total_voucher->addVoucher($order_id, $voucher);
@@ -119,17 +118,17 @@ class ModelCheckoutOrder extends Model {
 	public function getOrder($order_id) {
 		$order_query = $this->db->query("SELECT *, (SELECT os.name FROM `" . DB_PREFIX . "order_status` os WHERE os.order_status_id = o.order_status_id AND os.language_id = o.language_id) AS order_status FROM `" . DB_PREFIX . "order` o WHERE o.order_id = '" . (int)$order_id . "'");
 
-		$affiliate_id = $order_query->row['affiliate_id'];
+		// $affiliate_id = $order_query->row['affiliate_id'];
 	
-		$affiliate = $this->db->query("SELECT * FROM oc_customer WHERE customer_id = '$affiliate_id' ");
+		// $affiliate = $this->db->query("SELECT * FROM customer WHERE customer_id = '$affiliate_id' ");
 
 		// $aff_fullname = $affiliate->row['firstname'].' '.$affiliate->row['lastname'];
 
-		if($affiliate->num_rows) {
-			$aff_fullname = $affiliate->row['firstname'].' '.$affiliate->row['lastname'];
-		} else {
-			$aff_fullname = '';
-		}
+		// if($affiliate->num_rows) {
+		// 	$aff_fullname = $affiliate->row['firstname'].' '.$affiliate->row['lastname'];
+		// } else {
+		// 	$aff_fullname = '';
+		// }
 
 		if ($order_query->num_rows) {
 			$country_query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "country` WHERE country_id = '" . (int)$order_query->row['payment_country_id'] . "'");
@@ -245,7 +244,7 @@ class ModelCheckoutOrder extends Model {
 				'accept_language'         => $order_query->row['accept_language'],
 				'date_added'              => $order_query->row['date_added'],
 				'date_modified'           => $order_query->row['date_modified'],
-				'aff_fullname' => $aff_fullname
+				// 'aff_fullname' => $aff_fullname,
 			);
 		} else {
 			return false;
@@ -253,8 +252,12 @@ class ModelCheckoutOrder extends Model {
 	}
 	
 	public function getOrderProducts($order_id) {
-		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_product WHERE order_id = '" . (int)$order_id . "'");
+		// $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "order_product WHERE order_id = '" . (int)$order_id . "'");
 		
+		// return $query->rows;
+		$query = $this->db->query("SELECT a.*,b.image FROM order_product a 
+								   LEFT JOIN product b ON a.product_id = b.product_id
+								   WHERE a.order_id='$order_id'");
 		return $query->rows;
 	}
 	
@@ -396,5 +399,10 @@ class ModelCheckoutOrder extends Model {
 
 			$this->cache->delete('product');
 		}
+	}
+
+	public function getMytotalAmount($order_id){
+		$query = $this->db->query("SELECT value FROM order_total WHERE order_id = '$order_id' AND code = 'total'");
+		return $query->row['value'];
 	}
 }

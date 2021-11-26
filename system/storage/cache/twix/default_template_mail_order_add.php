@@ -176,7 +176,8 @@ class default_template_mail_order_add extends Twix_Template
         }
 ?>                                                                    <?php
         if ((@$shipping_method == "Pickup From Store")) {
-?>                                                                        <b> 200 C. Raymundo Ave, Pasig, Metro Manila </b>
+?>                                                                        <span><b>200 C. Raymundo Ave, Pasig, Metro</b></span> <br/>
+                                                                        <span><b>Manila</b></span>
                                                                     <?php
         }
 ?>                                                                    
@@ -249,7 +250,7 @@ class default_template_mail_order_add extends Twix_Template
                                                         <tbody>
                                                             
                                                             <?php
-        @$save98399 = $product        ;
+        @$save27741 = $product        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$products);
         foreach ($context['_seq'] as $_key => $product) {
@@ -258,7 +259,7 @@ class default_template_mail_order_add extends Twix_Template
                                                                     <?php echo @$product["name"] ?> 
                                                                     <?php
 ?>                                                                    <?php
-            @$save16987 = $option            ;
+            @$save68832 = $option            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$product["option"]);
             foreach ($context['_seq'] as $_key => $option) {
@@ -269,7 +270,7 @@ class default_template_mail_order_add extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['option'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$option             = $save16987 ?>                                                                </td>
+$option             = $save68832 ?>                                                                </td>
                                                                 
                                                                 <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:left;">
                                                                     <?php echo @$product["model"] ?>
@@ -291,8 +292,8 @@ $option             = $save16987 ?>                                             
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$product         = $save98399 ?>                                                            <?php
-        @$save83687 = $voucher        ;
+$product         = $save27741 ?>                                                            <?php
+        @$save27400 = $voucher        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$vouchers);
         foreach ($context['_seq'] as $_key => $voucher) {
@@ -316,10 +317,10 @@ $product         = $save98399 ?>                                                
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['voucher'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$voucher         = $save83687 ?>                                                        </tbody>
+$voucher         = $save27400 ?>                                                        </tbody>
                                                         <tfoot>
                                                             <?php
-        @$save30725 = $total        ;
+        @$save55678 = $total        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$totals);
         foreach ($context['_seq'] as $_key => $total) {
@@ -337,17 +338,7 @@ $voucher         = $save83687 ?>                                                
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['total'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$total         = $save30725 ?>                                                       
-                                                            <tr>
-                                                                <td style="font-weight: bold; padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:right;" colspan="4">
-                                                                    <b> Reffered by:  </b>
-                                                                </td>
-
-                                                                <td style="padding:5px; font-family: Arial,sans-serif; font-size: 14px; line-height:21px;text-align:right;">
-                                                                     <?php
-?>                                                                </td>
-                                                            </tr>
-                                                        </tfoot>
+$total         = $save55678 ?>                                                        </tfoot>
                                                     </table>
                                                 </td>
                                             </tr>

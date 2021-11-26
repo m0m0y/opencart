@@ -26,11 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-<<<<<<< HEAD
-        @$save88334 = $breadcrumb        ;
-=======
-        @$save45236 = $breadcrumb        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+        @$save24884 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -40,11 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$breadcrumb         = $save88334 ?>      </ul>
-=======
-$breadcrumb         = $save45236 ?>      </ul>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$breadcrumb         = $save24884 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid"> <?php
@@ -73,7 +65,7 @@ $breadcrumb         = $save45236 ?>      </ul>
               <div class="form-group required">
                 <label class="col-sm-2 control-label" for="input-name"><?php echo @$entry_name ?></label>
                 <div class="col-sm-10">
-                  <input type="text" name="name" value="<?php echo @$name ?>" placeholder="<?php echo @$entry_name ?>" id="input-name" class="form-control" />
+                  <input type="text" name="name" value="<?php echo @$name ?>" placeholder="<?php echo @$entry_name ?> / Refferral Name" id="input-name" class="form-control" />
                   <?php
         if (@$error_name) {
 ?>                  <div class="text-danger"><?php echo @$error_name ?></div>
@@ -96,7 +88,7 @@ $breadcrumb         = $save45236 ?>      </ul>
                 <label class="col-sm-2 control-label" for="input-type"><span data-toggle="tooltip" title="<?php echo @$help_type ?>"><?php echo @$entry_type ?></span></label>
                 <div class="col-sm-10">
                   <select name="type" id="input-type" class="form-control">
-                    
+
                     <?php
         if ((@$type == "P")) {
 ?>                    
@@ -123,6 +115,37 @@ $breadcrumb         = $save45236 ?>      </ul>
         }
 ?>                  
                   </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-type"><span data-toggle="tooltip" title="<?php echo @$help_type ?>">Discount Type</span></label>
+                <div class="col-sm-10">
+                  <select name="discount_type" id="input-type" class="form-control">
+                    <?php
+        if ((@$discount_type == "")) {
+?>                    
+                    <option value="" selected="selected">Coupon</option>
+                    
+                    <?php
+        } else {
+?>                    
+                    <option value="">Coupon</option>
+                    
+                    <?php
+        }
+?>                    <?php
+        if ((@$discount_type == "referral")) {
+?>                    
+                    <option value="referral" selected="selected">Referral</option>
+                    
+                    <?php
+        } else {
+?>                    
+                    <option value="referral">Referral</option>
+                    
+                    <?php
+        }
+?>                  </select>
                 </div>
               </div>
               <div class="form-group">
@@ -196,11 +219,7 @@ $breadcrumb         = $save45236 ?>      </ul>
                 <div class="col-sm-10">
                   <input type="text" name="product" value="" placeholder="<?php echo @$entry_product ?>" id="input-product" class="form-control" />
                   <div id="coupon-product" class="well well-sm" style="height: 150px; overflow: auto;"> <?php
-<<<<<<< HEAD
-        @$save66503 = $coupon_product        ;
-=======
-        @$save92211 = $coupon_product        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+        @$save31246 = $coupon_product        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$coupon_product);
         foreach ($context['_seq'] as $_key => $coupon_product) {
@@ -212,11 +231,7 @@ $breadcrumb         = $save45236 ?>      </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['coupon_product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$coupon_product         = $save66503 ?> </div>
-=======
-$coupon_product         = $save92211 ?> </div>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$coupon_product         = $save31246 ?> </div>
                 </div>
               </div>
               <div class="form-group">
@@ -224,11 +239,7 @@ $coupon_product         = $save92211 ?> </div>
                 <div class="col-sm-10">
                   <input type="text" name="category" value="" placeholder="<?php echo @$entry_category ?>" id="input-category" class="form-control" />
                   <div id="coupon-category" class="well well-sm" style="height: 150px; overflow: auto;"> <?php
-<<<<<<< HEAD
-        @$save26264 = $coupon_category        ;
-=======
-        @$save62972 = $coupon_category        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+        @$save41466 = $coupon_category        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$coupon_category);
         foreach ($context['_seq'] as $_key => $coupon_category) {
@@ -240,11 +251,7 @@ $coupon_product         = $save92211 ?> </div>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['coupon_category'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$coupon_category         = $save26264 ?> </div>
-=======
-$coupon_category         = $save62972 ?> </div>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$coupon_category         = $save41466 ?> </div>
                 </div>
               </div>
               <div class="form-group">

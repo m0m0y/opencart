@@ -19,11 +19,7 @@ class default_template_account_edit extends Twix_Template
 <div id="account-edit" class="container">
   <ul class="breadcrumb">
     <?php
-<<<<<<< HEAD
-        @$save99220 = $breadcrumb        ;
-=======
-        @$save15754 = $breadcrumb        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+        @$save83841 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -33,11 +29,7 @@ class default_template_account_edit extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$breadcrumb         = $save99220 ?>  </ul>
-=======
-$breadcrumb         = $save15754 ?>  </ul>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$breadcrumb         = $save83841 ?>  </ul>
   <?php
         if (@$error_warning) {
 ?>  <div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> <?php echo @$error_warning ?></div>
@@ -105,11 +97,7 @@ $breadcrumb         = $save15754 ?>  </ul>
 ?>            </div>
           </div>
           <?php
-<<<<<<< HEAD
-        @$save86743 = $custom_field        ;
-=======
-        @$save94616 = $custom_field        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+        @$save62739 = $custom_field        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$custom_fields);
         foreach ($context['_seq'] as $_key => $custom_field) {
@@ -125,11 +113,7 @@ $breadcrumb         = $save15754 ?>  </ul>
               <select name="custom_field[<?php echo @$custom_field["location"] ?>][<?php echo @$custom_field["custom_field_id"] ?>]" id="input-custom-field<?php echo @$custom_field["custom_field_id"] ?>" class="form-control">
                 <option value=""><?php echo @$text_select ?></option>
                 <?php
-<<<<<<< HEAD
-                @$save76735 = $custom_field_value                ;
-=======
-                @$save72025 = $custom_field_value                ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+                @$save68271 = $custom_field_value                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$custom_field["custom_field_value"]);
                 foreach ($context['_seq'] as $_key => $custom_field_value) {
@@ -146,11 +130,7 @@ $breadcrumb         = $save15754 ?>  </ul>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['custom_field_value'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$custom_field_value                 = $save76735 ?>              </select>
-=======
-$custom_field_value                 = $save72025 ?>              </select>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$custom_field_value                 = $save68271 ?>              </select>
               <?php
                 if (@$error_custom_field[@$custom_field["custom_field_id"]]) {
 ?>              <div class="text-danger"><?php echo @$error_custom_field[@$custom_field["custom_field_id"]] ?></div>
@@ -171,11 +151,7 @@ $custom_field_value                 = $save72025 ?>              </select>
             <div class="col-sm-10">
               <div>
                 <?php
-<<<<<<< HEAD
-                @$save17619 = $custom_field_value                ;
-=======
-                @$save44146 = $custom_field_value                ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+                @$save34676 = $custom_field_value                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$custom_field["custom_field_value"]);
                 foreach ($context['_seq'] as $_key => $custom_field_value) {
@@ -198,11 +174,7 @@ $custom_field_value                 = $save72025 ?>              </select>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['custom_field_value'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$custom_field_value                 = $save17619 ?>              </div>
-=======
-$custom_field_value                 = $save44146 ?>              </div>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$custom_field_value                 = $save34676 ?>              </div>
               <?php
                 if (@$error_custom_field[@$custom_field["custom_field_id"]]) {
 ?>              <div class="text-danger"><?php echo @$error_custom_field[@$custom_field["custom_field_id"]] ?></div>
@@ -223,11 +195,7 @@ $custom_field_value                 = $save44146 ?>              </div>
             <div class="col-sm-10">
               <div>
                 <?php
-<<<<<<< HEAD
-                @$save60721 = $custom_field_value                ;
-=======
-                @$save26490 = $custom_field_value                ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+                @$save45641 = $custom_field_value                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$custom_field["custom_field_value"]);
                 foreach ($context['_seq'] as $_key => $custom_field_value) {
@@ -250,11 +218,7 @@ $custom_field_value                 = $save44146 ?>              </div>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['custom_field_value'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$custom_field_value                 = $save60721 ?>              </div>
-=======
-$custom_field_value                 = $save26490 ?>              </div>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$custom_field_value                 = $save45641 ?>              </div>
               <?php
                 if (@$error_custom_field[@$custom_field["custom_field_id"]]) {
 ?>              <div class="text-danger"><?php echo @$error_custom_field[@$custom_field["custom_field_id"]] ?></div>
@@ -430,11 +394,7 @@ echo @$custom_field["value"];
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['custom_field'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$custom_field         = $save86743 ?>        </fieldset>
-=======
-$custom_field         = $save94616 ?>        </fieldset>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$custom_field         = $save62739 ?>        </fieldset>
         <div class="buttons clearfix">
           <div class="pull-left"><a href="<?php echo @$back ?>" class="btn btn-default"><?php echo @$button_back ?></a></div>
           <div class="pull-right">

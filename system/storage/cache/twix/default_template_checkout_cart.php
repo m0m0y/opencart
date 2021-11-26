@@ -19,7 +19,7 @@ class default_template_checkout_cart extends Twix_Template
 <div id="checkout-cart" class="container">
   <ul class="breadcrumb">
     <?php
-        @$save94249 = $breadcrumb        ;
+        @$save32400 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -29,7 +29,7 @@ class default_template_checkout_cart extends Twix_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$breadcrumb         = $save94249 ?>  </ul>
+$breadcrumb         = $save32400 ?>  </ul>
   <?php
         if (@$attention) {
 ?>  <div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo @$attention ?>
@@ -87,7 +87,7 @@ $breadcrumb         = $save94249 ?>  </ul>
             <tbody>
             
             <?php
-        @$save55321 = $product        ;
+        @$save98118 = $product        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$products);
         foreach ($context['_seq'] as $_key => $product) {
@@ -109,7 +109,7 @@ $breadcrumb         = $save94249 ?>  </ul>
 ?>                <?php
             if (@$product["option"]) {
 ?>                <?php
-                @$save25823 = $option                ;
+                @$save64384 = $option                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$product["option"]);
                 foreach ($context['_seq'] as $_key => $option) {
@@ -119,7 +119,7 @@ $breadcrumb         = $save94249 ?>  </ul>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['option'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-$option                 = $save25823 ?>                <?php
+$option                 = $save64384 ?>                <?php
             }
 ?>                <?php
             if (@$product["reward"]) {
@@ -147,8 +147,8 @@ $option                 = $save25823 ?>                <?php
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$product         = $save55321 ?>            <?php
-        @$save21822 = $voucher        ;
+$product         = $save98118 ?>            <?php
+        @$save67611 = $voucher        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$vouchers);
         foreach ($context['_seq'] as $_key => $voucher) {
@@ -169,7 +169,7 @@ $product         = $save55321 ?>            <?php
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['voucher'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$voucher         = $save21822 ?>              </tbody>
+$voucher         = $save67611 ?>              </tbody>
             
           </table>
         </div>
@@ -180,7 +180,7 @@ $voucher         = $save21822 ?>              </tbody>
       <p><?php echo @$text_next_choice ?></p>
       <div class="panel-group" id="accordion"> 
       <?php
-            @$save32685 = $module            ;
+            @$save27391 = $module            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$modules);
             foreach ($context['_seq'] as $_key => $module) {
@@ -190,7 +190,7 @@ $voucher         = $save21822 ?>              </tbody>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$module             = $save32685 ?> 
+$module             = $save27391 ?> 
       </div>
       <?php
         }
@@ -199,7 +199,7 @@ $module             = $save32685 ?>
         <div class="col-sm-4 col-sm-offset-8">
           <table class="table table-bordered">
             <?php
-        @$save90674 = $total        ;
+        @$save21953 = $total        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$totals);
         foreach ($context['_seq'] as $_key => $total) {
@@ -212,7 +212,7 @@ $module             = $save32685 ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['total'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-$total         = $save90674 ?>          </table>
+$total         = $save21953 ?>          </table>
         </div>
       </div>
       <div class="buttons clearfix">

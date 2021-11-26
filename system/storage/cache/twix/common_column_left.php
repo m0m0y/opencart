@@ -20,11 +20,7 @@ class common_column_left extends Twix_Template
   <ul id="menu">
     <?php
         $i = 0 ?>    <?php
-<<<<<<< HEAD
-        @$save90373 = $menu        ;
-=======
-        @$save67384 = $menu        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+        @$save22158 = $menu        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$menus);
         foreach ($context['_seq'] as $_key => $menu) {
@@ -40,11 +36,7 @@ class common_column_left extends Twix_Template
 ?>          <ul id="collapse<?php echo @$i ?>" class="collapse">
             <?php
                 $j = 0 ?>            <?php
-<<<<<<< HEAD
-                @$save16104 = $children_1                ;
-=======
-                @$save68548 = $children_1                ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+                @$save87545 = $children_1                ;
                 $context['_parent'] = $context;
                 $context['_seq'] = twix_ensure_traversable(@$menu["children"]);
                 foreach ($context['_seq'] as $_key => $children_1) {
@@ -62,11 +54,7 @@ class common_column_left extends Twix_Template
 ?>                  <ul id="collapse<?php echo @$i ?>-<?php echo @$j ?>" class="collapse">
                     <?php
                         $k = 0 ?>                    <?php
-<<<<<<< HEAD
-                        @$save17353 = $children_2                        ;
-=======
-                        @$save69947 = $children_2                        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+                        @$save72184 = $children_2                        ;
                         $context['_parent'] = $context;
                         $context['_seq'] = twix_ensure_traversable(@$children_1["children"]);
                         foreach ($context['_seq'] as $_key => $children_2) {
@@ -82,11 +70,7 @@ class common_column_left extends Twix_Template
                             if (@$children_2["children"]) {
 ?>                          <ul id="collapse-<?php echo @$i ?>-<?php echo @$j ?>-<?php echo @$k ?>" class="collapse">
                             <?php
-<<<<<<< HEAD
-                                @$save56101 = $children_3                                ;
-=======
-                                @$save98676 = $children_3                                ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+                                @$save48647 = $children_3                                ;
                                 $context['_parent'] = $context;
                                 $context['_seq'] = twix_ensure_traversable(@$children_2["children"]);
                                 foreach ($context['_seq'] as $_key => $children_3) {
@@ -96,11 +80,7 @@ class common_column_left extends Twix_Template
                                 $_parent = $context['_parent'];
                                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['children_3'], $context['_parent'], $context['loop']);
                                 $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$children_3                                 = $save56101 ?>                          </ul>
-=======
-$children_3                                 = $save98676 ?>                          </ul>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$children_3                                 = $save48647 ?>                          </ul>
                         <?php
                             }
 ?></li>
@@ -110,11 +90,7 @@ $children_3                                 = $save98676 ?>                     
                         $_parent = $context['_parent'];
                         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['children_2'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$children_2                         = $save17353 ?>                  </ul>
-=======
-$children_2                         = $save69947 ?>                  </ul>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$children_2                         = $save72184 ?>                  </ul>
                 <?php
                     }
 ?> </li>
@@ -124,11 +100,7 @@ $children_2                         = $save69947 ?>                  </ul>
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['children_1'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$children_1                 = $save16104 ?>          </ul>
-=======
-$children_1                 = $save68548 ?>          </ul>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$children_1                 = $save87545 ?>          </ul>
         <?php
             }
 ?>      </li>
@@ -138,11 +110,7 @@ $children_1                 = $save68548 ?>          </ul>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['menu'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$menu         = $save90373 ?>  </ul>
-=======
-$menu         = $save67384 ?>  </ul>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$menu         = $save22158 ?>  </ul>
   <div id="stats">
     <ul>
       <li>

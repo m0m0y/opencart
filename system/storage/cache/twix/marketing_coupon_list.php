@@ -26,11 +26,7 @@ echo @$column_left ?>
       <h1><?php echo @$heading_title ?></h1>
       <ul class="breadcrumb">
         <?php
-<<<<<<< HEAD
-        @$save51727 = $breadcrumb        ;
-=======
-        @$save13265 = $breadcrumb        ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+        @$save32152 = $breadcrumb        ;
         $context['_parent'] = $context;
         $context['_seq'] = twix_ensure_traversable(@$breadcrumbs);
         foreach ($context['_seq'] as $_key => $breadcrumb) {
@@ -40,11 +36,7 @@ echo @$column_left ?>
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['breadcrumb'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$breadcrumb         = $save51727 ?>      </ul>
-=======
-$breadcrumb         = $save13265 ?>      </ul>
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$breadcrumb         = $save32152 ?>      </ul>
     </div>
   </div>
   <div class="container-fluid">
@@ -134,11 +126,7 @@ $breadcrumb         = $save13265 ?>      </ul>
                 <?php
         if (@$coupons) {
 ?>                <?php
-<<<<<<< HEAD
-            @$save48852 = $coupon            ;
-=======
-            @$save85860 = $coupon            ;
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+            @$save75350 = $coupon            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$coupons);
             foreach ($context['_seq'] as $_key => $coupon) {
@@ -165,11 +153,7 @@ $breadcrumb         = $save13265 ?>      </ul>
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['coupon'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-<<<<<<< HEAD
-$coupon             = $save48852 ?>                <?php
-=======
-$coupon             = $save85860 ?>                <?php
->>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+$coupon             = $save75350 ?>                <?php
         } else {
 ?>                <tr>
                   <td class="text-center" colspan="8"><?php echo @$text_no_results ?></td>

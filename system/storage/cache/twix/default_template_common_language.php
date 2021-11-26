@@ -21,7 +21,7 @@ class default_template_common_language extends Twix_Template
     <div class="btn-group">
       <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
       <?php
-            @$save83194 = $language            ;
+            @$save76382 = $language            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$languages);
             foreach ($context['_seq'] as $_key => $language) {
@@ -36,10 +36,10 @@ class default_template_common_language extends Twix_Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['language'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$language             = $save83194 ?>      <span class="hidden-xs hidden-sm hidden-md"><?php echo @$text_language ?></span>&nbsp;<i class="fa fa-caret-down"></i></button>
+$language             = $save76382 ?>      <span class="hidden-xs hidden-sm hidden-md"><?php echo @$text_language ?></span>&nbsp;<i class="fa fa-caret-down"></i></button>
       <ul class="dropdown-menu">
         <?php
-            @$save73896 = $language            ;
+            @$save41268 = $language            ;
             $context['_parent'] = $context;
             $context['_seq'] = twix_ensure_traversable(@$languages);
             foreach ($context['_seq'] as $_key => $language) {
@@ -51,7 +51,7 @@ $language             = $save83194 ?>      <span class="hidden-xs hidden-sm hidd
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['language'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-$language             = $save73896 ?>      </ul>
+$language             = $save41268 ?>      </ul>
     </div>
     <input type="hidden" name="code" value="" />
     <input type="hidden" name="redirect" value="<?php echo @$redirect ?>" />

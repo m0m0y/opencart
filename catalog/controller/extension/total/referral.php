@@ -28,12 +28,12 @@ class ControllerExtensionTotalReferral extends Controller {
 		}
 
         $referral_info = $this->model_extension_total_referral->getReferral($referral);
-
+	
         if (empty($this->request->post['referral'])) {
 			$json['error'] = $this->language->get('error_empty');
 
 			unset($this->session->data['referral']);
-		} elseif ($referral_info) {
+		} elseif ($referral_info && $referral_info['name'] == 'Referral') {
 			$this->session->data['referral'] = $this->request->post['referral'];
 
 			$this->session->data['success'] = $this->language->get('text_success');

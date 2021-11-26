@@ -1777,3 +1777,223 @@
 2021-11-21 6:25:39 - PHP Warning:  unlink(C:/xampp/htdocs/opencart/system/storage/cache/twix/default_template_checkout_cart.php): Permission denied in C:\xampp\htdocs\opencart\system\library\template\twix.php on line 44
 =======
 >>>>>>> 253dc62799793e83d45fae6c8dc403c54d82ebed
+2021-11-23 3:05:04 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-23 3:05:04 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-23 3:05:05 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-23 3:05:05 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-23 3:05:38 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-23 3:05:39 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-23 3:05:39 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-23 3:22:32 - PHP Notice:  Undefined index: coupon in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 102
+2021-11-23 3:22:32 - PHP Notice:  Undefined index: coupon in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 102
+2021-11-23 3:55:18 - PHP Notice:  Undefined variable: referral in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 31
+2021-11-23 4:42:42 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 32
+2021-11-23 6:21:43 - PHP Notice:  Undefined variable: referral_info in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 32
+2021-11-23 6:25:06 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 32
+2021-11-23 6:39:54 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 30
+2021-11-23 6:41:04 - PHP Notice:  Undefined variable: referral_info in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 34
+2021-11-23 7:05:40 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 245
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 80
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 80
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 80
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 81
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 81
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 81
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 82
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 82
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 82
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 83
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 83
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 83
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 84
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 84
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 84
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 85
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 85
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 85
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 86
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 86
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 86
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 88
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 88
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 88
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 89
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 89
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 89
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 90
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 90
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 90
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 91
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 91
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 91
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 92
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 92
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 92
+2021-11-23 7:11:29 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 93
+2021-11-23 7:11:29 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 93
+2021-11-23 7:11:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 93
+2021-11-23 7:43:03 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 16
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: coupon_id in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 9
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: code in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 10
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 11
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: type in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 12
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: discount in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 13
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: shipping in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 14
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 15
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: date_start in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 16
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: date_end in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 17
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: uses_total in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 18
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: uses_customer in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 19
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 20
+2021-11-23 7:43:23 - PHP Notice:  Undefined index: date_added in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 21
+2021-11-23 7:53:23 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 32
+2021-11-23 7:54:27 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 32
+2021-11-23 8:22:45 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 6
+2021-11-23 8:22:45 - PHP Notice:  Undefined index: code in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 8
+2021-11-24 7:37:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 32
+2021-11-24 7:42:49 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 87
+2021-11-24 7:44:14 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 32
+2021-11-24 8:36:05 - PHP Notice:  Undefined variable: referral_info in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 36
+2021-11-25 0:15:33 - PHP Notice:  Undefined index: code in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 8
+2021-11-25 0:16:54 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:16:54 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:16:54 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:16:54 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:16:54 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:16:54 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:17:15 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:17:15 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:17:15 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:17:15 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:17:15 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:17:15 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:08 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:08 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:08 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:08 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:08 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:08 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:56 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:56 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:56 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:56 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:21:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 104
+2021-11-25 0:32:22 - PHP Notice:  Undefined index: code in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 8
+2021-11-25 2:24:40 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 30
+2021-11-25 2:24:44 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 30
+2021-11-25 2:30:19 - PHP Notice:  Undefined variable: referra in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 32
+2021-11-25 2:31:40 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 33
+2021-11-25 2:31:40 - PHP Notice:  Undefined index: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-25 2:48:52 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 60
+2021-11-25 2:48:52 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 60
+2021-11-25 2:48:52 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 60
+2021-11-25 2:48:52 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 64
+2021-11-25 2:48:52 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 64
+2021-11-25 2:48:52 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 64
+2021-11-25 2:48:52 - PHP Notice:  Undefined variable: code in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 69
+2021-11-25 2:48:52 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 71
+2021-11-25 2:48:52 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 71
+2021-11-25 2:48:52 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 71
+2021-11-25 2:53:18 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 32
+2021-11-25 3:03:42 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-25 3:03:42 - PHP Notice:  Trying to get property 'num_rows' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 35
+2021-11-25 5:28:43 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 43
+2021-11-25 5:28:43 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 43
+2021-11-25 5:28:43 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 43
+2021-11-25 5:36:58 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 53
+2021-11-25 5:36:58 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 53
+2021-11-25 5:36:58 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 53
+2021-11-25 5:36:58 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 61
+2021-11-25 5:36:58 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 61
+2021-11-25 5:36:58 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 61
+2021-11-25 5:36:58 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 70
+2021-11-25 5:36:58 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 70
+2021-11-25 5:36:58 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 70
+2021-11-25 5:38:04 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 61
+2021-11-25 5:38:04 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 61
+2021-11-25 5:38:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 61
+2021-11-25 5:38:04 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 70
+2021-11-25 5:38:04 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 70
+2021-11-25 5:38:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 70
+2021-11-25 5:40:04 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 76
+2021-11-25 5:40:04 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 76
+2021-11-25 5:40:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 76
+2021-11-25 5:40:04 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 85
+2021-11-25 5:40:04 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 85
+2021-11-25 5:40:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 85
+2021-11-25 5:46:00 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 76
+2021-11-25 5:46:00 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 76
+2021-11-25 5:46:00 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 76
+2021-11-25 5:46:00 - PHP Notice:  Undefined variable: ref_query in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 85
+2021-11-25 5:46:00 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 85
+2021-11-25 5:46:00 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 85
+2021-11-25 5:48:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 91
+2021-11-25 5:49:08 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 91
+2021-11-25 5:49:08 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 91
+2021-11-25 5:51:13 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 92
+2021-11-25 5:51:13 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 92
+2021-11-25 5:52:21 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 92
+2021-11-25 5:52:21 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\referral.php on line 92
+2021-11-26 0:40:59 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 184
+2021-11-26 0:40:59 - PHP Notice:  Undefined index: referral in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 184
+2021-11-26 1:07:35 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\system\storage\modification\system\engine\loader.php on line 83
+2021-11-26 3:13:09 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 90
+2021-11-26 3:13:09 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 90
+2021-11-26 3:13:25 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 90
+2021-11-26 3:13:25 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 90
+2021-11-26 3:14:02 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:14:02 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:14:07 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:14:07 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:14:43 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:14:43 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:15:01 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:15:01 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:15:06 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:15:06 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 94
+2021-11-26 3:16:07 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 91
+2021-11-26 3:16:07 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 91
+2021-11-26 3:16:17 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 8
+2021-11-26 3:16:17 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 8
+2021-11-26 3:16:17 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 8
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: coupon_id in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 83
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: code in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 84
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 85
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: type in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 86
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: discount in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 87
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: shipping in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 88
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 89
+2021-11-26 3:16:17 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 90
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: date_start in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 91
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: date_end in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 92
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: uses_total in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 93
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: uses_customer in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 94
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 95
+2021-11-26 3:16:17 - PHP Notice:  Undefined index: date_added in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 96
+2021-11-26 3:16:24 - PHP Notice:  Undefined variable: coupon_query in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 8
+2021-11-26 3:16:24 - PHP Notice:  Trying to get property 'row' of non-object in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 8
+2021-11-26 3:16:24 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 8
+2021-11-26 3:16:24 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\referral.php on line 90
+2021-11-26 3:16:27 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 91
+2021-11-26 3:16:27 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 91
+2021-11-26 3:16:35 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 91
+2021-11-26 3:16:35 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 91
+2021-11-26 3:16:37 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 91
+2021-11-26 3:16:38 - PHP Notice:  Undefined variable: product_data in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 91
+2021-11-26 3:16:49 - PHP Notice:  Undefined index: product in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 197
+2021-11-26 3:16:49 - PHP Notice:  Undefined index: product in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 216
+2021-11-26 3:16:49 - PHP Notice:  Undefined index: product in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 197
+2021-11-26 3:16:49 - PHP Notice:  Undefined index: product in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 216
+2021-11-26 3:22:56 - PHP Notice:  Undefined variable: coupon_info in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 187
+2021-11-26 3:22:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 187
+2021-11-26 3:22:56 - PHP Notice:  Undefined variable: coupon_info in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 187
+2021-11-26 3:22:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\model\extension\total\coupon.php on line 187
+2021-11-26 3:29:48 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\coupon.php on line 36
+2021-11-26 3:30:42 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\coupon.php on line 36
+2021-11-26 3:32:01 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\coupon.php on line 36
+2021-11-26 3:36:45 - PHP Notice:  Undefined variable: referral_info in C:\xampp\htdocs\opencart\catalog\controller\extension\total\coupon.php on line 36
+2021-11-26 3:36:45 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\opencart\catalog\controller\extension\total\coupon.php on line 36
+2021-11-26 6:13:31 - PHP Notice:  Undefined index: aff_fullname in C:\xampp\htdocs\opencart\catalog\controller\mail\order.php on line 90
+2021-11-26 6:17:47 - PHP Notice:  Undefined index: aff_fullname in C:\xampp\htdocs\opencart\catalog\controller\mail\order.php on line 90
+2021-11-26 6:21:54 - PHP Notice:  Undefined index: aff_fullname in C:\xampp\htdocs\opencart\catalog\controller\mail\order.php on line 90

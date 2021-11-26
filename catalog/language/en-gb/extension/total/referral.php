@@ -4,7 +4,7 @@ $_['heading_title'] = 'Use Referral Code';
 
 // Text
 $_['text_referral']   = 'Referral (%s)';
-$_['text_success']  = 'Success: Your coupon discount has been applied!';
+$_['text_success']  = 'Success: Your referral discount has been applied!';
 
 // Entry
 $_['entry_referral']  = 'Enter your referral here';
